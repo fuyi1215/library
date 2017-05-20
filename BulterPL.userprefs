@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{B6C7697D-DBCE-48CB-8524-9F0A22783EC6}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BulterPL" expanded="True">
+            <Node name="BulterPL" expanded="True" />
+            <Node name="BulterPL.iOS" expanded="True">
+              <Node name="Packages" expanded="True">
+                <Node name="Xamarin.Forms" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BulterPL.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9CF91A7F-BE1B-4B50-826A-99991752B302" />
+</Properties>
