@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.SecureStorage</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.SecureStorage.CrossSecureStorage">
+            <summary>
+            Cross platform SecureStorage implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.SecureStorage.CrossSecureStorage.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="T:Plugin.SecureStorage.SecureStorageImplementation">
+            <summary>
+            Android implementation of secure storage. Done using KeyStore
+            Make sure to initialize store password for Android.
+            </summary>
+        </member>
+        <member name="F:Plugin.SecureStorage.SecureStorageImplementation.StorageFile">
+            <summary>
+            Name of the storage file.
+            </summary>
+        </member>
+        <member name="F:Plugin.SecureStorage.SecureStorageImplementation.StoragePassword">
+            <summary>
+            Password for storage
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.#ctor">
+            <summary>
+            Default constructor created or loads the store
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.GetValue(System.String,System.String)">
+            <summary>
+            Retrieves the value from storage.
+            If value with the given key does not exist,
+            returns default value
+            </summary>
+            <returns>The value.</returns>
+            <param name="key">Key.</param>
+            <param name="defaultValue">Default value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.SetValue(System.String,System.String)">
+            <summary>
+            Sets the value for the given key. If value exists, overwrites it
+            Else creates new entry.
+            Does not accept null value.
+            </summary>
+            <returns>true</returns>
+            <c>false</c>
+            <param name="key">Key.</param>
+            <param name="value">Value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.DeleteKey(System.String)">
+            <summary>
+            Deletes the key and corresponding value from the storage
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.HasKey(System.String)">
+            <summary>
+            Determines whether specified key exists in the storage
+            </summary>
+        </member>
+        <member name="T:Plugin.SecureStorage.SecureStorageImplementation.StringKeyEntry">
+            <summary>
+            Class for storing string as entry
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.StringKeyEntry.#ctor(System.String)">
+            <summary>
+            Constructor makes sure that entry is valid.
+            Converts it to bytes
+            </summary>
+            <param name="entry">Entry.</param>
+        </member>
+    </members>
+</doc>

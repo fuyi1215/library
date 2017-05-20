@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.SecureStorage.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.SecureStorage.Abstractions.ISecureStorage">
+            <summary>
+            Interface provides basic functionality including get, set, delete and if exists. 
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.ISecureStorage.GetValue(System.String,System.String)">
+            <summary>
+            Retrieves the value from storage.
+            If value with the given key does not exist,
+            returns default value
+            </summary>
+            <returns>The value.</returns>
+            <param name="key">Key.</param>
+            <param name="defaultValue">Default value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.ISecureStorage.SetValue(System.String,System.String)">
+            <summary>
+            Sets the value for the given key. If value exists, overwrites it
+            Else creates new entry.
+            Does not accept null value.
+            </summary>
+            <returns><c>true</c>, if value was set, <c>false</c> otherwise.</returns>
+            <param name="key">Key.</param>
+            <param name="value">Value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.ISecureStorage.DeleteKey(System.String)">
+            <summary>
+            Deletes the key and corresponding value from the storage
+            </summary>
+            <returns><c>true</c>, if key was deleted, <c>false</c> otherwise.</returns>
+            <param name="key">Key.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.ISecureStorage.HasKey(System.String)">
+            <summary>
+            Determines whether specified key exists in the storage
+            </summary>
+            <returns><c>true</c> if this instance has key the specified key; otherwise, <c>false</c>.</returns>
+            <param name="key">Key.</param>
+        </member>
+        <member name="T:Plugin.SecureStorage.Abstractions.SecureStorageImplementationBase">
+            <summary>
+            This base class provides validation functionality that is common across platforms
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.SecureStorageImplementationBase.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.SecureStorageImplementationBase.GetValue(System.String,System.String)">
+            <summary>
+            Validates the key
+            </summary>
+            <returns>null</returns>
+            <param name="key">Key.</param>
+            <param name="defaultValue">Default value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.SecureStorageImplementationBase.SetValue(System.String,System.String)">
+            <summary>
+            Validates that key is not whitespace or null.
+            And value is not null
+            </summary>
+            <returns>false</returns>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.SecureStorageImplementationBase.DeleteKey(System.String)">
+            <summary>
+            Validates that key is not whitespace or null.
+            </summary>
+            <returns>false</returns>
+        </member>
+        <member name="M:Plugin.SecureStorage.Abstractions.SecureStorageImplementationBase.HasKey(System.String)">
+            <summary>
+            Validates that key is not whitespace or null.
+            </summary>
+            <returns>false</returns>
+        </member>
+    </members>
+</doc>

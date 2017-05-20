@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:Zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+	xmlns:ZxingCommon="clr-namespace:ZXing.Common;assembly=zxing.portable"
+	x:Class="Library.BarCodePageX">
+	<ContentPage.Content>
+		<ScrollView Padding="5,10,5,5"  BackgroundColor = "#26AE90">
+		<Grid Padding="5,0,5,0" RowSpacing="10" ColumnSpacing="10" BackgroundColor ="White">
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					<RowDefinition Height="Auto"/>
+					
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width=".02*"/>
+					<ColumnDefinition Width=".9*"/>
+					<ColumnDefinition Width=".06*"/>
+					<ColumnDefinition Width=".02*"/>
+				</Grid.ColumnDefinitions>
+				<Button 
+						x:Name ="ButtonAdd"
+						Text ="+"
+						FontSize ="Large"
+						Grid.Row ="0"
+						Grid.Column ="2"
+						BorderColor ="Black"
+						BackgroundColor ="White"
+						HorizontalOptions="End"
+						Image=""
+						/>
+				<Zxing:ZXingBarcodeImageView
+            	HorizontalOptions="Fill" VerticalOptions="Fill"
+            	WidthRequest="300" HeightRequest="70"
+            	Grid.Row = "2"
+				Grid.ColumnSpan = "4"
+            	BarcodeFormat="CODE_128"
+            	BarcodeValue="{Binding LibrarycardValue}">
+            	<Zxing:ZXingBarcodeImageView.BarcodeOptions>
+                <ZxingCommon:EncodingOptions Width="300" Height="40" />
+            	</Zxing:ZXingBarcodeImageView.BarcodeOptions>
+        		</Zxing:ZXingBarcodeImageView>
+				<Label Grid.Row ="3" Grid.ColumnSpan = "4" Text="{Binding LibrarycardValue}" HorizontalOptions ="Center">
+				</Label>
+
+				<!--<Entry x:Name= "Entry1" Text="{Binding LibrarycardValue}" Grid.Row ="4" Grid.ColumnSpan ="3"></Entry>
+				<Button x:Name ="button" Text ="Edit" Grid.Row="5" Grid.ColumnSpan ="3" ></Button>-->
+				</Grid>
+			</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

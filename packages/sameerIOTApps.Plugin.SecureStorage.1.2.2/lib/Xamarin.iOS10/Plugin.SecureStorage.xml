@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.SecureStorage</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.SecureStorage.CrossSecureStorage">
+            <summary>
+            Cross platform SecureStorage implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.SecureStorage.CrossSecureStorage.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="T:Plugin.SecureStorage.SecureStorageImplementation">
+            <summary>
+            Secure storage implementation for iOS.
+            It is primarily for storing secure strings such as generic password.
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.GetValue(System.String,System.String)">
+            <summary>
+            Retrieves the value from storage.
+            If value with the given key does not exist,
+            returns default value
+            </summary>
+            <returns>The value.</returns>
+            <param name="key">Key.</param>
+            <param name="defaultValue">Default value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.SetValue(System.String,System.String)">
+            <summary>
+            Sets the value for the given key. If value exists, removes it and add new.
+            Effectively old value is overwrittern 
+            Does not accept null value.
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.DeleteKey(System.String)">
+            <summary>
+            Deletes the key and corresponding value from the storage
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.HasKey(System.String)">
+            <summary>
+            Determines whether specified key exists in the storage
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.AddRecord(System.String,System.String)">
+            <summary>
+            Adds the record of type GenericPassword
+            </summary>
+            <returns>The record.</returns>
+            <param name="key">Key.</param>
+            <param name="val">Value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.GetRecord(System.String,Security.SecStatusCode@)">
+            <summary>
+            Retreives record from the store
+            </summary>
+            <returns>The record.</returns>
+            <param name="key">Key.</param>
+            <param name="ssc">Ssc.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.RemoveRecord(System.String)">
+            <summary>
+            Removes the record.
+            </summary>
+            <returns>The record.</returns>
+            <param name="key">Key.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C250985B-99DF-4164-A3D4-97397DE58576}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/NativeListCell.cs">
+    <Files>
+      <File FileName="Library/Views/ScanPage.cs" Line="1" Column="1" />
+      <File FileName="Library/Model/libInfo.cs" Line="39" Column="22" />
+      <File FileName="Library/ViewModels/CalendarViewModel.cs" Line="1" Column="1" />
+      <File FileName="Library/Views/CalendarPage.xaml.cs" Line="18" Column="23" />
+      <File FileName="Library/Views/MainTabPage.cs" Line="36" Column="53" />
+      <File FileName="Library/ViewModels/LibCardViewModel.cs" Line="1" Column="1" />
+      <File FileName="Library/ViewModels/NewsViewModel.cs" Line="1" Column="1" />
+      <File FileName="Library/Database.cs" Line="1" Column="1" />
+      <File FileName="Library/Views/ScanListView.cs" Line="1" Column="1" />
+      <File FileName="Library/Views/HomePage.xaml.cs" Line="41" Column="21" />
+      <File FileName="Library/Views/BarCodePageX.xaml.cs" Line="12" Column="3" />
+      <File FileName="iOS/NativeListCell.cs" Line="55" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jamesgillen/Library/Developer/Xamarin/Projects/The Library App/Client Projects/Butler Public Library/Library/Helpers/Settings.cs" line="87" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Library.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Library.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

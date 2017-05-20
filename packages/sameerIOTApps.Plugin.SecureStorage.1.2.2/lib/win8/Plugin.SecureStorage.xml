@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.SecureStorage</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.SecureStorage.SecureStorageImplementation">
+            <summary>
+            Implementation of persistence for WinPhone 8.1
+            Same is applicable for UWP
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.LoadData">
+            <summary>
+            Implementation of Load from storage for Windows Store, WP8.1 and UWP.
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.SaveData(System.Byte[])">
+            <summary>
+            Synchronous implementation of Save to storage for Windows Store and windows phone 8.1 and UWP
+            Calls async method and makes it run synchronously
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.LoadDataAsync">
+            <summary>
+            Implementation of Load from storage for Windows Store.
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.SecureStorageImplementation.SaveDataAsync(System.Byte[])">
+            <summary>
+            Implementation of Save to storage for Windows Store, WP8.1 and UWP
+            </summary>
+        </member>
+        <member name="T:Plugin.SecureStorage.WinSecureStorageBase">
+            <summary>
+            Base class for handling in memory operation for windows platform
+            The derived classes must take care of persisting the information
+            </summary>
+        </member>
+        <member name="F:Plugin.SecureStorage.WinSecureStorageBase.StorageFile">
+            <summary>
+            Name of the storage file.
+            </summary>
+        </member>
+        <member name="F:Plugin.SecureStorage.WinSecureStorageBase.StoragePassword">
+            <summary>
+            Password for storage.
+            Must be set prior to usage in Android and Windows
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.#ctor">
+            <summary>
+            Default constructor, validates settings, loads the store
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.GetValue(System.String,System.String)">
+            <summary>
+            Retrieves the value from storage.
+            If value with the given key does not exist,
+            returns default value
+            </summary>
+            <returns>The value.</returns>
+            <param name="key">Key.</param>
+            <param name="defaultValue">Default value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.SetValue(System.String,System.String)">
+            <summary>
+            Sets the value for the given key. If value exists, overwrites it
+            Else creates new entry.
+            Does not accept null value.
+            </summary>
+            <returns>true</returns>
+            <c>false</c>
+            <param name="key">Key.</param>
+            <param name="value">Value.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.DeleteKey(System.String)">
+            <summary>
+            Deletes the key and corresponding value from the storage
+            </summary>
+            <returns><c>true</c>, if key was deleted, <c>false</c> otherwise.</returns>
+            <param name="key">Key.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.HasKey(System.String)">
+            <summary>
+            Determines whether specified key exists in the storage
+            </summary>
+            <returns><c>true</c> if this instance has key the specified key; otherwise, <c>false</c>.</returns>
+            <param name="key">Key.</param>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.LoadFromStorage">
+            <summary>
+            Loads the dictionary from storge
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.SaveToStorage">
+            <summary>
+            method to encrypt and save dictionary to storage
+            </summary>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.LoadData">
+            <summary>
+            Derived classes must implement this method.
+            Derived class will read the data from the storage, decrypt it and
+            return clear data.
+            </summary>
+            <returns>Clear data</returns>
+        </member>
+        <member name="M:Plugin.SecureStorage.WinSecureStorageBase.SaveData(System.Byte[])">
+            <summary>
+            Derived classes must implement this method.
+            Derived class will encrypt the data and save it.
+            </summary>
+            <param name="data">Unencrypted data</param>
+        </member>
+        <member name="F:Plugin.SecureStorage.WinSecureStorageBase.StoragePasswordArray">
+            <summary>
+            array corresponding to the password
+            </summary>
+        </member>
+        <member name="F:Plugin.SecureStorage.WinSecureStorageBase._store">
+            <summary>
+            dictionary to store values
+            </summary>
+        </member>
+        <member name="T:Plugin.SecureStorage.CrossSecureStorage">
+            <summary>
+            Cross platform SecureStorage implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.SecureStorage.CrossSecureStorage.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+    </members>
+</doc>
