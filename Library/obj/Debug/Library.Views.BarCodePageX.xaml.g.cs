@@ -11,7 +11,7 @@
 namespace Library {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/frank/Downloads/Butler Public Library copy 2/Library/Views/BarCodePageX.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/frank/Downloads/library/Library/Views/BarCodePageX.xaml")]
     public partial class BarCodePageX : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

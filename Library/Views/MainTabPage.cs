@@ -11,33 +11,33 @@ namespace Library
 			this.Title = "TabbedPage";
 
 			//BarTextColor = Color.Black;
-			BarBackgroundColor = Color.Purple;
+			BarBackgroundColor = Color.FromHex("#24678d");
 			//this.Children.GetEnumerator.baStyle = Device.Styles.TitleStyle;
 			//BindingContext
 
-			var Newspad = new NewsTabletPage() { IsPresented = true, BackgroundColor = Color.Purple };
+			var Newspad = new NewsTabletPage() { IsPresented = true, BackgroundColor = Color.FromHex("#24678d") };
 			if (Device.Idiom != TargetIdiom.Phone)
 			{
 				
 						
-				//this.PropertyChanging += (sender, e) =>
-				//{
+				this.PropertyChanging += (sender, e) =>
+				{
 
-				//	if (e.PropertyName == "CurrentPage")
-				//	{
-				//		Newspad.IsPresented = true;
-				//	}
-				//};
-				//this.Children.Add(new NavigationPage(Newspad)
-				//{
-				//	Title = "News",
+					if (e.PropertyName == "CurrentPage")
+					{
+						Newspad.IsPresented = true;
+					}
+				};
+				this.Children.Add(new NavigationPage(Newspad)
+				{
+					Title = "News",
 
-				//	BarTextColor = Color.White,
-				//	BarBackgroundColor = Color.FromHex("#26AE90"),
-				//	BackgroundColor = Color.FromHex("#26AE90"),
-				//	Icon = "news_30x30.png"
+					BarTextColor = Color.White,
+					BarBackgroundColor = Color.FromHex("#24678d"),
+					BackgroundColor = Color.FromHex("#24678d"),
+					Icon = "news_30x30.png"
 
-				//});
+				});
 			}
 			else
 			{
@@ -45,9 +45,9 @@ namespace Library
 				{
 					Title = "News",
 					//Style = Device.Styles.TitleStyle,
-					BarBackgroundColor = Color.Purple,
+					BarBackgroundColor = Color.FromHex("#24678d"),
 					BarTextColor = Color.White,
-					BackgroundColor = Color.Purple,
+					BackgroundColor = Color.FromHex("#24678d"),
 					Icon = "news_30x30.png"
 				});
 			}
@@ -63,36 +63,36 @@ namespace Library
 			//	BackgroundColor = Color.White
 
 			//});
-			this.Children.Add(new NavigationPage(new CalendarPage() { Title = "Calendar", BackgroundColor = Color.Purple })
+			this.Children.Add(new NavigationPage(new CalendarPage() { Title = "Calendar", BackgroundColor = Color.FromHex("#24678d") })
 			{
 				Title = "Calendar",
-				BarBackgroundColor = Color.Purple,
+				BarBackgroundColor = Color.FromHex("#24678d"),
 				BarTextColor = Color.White,
-				BackgroundColor = Color.Purple,
+				BackgroundColor = Color.FromHex("#24678d"),
 				Icon = "calendar_30x30.png"
 
 
 			});
 
 			string Url = "https://evergreen.lib.in.us/eg/opac/home";
-			this.Children.Add(new WebViewPage(Url) { Title = "Catalog", BackgroundColor = Color.Purple, Icon = "catalogue_30x30.png" });
+			this.Children.Add(new WebViewPage(Url) { Title = "Catalog", BackgroundColor = Color.FromHex("#24678d"), Icon = "catalogue_30x30.png" });
 			//{
 
 			//	Title = "Catalog",
 
-			//	BarBackgroundColor = Color.Purple,
+			//	BarBackgroundColor = Color.FromHex("#24678d"),
 			//	BarTextColor = Color.White,
 			//	//BackgroundColor = Color.White
 
 			//});
 			libInfo lib = new libInfo();
-			this.Children.Add(new NavigationPage(new LibInfoPage(lib) { Title = "Contacts", BackgroundColor = Color.Purple })
+			this.Children.Add(new NavigationPage(new LibInfoPage(lib) { Title = "Contacts", BackgroundColor = Color.FromHex("#24678d") })
 			{
 				Title = "Contacts",
 				Icon = "contact_30x30.png",
-				BarBackgroundColor = Color.Purple,
+				BarBackgroundColor = Color.FromHex("#24678d"),
 				BarTextColor = Color.White,
-				BackgroundColor = Color.Purple,
+				BackgroundColor = Color.FromHex("#24678d"),
 
 
 			});
@@ -101,7 +101,7 @@ namespace Library
 			{
 				Title = "BarCode",
 				Icon = "card_30x30.png",
-				BarBackgroundColor = Color.Purple,
+				BarBackgroundColor = Color.FromHex("#24678d"),
 				BarTextColor = Color.White,
 				BackgroundColor = Color.White
 				                       
@@ -110,7 +110,7 @@ namespace Library
 				//this.Children.Add(new NavigationPage(new ScanListView { Title = "ScanView" })
 				//{
 				//	Title = "ScanView",
-				//	BarBackgroundColor = Color.Purple,
+				//	BarBackgroundColor = Color.FromHex("#24678d"),
 				//	BarTextColor = Color.White,
 				//	BackgroundColor = Color.White
 				//});

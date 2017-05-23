@@ -5,7 +5,7 @@
 	xmlns:ZxingCommon="clr-namespace:ZXing.Common;assembly=zxing.portable"
 	x:Class="Library.BarCodePageX">
 	<ContentPage.Content>
-		<ScrollView Padding="5,10,5,5"  BackgroundColor = "#26AE90">
+		<ScrollView Padding="5,10,5,5"  BackgroundColor = "#24678d">
 		<Grid Padding="5,0,5,0" RowSpacing="10" ColumnSpacing="10" BackgroundColor ="White">
 
 				<Grid.RowDefinitions>

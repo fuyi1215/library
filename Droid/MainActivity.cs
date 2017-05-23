@@ -24,9 +24,14 @@ namespace Library.Droid
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 			global::Xamarin.FormsMaps.Init(this, bundle);
 			XamForms.Controls.Droid.Calendar.Init();
+			ZXing.Net.Mobile.Forms.Android.Platform.Init();
 			//SetPage(App.GetMainPage());
 			LoadApplication(new App());
 			//ActionBar.SetIcon(new ColorDrawable(Resources.GetColor(Android.Resource.Color.Transparent)));
+		}
+		public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+		{
+			global::ZXing.Net.Mobile.Forms.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 		}
 	}
 }

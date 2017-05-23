@@ -5,7 +5,7 @@
 		Title="News"
 		IsBusy="{Binding IsBusy}">
     <ContentPage.Content>
-		<ScrollView Padding="5,0,5,0" BackgroundColor = "#26AE90">
+		<ScrollView Padding="5,0,5,0" BackgroundColor = "#24678d">
         <StackLayout BackgroundColor ="White">
             <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="10" Padding="10" IsVisible="{Binding IsBusy}">
                 <StackLayout.Orientation>

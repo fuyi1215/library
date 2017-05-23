@@ -169,12 +169,6 @@
     <Reference Include="Plugin.ExternalMaps">
       <HintPath>..\packages\Xam.Plugin.ExternalMaps.3.0.10\lib\Xamarin.iOS10\Plugin.ExternalMaps.dll</HintPath>
     </Reference>
-    <Reference Include="Plugin.Messaging.Abstractions">
-      <HintPath>..\packages\Xam.Plugins.Messaging.4.0.0\lib\Xamarin.iOS10\Plugin.Messaging.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Plugin.Messaging">
-      <HintPath>..\packages\Xam.Plugins.Messaging.4.0.0\lib\Xamarin.iOS10\Plugin.Messaging.dll</HintPath>
-    </Reference>
     <Reference Include="XamForms.Controls.Calendar">
       <HintPath>..\packages\XamForms.Controls.Calendar.1.1.0\lib\Xamarin.iOS10\XamForms.Controls.Calendar.dll</HintPath>
     </Reference>
@@ -202,9 +196,6 @@
     <Reference Include="SQLitePCLRaw.provider.sqlite3">
       <HintPath>..\packages\SQLitePCLRaw.provider.sqlite3.ios_unified.1.1.5\lib\Xamarin.iOS10\SQLitePCLRaw.provider.sqlite3.dll</HintPath>
     </Reference>
-    <Reference Include="SQLitePCLRaw.batteries_green">
-      <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.5\lib\Xamarin.iOS10\SQLitePCLRaw.batteries_green.dll</HintPath>
-    </Reference>
     <Reference Include="SQLitePCLRaw.batteries_v2">
       <HintPath>..\packages\SQLitePCLRaw.bundle_green.1.1.5\lib\Xamarin.iOS10\SQLitePCLRaw.batteries_v2.dll</HintPath>
     </Reference>
@@ -222,6 +213,18 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Maps.iOS">
       <HintPath>..\packages\Xamarin.Forms.Maps.2.3.4.247\lib\Xamarin.iOS10\Xamarin.Forms.Maps.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings.Abstractions">
+      <HintPath>..\packages\Xam.Plugins.Settings.2.5.8\lib\Xamarin.iOS10\Plugin.Settings.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings">
+      <HintPath>..\packages\Xam.Plugins.Settings.2.5.8\lib\Xamarin.iOS10\Plugin.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Messaging.Abstractions">
+      <HintPath>..\packages\Xam.Plugins.Messaging.4.0.0\lib\Xamarin.iOS10\Plugin.Messaging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Messaging">
+      <HintPath>..\packages\Xam.Plugins.Messaging.4.0.0\lib\Xamarin.iOS10\Plugin.Messaging.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -285,6 +288,7 @@
     <Compile Include="NativeListCell.cs" />
     <Compile Include="NativeListView.cs" />
     <Compile Include="RendererListView.cs" />
+    <Compile Include="Helpers\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="ExtendedWebViewRenderer.cs" />

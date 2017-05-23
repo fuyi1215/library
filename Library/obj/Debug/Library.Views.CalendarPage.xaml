@@ -6,7 +6,7 @@
 		Title = "Calendar"
 		IsBusy= "{Binding IsBusy}">
 	<ContentPage.Content >
-		<Grid Padding="5,0,5,5" BackgroundColor ="#26AE90">
+		<Grid Padding="5,0,5,5" BackgroundColor ="#24678d">
 		<ScrollView  x:Name="MainView" BackgroundColor = "White">
 				<!--controls:Calendar x:Name = "calendar" Padding="10,10,10,5" SelectedBorderWidth="4" DisabledBorderColor="Black">
 				</controls:Calendar-->
