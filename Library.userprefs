@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{C250985B-99DF-4164-A3D4-97397DE58576}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/NativeListCell.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/Helpers/Settings.cs">
     <Files>
       <File FileName="Library/Views/ScanPage.cs" Line="1" Column="1" />
       <File FileName="Library/Model/libInfo.cs" Line="39" Column="22" />
@@ -13,16 +13,21 @@
       <File FileName="Library/Views/HomePage.xaml.cs" Line="41" Column="21" />
       <File FileName="Library/Views/BarCodePageX.xaml.cs" Line="12" Column="3" />
       <File FileName="iOS/NativeListCell.cs" Line="55" Column="35" />
+      <File FileName="iOS/ExtendedWebViewRenderer.cs" Line="1" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/4.6.1/lib/mono/xbuild/14.0/bin/Microsoft.Common.targets" Line="1" Column="1" />
+      <File FileName="Library/Views/LibInfoPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Library/Helpers/Settings.cs" Line="5" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/jamesgillen/Library/Developer/Xamarin/Projects/The Library App/Client Projects/Butler Public Library/Library/Helpers/Settings.cs" line="87" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Library.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.ItemProperties.Library.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9CF91A7F-BE1B-4B50-826A-99991752B302" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Library.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

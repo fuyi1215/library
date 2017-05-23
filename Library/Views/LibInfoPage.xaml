@@ -5,9 +5,9 @@
 		x:Class="Library.LibInfoPage"
 		Title = "About Library"
 		IsBusy= "{Binding isBusy}">
-	<ContentPage.Content >
+	<ContentPage.Content>
 		
-		<ScrollView Padding="5,10,5,5"  BackgroundColor = "#26AE90">
+		<ScrollView Padding="5,10,5,5"  BackgroundColor = "Purple">
 		<Grid Padding="5,0,5,0" RowSpacing="10" ColumnSpacing="10" BackgroundColor ="White">
 
 				<Grid.RowDefinitions>
@@ -65,7 +65,7 @@
 					x:Name="ButtonCall"
 					Grid.Row="2"
 					BorderColor = "White"
-					BackgroundColor="#26AE90"
+					BackgroundColor="Purple"
 					BorderRadius="0"
 					TextColor="White" 
 					Image="phone.png"
@@ -233,7 +233,7 @@
 				<Button 
 					Grid.Row="12"
 					BorderColor = "White"
-					BackgroundColor="#26AE90" 
+					BackgroundColor="Purple" 
 					BorderRadius="0"
 					TextColor="White"
 					Image="navigation.png"
