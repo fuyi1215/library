@@ -10,7 +10,7 @@ namespace Library
 		{
 			this.Title = "TabbedPage";
 
-			//BarTextColor = Color.Black;
+			BarTextColor = Color.Black;
 			BarBackgroundColor = Color.FromHex("#24678d");
 			//this.Children.GetEnumerator.baStyle = Device.Styles.TitleStyle;
 			//BindingContext
@@ -52,17 +52,6 @@ namespace Library
 				});
 			}
 
-			////var url = "<script type=\"text/javascript\">var h='<'+'iframe src=\"https://www.google.com/calendar/embed?hl=en-US&amp;title=EPL+Public+Calendar&amp;height=400&amp;wkst=2&amp;ctz=America%2FNew_York&amp;mode=AGENDA&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;src=eckhartpubliclibrary%40gmail.com\" style=\"border-width:1\" width=\"100%\" height=\"1000\" frameborder=\"1\" scrolling=\"yes\"></'+'iframe'+'>';document.write(h);</script>";
-			//var url = "  <div class=\"post_info_wrap\">\n<script type=\"text/javascript\">var h='<'+'iframe src=\"https://www.google.com/calendar/embed?hl=en-US&amp;height=400&amp;title=EPL+Public+Calendar&amp;wkst=2&amp;ctz=America%2FNew_York&amp;mode=AGENDA&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;src=eckhartpubliclibrary%40gmail.com\" style=\"border-width:0\" width=\"100%\" height=\"1000\" frameborder=\"0\" scrolling=\"no\"></'+'iframe'+'>';document.write(h);</script>\n </div>\r"; 
-			////var url = "http://www.epl.lib.in.us/calendar/";
-			//this.Children.Add(new WebViewPage(url,false)
-			//{
-
-			//	Title = "Calendar",
-
-			//	BackgroundColor = Color.White
-
-			//});
 			this.Children.Add(new NavigationPage(new CalendarPage() { Title = "Calendar", BackgroundColor = Color.FromHex("#24678d") })
 			{
 				Title = "Calendar",

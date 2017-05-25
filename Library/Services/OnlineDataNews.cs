@@ -67,7 +67,7 @@ namespace Library
 
 			try
 			{
-				if (!CrossConnectivity.Current.IsConnected || !Settings.NeedsSync)
+				if (!CrossConnectivity.Current.IsConnected )
 					return;
 			
 				//var list = await GetNewsAsync();
@@ -90,7 +90,7 @@ namespace Library
 
 			try
 			{
-				if (!CrossConnectivity.Current.IsConnected || !Settings.NeedsSync)
+				if (!CrossConnectivity.Current.IsConnected)
 					return;
 
 				var clients = new HttpClient();

@@ -1,32 +1,13 @@
 ﻿<Properties StartupConfiguration="{0407EE71-4908-4761-8ECD-1044D59FD2E5}|Default">
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Library" expanded="True" selected="True">
-            <Node name="Library" expanded="True">
-              <Node name="Views" expanded="True" />
-            </Node>
-            <Node name="Library.Droid" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Assets" expanded="True" />
-              <Node name="Helpers" expanded="True" />
-              <Node name="Properties" expanded="True" />
-            </Node>
-            <Node name="Library.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/jamesgillen/Library/Developer/Xamarin/Projects/The Library App/Client Projects/Butler Public Library/Library/Helpers/Settings.cs" line="87" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Library.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9CF91A7F-BE1B-4B50-826A-99991752B302" />
+  <MonoDevelop.Ide.ItemProperties.Library.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Library.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

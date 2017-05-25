@@ -1,0 +1,10276 @@
+.subsections_via_symbols
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+.section __DWARF, __debug_abbrev,regular,debug
+
+	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,135,64,8,58,15,59,15,17
+	.byte 1,18,1,64,10,0,0,3,5,0,3,8,73,19,2,10,0,0,15,5,0,3,8,73,19,2,6,0,0,4,36,0
+	.byte 11,11,62,11,3,8,0,0,5,2,1,3,8,11,15,0,0,17,2,0,3,8,11,15,0,0,6,13,0,3,8,73
+	.byte 19,56,10,0,0,7,22,0,3,8,73,19,0,0,8,4,1,3,8,11,15,73,19,0,0,9,40,0,3,8,28,13
+	.byte 0,0,10,57,1,3,8,0,0,11,52,0,3,8,73,19,2,10,0,0,12,52,0,3,8,73,19,2,6,0,0,13
+	.byte 15,0,73,19,0,0,14,16,0,73,19,0,0,16,28,0,73,19,56,10,0,0,18,46,0,3,8,17,1,18,1,0
+	.byte 0,0
+.section __DWARF, __debug_info,regular,debug
+Ldebug_info_start:
+
+LDIFF_SYM0=Ldebug_info_end - Ldebug_info_begin
+	.long LDIFF_SYM0
+Ldebug_info_begin:
+
+	.short 2
+	.long 0
+	.byte 4,1
+	.asciz "Mono AOT Compiler 4.6.1 (tarball Tue Oct 25 14:07:01 EDT 2016)"
+	.asciz "ZXingNetMobile.dll"
+	.asciz ""
+
+	.byte 2,0,0,0,0,0,0,0,0
+LDIFF_SYM1=Ldebug_line_start - Ldebug_line_section_start
+	.long LDIFF_SYM1
+LDIE_I1:
+
+	.byte 4,1,5
+	.asciz "sbyte"
+LDIE_U1:
+
+	.byte 4,1,7
+	.asciz "byte"
+LDIE_I2:
+
+	.byte 4,2,5
+	.asciz "short"
+LDIE_U2:
+
+	.byte 4,2,7
+	.asciz "ushort"
+LDIE_I4:
+
+	.byte 4,4,5
+	.asciz "int"
+LDIE_U4:
+
+	.byte 4,4,7
+	.asciz "uint"
+LDIE_I8:
+
+	.byte 4,8,5
+	.asciz "long"
+LDIE_U8:
+
+	.byte 4,8,7
+	.asciz "ulong"
+LDIE_I:
+
+	.byte 4,4,5
+	.asciz "intptr"
+LDIE_U:
+
+	.byte 4,4,7
+	.asciz "uintptr"
+LDIE_R4:
+
+	.byte 4,4,4
+	.asciz "float"
+LDIE_R8:
+
+	.byte 4,8,4
+	.asciz "double"
+LDIE_BOOLEAN:
+
+	.byte 4,1,2
+	.asciz "boolean"
+LDIE_CHAR:
+
+	.byte 4,2,8
+	.asciz "char"
+LDIE_STRING:
+
+	.byte 4,4,1
+	.asciz "string"
+LDIE_OBJECT:
+
+	.byte 4,4,1
+	.asciz "object"
+LDIE_SZARRAY:
+
+	.byte 4,4,1
+	.asciz "object"
+.section __DWARF, __debug_loc,regular,debug
+Ldebug_loc_start:
+.section __DWARF, __debug_frame,regular,debug
+	.align 3
+
+LDIFF_SYM2=Lcie0_end - Lcie0_start
+	.long LDIFF_SYM2
+Lcie0_start:
+
+	.long -1
+	.byte 3
+	.asciz ""
+
+	.byte 1,124,14,12,13,0
+	.align 2
+Lcie0_end:
+.text
+	.align 3
+jit_code_start:
+_mono_aot_ZXingNetMobilejit_code_start:
+	.globl _mono_aot_ZXingNetMobilejit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+	.align 2
+	.no_dead_strip ZXing_Mobile_ZXingScannerView_OutputRecorder_DidOutputSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection
+ZXing_Mobile_ZXingScannerView_OutputRecorder_DidOutputSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection:
+.file 1 "<unknown>"
+.loc 1 1 0
+
+	.byte 128,64,45,233,13,112,160,225,0,13,45,233,39,223,77,226,13,176,160,225,116,0,139,229,120,16,139,229,2,160,160,225
+	.byte 124,48,139,229,0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227
+	.byte 48,0,139,229,23,15,139,226
+bl _p_4
+
+	.byte 116,0,155,229,8,15,128,226,0,16,144,229,100,16,139,229,4,0,144,229,104,0,139,229,4,15,139,226,92,16,155,229
+	.byte 96,32,155,229,100,48,155,229,104,192,155,229,0,192,141,229
+bl _p_125
+
+	.byte 4,15,139,226
+bl _p_126
+
+	.byte 18,11,65,236,2,43,139,237,2,43,155,237,116,0,155,229,20,0,144,229,0,16,160,225,0,224,209,229,40,0,144,229
+	.byte 16,10,0,238,192,59,184,238,67,43,180,238,16,250,241,238,31,0,0,74,116,0,155,229,41,0,208,229,0,15,80,227
+	.byte 10,0,0,10,2,43,155,237,116,0,155,229,20,0,144,229,0,16,160,225,0,224,209,229,36,0,144,229,16,10,0,238
+	.byte 192,59,184,238,67,43,180,238,16,250,241,238,16,0,0,74,116,0,155,229,40,0,208,229,0,15,80,227,12,0,0,26
+	.byte 116,0,155,229,28,0,144,229,0,16,160,225,0,224,209,229,28,0,144,229,128,3,80,227,0,0,160,227,1,0,160,179
+	.byte 0,15,80,227,0,0,160,19,1,0,160,3,56,0,139,229,1,0,0,234,64,3,160,227,56,0,139,229,56,0,155,229
+	.byte 24,0,203,229,56,0,155,229,0,15,80,227,10,0,0,10,0,15,90,227,0,0,160,227,1,0,160,131,25,0,203,229
+	.byte 0,15,80,227,157,0,0,10,10,0,160,225,0,224,218,229
+bl _p_407
+
+	.byte 0,175,160,227,152,0,0,234,116,0,155,229,136,0,139,229,0,0,160,227,186,15,7,238,136,0,155,229,0,31,160,227
+	.byte 41,16,192,229,116,0,155,229,132,0,139,229,0,0,160,227,186,15,7,238,132,0,155,229,64,19,160,227,40,16,192,229
+	.byte 116,0,155,229,128,0,139,229,27,15,139,226
+bl _p_4
+
+	.byte 128,0,155,229,8,15,128,226,108,16,155,229,0,16,128,229,112,16,155,229,4,16,128,229,10,0,160,225,0,224,218,229
+bl _p_408
+
+	.byte 80,0,139,229,84,0,139,229,80,0,155,229,0,15,80,227,13,0,0,10,80,0,155,229,0,0,144,229,0,0,144,229
+	.byte 8,0,144,229,12,0,144,229,0,16,159,229,0,0,0,234
+	.long mono_aot_ZXingNetMobile_got - . + 44
+	.byte 1,16,159,231,1,0,80,225,2,0,0,10,0,15,160,227,84,0,139,229,255,255,255,234,84,0,155,229,28,0,139,229
+	.byte 28,32,155,229,2,0,160,225,64,19,160,227,0,224,210,229
+bl _p_409
+
+	.byte 28,16,155,229,1,0,160,225,0,224,209,229
+bl _p_410
+
+	.byte 44,0,139,229,36,0,139,229,28,16,155,229,1,0,160,225,0,224,209,229
+bl _p_411
+
+	.byte 144,0,139,229,28,16,155,229,1,0,160,225,0,224,209,229
+bl _p_412
+
+	.byte 0,16,160,225,144,0,155,229,145,0,0,224,0,1,160,225,40,0,139,229,28,16,155,229,1,0,160,225,0,224,209,229
+bl _p_412
+
+	.byte 136,0,139,229,28,16,155,229,1,0,160,225,0,224,209,229
+bl _p_411
+
+	.byte 140,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_ZXingNetMobile_got - . + 48
+	.byte 0,0,159,231,5,31,160,227
+bl _p_1
+
+	.byte 136,48,155,229,140,192,155,229,132,0,139,229,36,16,155,229,40,32,155,229,0,192,141,229
+bl _ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource__ctor_byte__int_int_int
+
+	.byte 132,0,155,229,32,0,139,229,116,0,155,229,24,32,144,229,2,0,160,225,32,16,155,229,128,32,139,229,15,224,160,225
+	.byte 12,240,146,229,0,16,160,225,128,0,155,229,28,32,155,229,2,0,160,225,64,19,160,227,0,224,210,229
+bl _p_413
+
+	.byte 0,0,0,235,16,0,0,234,2,223,77,226,72,224,139,229,28,0,155,229,0,15,80,227,8,0,0,10,28,16,155,229
+	.byte 1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
+	.long mono_aot_ZXingNetMobile_got - . + 52
+	.byte 8,128,159,231,15,224,160,225,20,240,17,229,2,223,141,226,72,192,155,229,12,240,160,225,10,0,160,225,0,224,218,229
+bl _p_407
+
+	.byte 0,175,160,227,9,0,0,234,52,0,139,229,48,0,139,229
+bl _p_196
+bl _p_104
+
+	.byte 88,0,139,229,0,15,80,227,1,0,0,10,88,0,155,229
+bl _p_105
+
+	.byte 255,255,255,234,116,0,155,229,128,0,139,229,0,0,160,227,186,15,7,238,128,0,155,229,0,31,160,227,40,16,192,229
+	.byte 39,223,139,226,0,13,189,232,128,128,189,232
+
+Lme_c0:
+.text
+.code 16
+
+.thumb_func
+ut_237:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool__ctor_bool
+.arm
+.align 2
+.code 32
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM3=ut_end - ut_237
+	.long LDIFF_SYM3
+.text
+.code 16
+
+.thumb_func
+ut_238:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_get_HasValue
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_239:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_get_Value
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_240:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_Equals_object
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_241:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_242:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_GetHashCode
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_243:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_GetValueOrDefault
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_244:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_GetValueOrDefault_bool
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_245:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_ToString
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_246:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_Box_System_Nullable_1_bool
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_247:
+add r0, r0, #8
+b _ZXingNetMobile_System_Nullable_1_bool_Unbox_object
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_260:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_261:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_Dispose
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_262:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_MoveNext
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_263:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_get_Current
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_264:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_265:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_279:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_280:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_Dispose
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_281:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_MoveNext
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_282:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_get_Current
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_283:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_284:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_329:
+add r0, r0, #8
+b _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_330:
+add r0, r0, #8
+b _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_331:
+add r0, r0, #8
+b _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_332:
+add r0, r0, #8
+b _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_333:
+add r0, r0, #8
+b _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_334:
+add r0, r0, #8
+b _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_335:
+add r0, r0, #8
+b _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_391:
+add r0, r0, #8
+b _ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+.arm
+.align 2
+.code 32
+.text
+	.align 3
+jit_code_end:
+_mono_aot_ZXingNetMobilejit_code_end:
+	.globl _mono_aot_ZXingNetMobilejit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_intptr
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_remove_OnCancelButtonPressed_System_Action
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_CancelButtonText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_CancelButtonText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_FlashButtonText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_FlashButtonText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Setup
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Focus_CoreGraphics_CGPoint
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StopScanning
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_PauseAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResumeAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Torch_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ToggleTorch
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AutoFocus
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AutoFocus_int_int
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_TopText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_TopText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_BottomText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_BottomText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_CustomOverlayView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_CustomOverlayView_UIKit_UIView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_UseCustomOverlayView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_UseCustomOverlayView_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_ScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_IsAnalyzing
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_IsTorchOn
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_HasTorch
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__Setupb__23_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__SetupCaptureSessionb__29_2_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__StartScanningb__33_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass29_0__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass29_0__SetupCaptureSessionb__0_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__cctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__SetupCaptureSessionb__29_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass66_0__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass66_0__SupportsAllRequestedBarcodeFormatsb__0_ZXing_BarcodeFormat
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_CaptureDelegate_get_OnCapture
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_CaptureDelegate_set_OnCapture_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_CaptureDelegate_DidOutputMetadataObjects_AVFoundation_AVCaptureMetadataOutput_AVFoundation_AVMetadataObject___AVFoundation_AVCaptureConnection
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_add_OnScannedResult_System_Action_1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_remove_OnScannedResult_System_Action_1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_ScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_Scanner
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_ContinuousScanning
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_set_ContinuousScanning_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_AsViewController
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_Cancel
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewDidLoad
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_Torch_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ToggleTorch
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_IsTorchOn
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_PauseAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ResumeAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewDidAppear_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewDidDisappear_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewWillDisappear_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_DidRotate_UIKit_UIInterfaceOrientation
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ShouldAutorotate
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_GetSupportedInterfaceOrientations
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_HandleOnScannerSetupComplete
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__Cancelb__20_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ViewDidLoadb__22_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ViewDidAppearb__29_0_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__HandleOnScannerSetupCompleteb__35_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS_Decode_UIKit_UIImage
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__cctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__c__cctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__c__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__c___cctorb__5_0_UIKit_UIImage
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BarcodeWriter__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_BitmapRenderer__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__ctor_UIKit_UIViewController
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_System_Action_1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Cancel
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Torch_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ToggleTorch
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_AutoFocus
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_PauseAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ResumeAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_get_IsTorchOn
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_get_CustomOverlay
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_set_CustomOverlay_UIKit_UIView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__ScanContinuouslyb__8_2
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__Cancelb__10_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_0__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_0__ScanContinuouslyb__1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_1__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_1__ScanContinuouslyb__0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_0__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_0__Scanb__0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__Scanb__1
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__Scanb__2_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__Scanb__3
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__Scanb__4
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS__ctor_UIKit_UIImage
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Initialize
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_LayoutSubviews
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Destroy
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__Initializeb__12_1_object_System_EventArgs
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__Initializeb__12_2_object_System_EventArgs
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__Destroyb__14_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__c__DisplayClass12_0__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__c__DisplayClass12_0__Initializeb__0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_intptr
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnCancelButtonPressed_System_Action
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_CancelButtonText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_CancelButtonText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_FlashButtonText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_FlashButtonText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_SetupCaptureSession
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Focus_System_Drawing_PointF
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StopScanning
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_PauseAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResumeAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Torch_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ToggleTorch
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_AutoFocus
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_AutoFocus_int_int
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_TopText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_TopText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_BottomText
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_BottomText_string
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_CustomOverlayView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_CustomOverlayView_UIKit_UIView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_UseCustomOverlayView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_UseCustomOverlayView_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_ScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_IsAnalyzing
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_IsTorchOn
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_HasTorch
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__Setupb__28_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__SetupCaptureSessionb__31_2_UIKit_UIImage
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__StartScanningb__36_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_System_Func_2_ZXing_LuminanceSource_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder_DidDropSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_0__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_0__SetupCaptureSessionb__0_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_0__SetupCaptureSessionb__4_ZXing_LuminanceSource
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_1__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_1__SetupCaptureSessionb__3
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__cctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__ctor
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__SetupCaptureSessionb__31_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_add_OnScannedResult_System_Action_1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_remove_OnScannedResult_System_Action_1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_ScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_Scanner
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_ContinuousScanning
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_ContinuousScanning_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_CustomLoadingView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_CustomLoadingView_UIKit_UIView
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_AsViewController
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_Cancel
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewDidLoad
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_Torch_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ToggleTorch
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_PauseAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ResumeAnalysis
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_IsTorchOn
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewDidAppear_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewDidDisappear_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewWillDisappear_bool
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_DidRotate_UIKit_UIInterfaceOrientation
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ShouldAutorotate
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_GetSupportedInterfaceOrientations
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ShouldAutorotateToInterfaceOrientation_UIKit_UIInterfaceOrientation
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_HandleOnScannerSetupComplete
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidLoadb__26_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidAppearb__33_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidAppearb__33_1
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidAppearb__33_2_ZXing_Result
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__HandleOnScannerSetupCompleteb__40_0
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource__ctor_byte__int_int_int
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CalculateLuminance_byte__int
+.no_dead_strip _ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CreateLuminanceSource_byte___int_int
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool__ctor_bool
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_get_HasValue
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_get_Value
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_Equals_object
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_GetHashCode
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_GetValueOrDefault
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_GetValueOrDefault_bool
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_ToString
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_Box_System_Nullable_1_bool
+.no_dead_strip _ZXingNetMobile_System_Nullable_1_bool_Unbox_object
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_get_Count
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_get_IsReadOnly
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_Clear
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_Mobile_CameraResolution_invoke_void_T_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_Dispose
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_MoveNext
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_get_Current
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool_invoke_TResult_T_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_invoke_TResult_T_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_invoke_void_T_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_Dispose
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_MoveNext
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_get_Current
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_Add_T_INT_T_INT
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_Remove_T_INT_T_INT
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_Contains_T_INT_T_INT
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT__ctor
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_int
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_GetHashCode_object
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_Equals_object_object
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_BarcodeFormat_invoke_void_T_ZXing_BarcodeFormat
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_ZXing_BarcodeFormat_bool_invoke_TResult_T_ZXing_BarcodeFormat
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__Insert_T_INT_int_T_INT
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__RemoveAt_int
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__IndexOf_T_INT_T_INT
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__get_Item_T_INT_int
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__set_Item_T_INT_int_T_INT
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_invoke_TResult_T_UIKit_UIImage
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Predicate_1_UIKit_UIBarButtonItem_invoke_bool_T_UIKit_UIBarButtonItem
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_UIKit_UIBarButtonItem_invoke_void_T_UIKit_UIBarButtonItem
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Comparison_1_UIKit_UIBarButtonItem_invoke_int_T_T_UIKit_UIBarButtonItem_UIKit_UIBarButtonItem
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_bool_invoke_TResult_T_ZXing_LuminanceSource
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_ZXing_Result_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_invoke__Module_invoke_void
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+.no_dead_strip _ZXingNetMobile_wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_Select_TSource_INST_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_TResult_REF
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_Where_TSource_INST_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_bool
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_GetEnumerator
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_Any_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT_System_Func_2_TSource_INT_bool
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_Add_T_INT
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_T_INT__cctor
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_Contains_T_INT
+.no_dead_strip _ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+.no_dead_strip _ZXingNetMobile_System_Array_InternalArray__get_Item_T_INST_int
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
+.no_dead_strip _ZXingNetMobile_System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_WhereSelectArrayIterator_2_TSource_INST_TResult_REF__ctor_TSource_INST___System_Func_2_TSource_INST_bool_System_Func_2_TSource_INST_TResult_REF
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_WhereSelectListIterator_2_TSource_INST_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_INST_System_Func_2_TSource_INST_bool_System_Func_2_TSource_INST_TResult_REF
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_TSource_INST_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_bool_System_Func_2_TSource_INST_TResult_REF
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_WhereArrayIterator_1_TSource_INST__ctor_TSource_INST___System_Func_2_TSource_INST_bool
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_WhereListIterator_1_TSource_INST__ctor_System_Collections_Generic_List_1_TSource_INST_System_Func_2_TSource_INST_bool
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_INST__ctor_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_bool
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_EnsureCapacity_int
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
+.no_dead_strip _ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TSource_INST__ctor
+.no_dead_strip _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_set_Capacity_int
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_ZXingNetMobilemethod_addresses:
+	.globl _mono_aot_ZXingNetMobilemethod_addresses
+	.no_dead_strip method_addresses
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_intptr
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_remove_OnCancelButtonPressed_System_Action
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_CancelButtonText
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_CancelButtonText_string
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_FlashButtonText
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_FlashButtonText_string
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Setup
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Focus_CoreGraphics_CGPoint
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StopScanning
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_PauseAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResumeAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Torch_bool
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ToggleTorch
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AutoFocus
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AutoFocus_int_int
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_TopText
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_TopText_string
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_BottomText
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_BottomText_string
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_CustomOverlayView
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_CustomOverlayView_UIKit_UIView
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_UseCustomOverlayView
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_set_UseCustomOverlayView_bool
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_ScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_IsAnalyzing
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_IsTorchOn
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_get_HasTorch
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__Setupb__23_0
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__SetupCaptureSessionb__29_2_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__StartScanningb__33_0
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass29_0__ctor
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass29_0__SetupCaptureSessionb__0_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__cctor
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__ctor
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__SetupCaptureSessionb__29_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass66_0__ctor
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__c__DisplayClass66_0__SupportsAllRequestedBarcodeFormatsb__0_ZXing_BarcodeFormat
+blx _ZXingNetMobile_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+blx _ZXingNetMobile_ZXing_Mobile_CaptureDelegate_get_OnCapture
+blx _ZXingNetMobile_ZXing_Mobile_CaptureDelegate_set_OnCapture_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+blx _ZXingNetMobile_ZXing_Mobile_CaptureDelegate_DidOutputMetadataObjects_AVFoundation_AVCaptureMetadataOutput_AVFoundation_AVMetadataObject___AVFoundation_AVCaptureConnection
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_add_OnScannedResult_System_Action_1_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_remove_OnScannedResult_System_Action_1_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_ScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_Scanner
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_ContinuousScanning
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_set_ContinuousScanning_bool
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_AsViewController
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_Cancel
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewDidLoad
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_Torch_bool
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ToggleTorch
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_get_IsTorchOn
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_PauseAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ResumeAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewDidAppear_bool
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewDidDisappear_bool
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ViewWillDisappear_bool
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_DidRotate_UIKit_UIInterfaceOrientation
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_ShouldAutorotate
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_GetSupportedInterfaceOrientations
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController_HandleOnScannerSetupComplete
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__Cancelb__20_0
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ViewDidLoadb__22_0
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ViewDidAppearb__29_0_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__HandleOnScannerSetupCompleteb__35_0
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS_Decode_UIKit_UIImage
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__cctor
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__c__cctor
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__c__ctor
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__c___cctorb__5_0_UIKit_UIImage
+blx _ZXingNetMobile_ZXing_Mobile_BarcodeWriter__ctor
+blx _ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string
+blx _ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions
+blx _ZXingNetMobile_ZXing_Mobile_BitmapRenderer__ctor
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__ctor_UIKit_UIViewController
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__ctor
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_bool
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_System_Action_1_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Cancel
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Torch_bool
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ToggleTorch
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_AutoFocus
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_PauseAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ResumeAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_get_IsTorchOn
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_get_CustomOverlay
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_set_CustomOverlay_UIKit_UIView
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__ScanContinuouslyb__8_2
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__Cancelb__10_0
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_0__ctor
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_0__ScanContinuouslyb__1_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_1__ctor
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass8_1__ScanContinuouslyb__0
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_0__ctor
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_0__Scanb__0
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__ctor
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__Scanb__1
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_1__Scanb__2_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__ctor
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__Scanb__3
+blx _ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner__c__DisplayClass9_2__Scanb__4
+blx _ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS__ctor_UIKit_UIImage
+blx _ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Initialize
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_LayoutSubviews
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Destroy
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__Initializeb__12_1_object_System_EventArgs
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__Initializeb__12_2_object_System_EventArgs
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__Destroyb__14_0
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__c__DisplayClass12_0__ctor
+blx _ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__c__DisplayClass12_0__Initializeb__0
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_intptr
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnCancelButtonPressed_System_Action
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_CancelButtonText
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_CancelButtonText_string
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_FlashButtonText
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_FlashButtonText_string
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_SetupCaptureSession
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Focus_System_Drawing_PointF
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StopScanning
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_PauseAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResumeAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Torch_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ToggleTorch
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_AutoFocus
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_AutoFocus_int_int
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_TopText
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_TopText_string
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_BottomText
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_BottomText_string
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_CustomOverlayView
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_CustomOverlayView_UIKit_UIView
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_UseCustomOverlayView
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_set_UseCustomOverlayView_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_ScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_IsAnalyzing
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_IsTorchOn
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_get_HasTorch
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__Setupb__28_0
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__SetupCaptureSessionb__31_2_UIKit_UIImage
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__StartScanningb__36_0
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_System_Func_2_ZXing_LuminanceSource_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder_DidDropSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection
+bl ZXing_Mobile_ZXingScannerView_OutputRecorder_DidOutputSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_0__ctor
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_0__SetupCaptureSessionb__0_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_0__SetupCaptureSessionb__4_ZXing_LuminanceSource
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_1__ctor
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__DisplayClass31_1__SetupCaptureSessionb__3
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__cctor
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__ctor
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerView__c__SetupCaptureSessionb__31_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_add_OnScannedResult_System_Action_1_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_remove_OnScannedResult_System_Action_1_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_ScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_ScanningOptions_ZXing_Mobile_MobileBarcodeScanningOptions
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_Scanner
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_Scanner_ZXing_Mobile_MobileBarcodeScanner
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_ContinuousScanning
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_ContinuousScanning_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_CustomLoadingView
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_set_CustomLoadingView_UIKit_UIView
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_AsViewController
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_Cancel
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewDidLoad
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_Torch_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ToggleTorch
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_PauseAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ResumeAnalysis
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_get_IsTorchOn
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewDidAppear_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewDidDisappear_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ViewWillDisappear_bool
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_DidRotate_UIKit_UIInterfaceOrientation
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ShouldAutorotate
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_GetSupportedInterfaceOrientations
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_ShouldAutorotateToInterfaceOrientation_UIKit_UIInterfaceOrientation
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController_HandleOnScannerSetupComplete
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidLoadb__26_0
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidAppearb__33_0
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidAppearb__33_1
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ViewDidAppearb__33_2_ZXing_Result
+blx _ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__HandleOnScannerSetupCompleteb__40_0
+blx _ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource__ctor_byte__int_int_int
+blx _ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CalculateLuminance_byte__int
+blx _ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CreateLuminanceSource_byte___int_int
+bl method_addresses
+blx _ZXingNetMobile_System_Nullable_1_bool__ctor_bool
+blx _ZXingNetMobile_System_Nullable_1_bool_get_HasValue
+blx _ZXingNetMobile_System_Nullable_1_bool_get_Value
+blx _ZXingNetMobile_System_Nullable_1_bool_Equals_object
+blx _ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool
+blx _ZXingNetMobile_System_Nullable_1_bool_GetHashCode
+blx _ZXingNetMobile_System_Nullable_1_bool_GetValueOrDefault
+blx _ZXingNetMobile_System_Nullable_1_bool_GetValueOrDefault_bool
+blx _ZXingNetMobile_System_Nullable_1_bool_ToString
+blx _ZXingNetMobile_System_Nullable_1_bool_Box_System_Nullable_1_bool
+blx _ZXingNetMobile_System_Nullable_1_bool_Unbox_object
+blx _ZXingNetMobile_System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_get_Count
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_get_IsReadOnly
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_Clear
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Predicate_1_ZXing_Mobile_CameraResolution_invoke_bool_T_ZXing_Mobile_CameraResolution
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_Mobile_CameraResolution_invoke_void_T_ZXing_Mobile_CameraResolution
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Comparison_1_ZXing_Mobile_CameraResolution_invoke_int_T_T_ZXing_Mobile_CameraResolution_ZXing_Mobile_CameraResolution
+bl method_addresses
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_Dispose
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_MoveNext
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_get_Current
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+blx _ZXingNetMobile_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool_invoke_TResult_T_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_invoke_TResult_T_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_invoke_void_T_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject
+bl method_addresses
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_Dispose
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_MoveNext
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_get_Current
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_Reset
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_INT_System_Collections_IEnumerator_get_Current
+blx _ZXingNetMobile_System_Array_InternalArray__IEnumerable_GetEnumerator_T_INT
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_Add_T_INT_T_INT
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_Remove_T_INT_T_INT
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_Contains_T_INT_T_INT
+blx _ZXingNetMobile_System_Array_InternalArray__ICollection_CopyTo_T_INT_T_INT___int
+bl method_addresses
+blx _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT__ctor
+blx _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
+blx _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_CreateComparer
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_IndexOf_T_INT___T_INT_int_int
+blx _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_GetHashCode_object
+blx _ZXingNetMobile_System_Collections_Generic_EqualityComparer_1_T_INT_System_Collections_IEqualityComparer_Equals_object_object
+blx _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor
+blx _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
+blx _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_T_INT_T_INT
+blx _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode_T_INT
+blx _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
+blx _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_Equals_object
+blx _ZXingNetMobile_System_Collections_Generic_EnumEqualityComparer_1_T_INT_GetHashCode
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Predicate_1_ZXing_BarcodeFormat_invoke_bool_T_ZXing_BarcodeFormat
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_BarcodeFormat_invoke_void_T_ZXing_BarcodeFormat
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Comparison_1_ZXing_BarcodeFormat_invoke_int_T_T_ZXing_BarcodeFormat_ZXing_BarcodeFormat
+blx _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT__ctor_System_Collections_Generic_List_1_T_INT
+blx _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_Dispose
+blx _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_MoveNext
+blx _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_MoveNextRare
+blx _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_get_Current
+blx _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_get_Current
+blx _ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_T_INT_System_Collections_IEnumerator_Reset
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_ZXing_BarcodeFormat_bool_invoke_TResult_T_ZXing_BarcodeFormat
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_Result_invoke_void_T_ZXing_Result
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_ZXing_ResultPoint_invoke_void_T_ZXing_ResultPoint
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_System_Array_InternalArray__Insert_T_INT_int_T_INT
+blx _ZXingNetMobile_System_Array_InternalArray__RemoveAt_int
+blx _ZXingNetMobile_System_Array_InternalArray__IndexOf_T_INT_T_INT
+blx _ZXingNetMobile_System_Array_InternalArray__get_Item_T_INT_int
+blx _ZXingNetMobile_System_Array_InternalArray__set_Item_T_INT_int_T_INT
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_invoke_TResult_T_UIKit_UIImage
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_invoke_TResult_T_ZXing_LuminanceSource
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_invoke_TResult_T1_T2_T3_T4_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_1_ZXing_Result_invoke_TResult
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Predicate_1_UIKit_UIBarButtonItem_invoke_bool_T_UIKit_UIBarButtonItem
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_UIKit_UIBarButtonItem_invoke_void_T_UIKit_UIBarButtonItem
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Comparison_1_UIKit_UIBarButtonItem_invoke_int_T_T_UIKit_UIBarButtonItem_UIKit_UIBarButtonItem
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_ZXing_LuminanceSource_bool_invoke_TResult_T_ZXing_LuminanceSource
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_object_ZXing_Result_invoke_TResult_T_object
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_ZXing_Result_invoke_void_T_System_Threading_Tasks_Task_1_ZXing_Result
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_ZXing_Result_invoke_TResult_T_System_IAsyncResult
+blx _ZXingNetMobile_wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_ZXing_Result_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+blx _ZXingNetMobile_wrapper_delegate_invoke__Module_invoke_void
+blx _ZXingNetMobile_wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___AsyncCallback_object_System_AsyncCallback_object
+blx _ZXingNetMobile_wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+blx _ZXingNetMobile_System_Linq_Enumerable_Select_TSource_INST_TResult_REF_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_TResult_REF
+bl method_addresses
+blx _ZXingNetMobile_System_Linq_Enumerable_Where_TSource_INST_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_bool
+blx _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_GetEnumerator
+blx _ZXingNetMobile_System_Linq_Enumerable_Any_TSource_INT_System_Collections_Generic_IEnumerable_1_TSource_INT_System_Func_2_TSource_INT_bool
+blx _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_Add_T_INT
+blx _ZXingNetMobile_System_Collections_Generic_List_1_T_INT__cctor
+blx _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_Contains_T_INT
+blx _ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+blx _ZXingNetMobile_System_Array_InternalArray__get_Item_T_INST_int
+blx _ZXingNetMobile_System_Collections_Generic_ObjectEqualityComparer_1_T_INT__ctor
+blx _ZXingNetMobile_System_Runtime_CompilerServices_JitHelpers_UnsafeEnumCast_T_INT_T_INT
+blx _ZXingNetMobile_System_Linq_Enumerable_WhereSelectArrayIterator_2_TSource_INST_TResult_REF__ctor_TSource_INST___System_Func_2_TSource_INST_bool_System_Func_2_TSource_INST_TResult_REF
+blx _ZXingNetMobile_System_Linq_Enumerable_WhereSelectListIterator_2_TSource_INST_TResult_REF__ctor_System_Collections_Generic_List_1_TSource_INST_System_Func_2_TSource_INST_bool_System_Func_2_TSource_INST_TResult_REF
+blx _ZXingNetMobile_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_TSource_INST_TResult_REF__ctor_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_bool_System_Func_2_TSource_INST_TResult_REF
+blx _ZXingNetMobile_System_Linq_Enumerable_WhereArrayIterator_1_TSource_INST__ctor_TSource_INST___System_Func_2_TSource_INST_bool
+blx _ZXingNetMobile_System_Linq_Enumerable_WhereListIterator_1_TSource_INST__ctor_System_Collections_Generic_List_1_TSource_INST_System_Func_2_TSource_INST_bool
+blx _ZXingNetMobile_System_Linq_Enumerable_WhereEnumerableIterator_1_TSource_INST__ctor_System_Collections_Generic_IEnumerable_1_TSource_INST_System_Func_2_TSource_INST_bool
+blx _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_EnsureCapacity_int
+blx _ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TSource_REF__ctor
+blx _ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TSource_INST__ctor
+blx _ZXingNetMobile_System_Collections_Generic_List_1_T_INT_set_Capacity_int
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_ZXingNetMobileunbox_trampolines:
+	.globl _mono_aot_ZXingNetMobileunbox_trampolines
+
+	.long 237,238,239,240,241,242,243,244
+	.long 245,246,247,260,261,262,263,264
+	.long 265,279,280,281,282,283,284,329
+	.long 330,331,332,333,334,335,391
+unbox_trampolines_end:
+_mono_aot_ZXingNetMobileunbox_trampolines_end:
+	.globl _mono_aot_ZXingNetMobileunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_ZXingNetMobileunbox_trampoline_addresses:
+	.globl _mono_aot_ZXingNetMobileunbox_trampoline_addresses
+blx ut_237
+blx ut_238
+blx ut_239
+blx ut_240
+blx ut_241
+blx ut_242
+blx ut_243
+blx ut_244
+blx ut_245
+blx ut_246
+blx ut_247
+blx ut_260
+blx ut_261
+blx ut_262
+blx ut_263
+blx ut_264
+blx ut_265
+blx ut_279
+blx ut_280
+blx ut_281
+blx ut_282
+blx ut_283
+blx ut_284
+blx ut_329
+blx ut_330
+blx ut_331
+blx ut_332
+blx ut_333
+blx ut_334
+blx ut_335
+blx ut_391
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_ZXingNetMobileunwind_info:
+	.globl _mono_aot_ZXingNetMobileunwind_info
+
+	.byte 3,12,13,0,46,12,13,0,68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,176,1,68,13,11,3
+	.byte 212,3,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11
+
+.text
+	.align 4
+plt:
+_mono_aot_ZXingNetMobileplt:
+	.globl _mono_aot_ZXingNetMobileplt
+mono_aot_ZXingNetMobile_plt:
+	.no_dead_strip plt_ZXingNetMobile_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_ZXingNetMobile_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_1:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 68,4737
+	.no_dead_strip plt_ZXingNetMobile_System_DateTime_get_UtcNow
+plt_ZXingNetMobile_System_DateTime_get_UtcNow:
+_p_4:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 80,4757
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_thread_get_undeniable_exception
+plt_ZXingNetMobile__jit_icall_mono_thread_get_undeniable_exception:
+_p_104:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 480,5427
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_arch_throw_exception
+plt_ZXingNetMobile__jit_icall_mono_arch_throw_exception:
+_p_105:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 484,5466
+	.no_dead_strip plt_ZXingNetMobile_System_DateTime_op_Subtraction_System_DateTime_System_DateTime
+plt_ZXingNetMobile_System_DateTime_op_Subtraction_System_DateTime_System_DateTime:
+_p_125:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 564,5605
+	.no_dead_strip plt_ZXingNetMobile_System_TimeSpan_get_TotalMilliseconds
+plt_ZXingNetMobile_System_TimeSpan_get_TotalMilliseconds:
+_p_126:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 568,5610
+	.no_dead_strip plt_ZXingNetMobile_System_Console_WriteLine_object
+plt_ZXingNetMobile_System_Console_WriteLine_object:
+_p_196:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 848,5997
+	.no_dead_strip plt_ZXingNetMobile_CoreMedia_CMSampleBuffer_Dispose
+plt_ZXingNetMobile_CoreMedia_CMSampleBuffer_Dispose:
+_p_407:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 1692,9209
+	.no_dead_strip plt_ZXingNetMobile_CoreMedia_CMSampleBuffer_GetImageBuffer
+plt_ZXingNetMobile_CoreMedia_CMSampleBuffer_GetImageBuffer:
+_p_408:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 1696,9214
+	.no_dead_strip plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_Lock_CoreVideo_CVPixelBufferLock
+plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_Lock_CoreVideo_CVPixelBufferLock:
+_p_409:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 1700,9219
+	.no_dead_strip plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_BaseAddress
+plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_BaseAddress:
+_p_410:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 1704,9224
+	.no_dead_strip plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_Height
+plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_Height:
+_p_411:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 1708,9229
+	.no_dead_strip plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_Width
+plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_Width:
+_p_412:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 1712,9234
+	.no_dead_strip plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_Unlock_CoreVideo_CVPixelBufferLock
+plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_Unlock_CoreVideo_CVPixelBufferLock:
+_p_413:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_ZXingNetMobile_got - . + 1716,9239
+	.space 16
+	.thumb_func plt_ZXingNetMobile_wrapper_alloc_object_AllocSmall_intptr_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_wrapper_alloc_object_AllocSmall_intptr_intptr_thumb
+plt_ZXingNetMobile_wrapper_alloc_object_AllocSmall_intptr_intptr_thumb:
+
+.thumb_func
+_p_1_plt_ZXingNetMobile_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm:
+	.globl _p_1_plt_ZXingNetMobile_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 76,4737
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions__ctor_thumb
+plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions__ctor_thumb:
+
+.thumb_func
+_p_2_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions__ctor_llvm:
+	.globl _p_2_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 80,4745
+.code 32
+	.thumb_func plt_ZXingNetMobile_wrapper_write_barrier_object_wbarrier_noconc_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_wrapper_write_barrier_object_wbarrier_noconc_intptr_thumb
+plt_ZXingNetMobile_wrapper_write_barrier_object_wbarrier_noconc_intptr_thumb:
+
+.thumb_func
+_p_3_plt_ZXingNetMobile_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm:
+	.globl _p_3_plt_ZXingNetMobile_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 84,4750
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_DateTime_get_UtcNow_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_DateTime_get_UtcNow_thumb
+plt_ZXingNetMobile_System_DateTime_get_UtcNow_thumb:
+
+.thumb_func
+_p_4_plt_ZXingNetMobile_System_DateTime_get_UtcNow_llvm:
+	.globl _p_4_plt_ZXingNetMobile_System_DateTime_get_UtcNow_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 88,4757
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_DateTime_AddYears_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_DateTime_AddYears_int_thumb
+plt_ZXingNetMobile_System_DateTime_AddYears_int_thumb:
+
+.thumb_func
+_p_5_plt_ZXingNetMobile_System_DateTime_AddYears_int_llvm:
+	.globl _p_5_plt_ZXingNetMobile_System_DateTime_AddYears_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 92,4762
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_llvm_throw_corlib_exception_abs_trampoline_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_llvm_throw_corlib_exception_abs_trampoline_thumb
+plt_ZXingNetMobile__jit_icall_llvm_throw_corlib_exception_abs_trampoline_thumb:
+
+.thumb_func
+_p_6_plt_ZXingNetMobile__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_6_plt_ZXingNetMobile__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 96,4767
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView__ctor_thumb
+plt_ZXingNetMobile_UIKit_UIView__ctor_thumb:
+
+.thumb_func
+_p_7_plt_ZXingNetMobile_UIKit_UIView__ctor_llvm:
+	.globl _p_7_plt_ZXingNetMobile_UIKit_UIView__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 100,4812
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView__ctor_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView__ctor_intptr_thumb
+plt_ZXingNetMobile_UIKit_UIView__ctor_intptr_thumb:
+
+.thumb_func
+_p_8_plt_ZXingNetMobile_UIKit_UIView__ctor_intptr_llvm:
+	.globl _p_8_plt_ZXingNetMobile_UIKit_UIView__ctor_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 104,4817
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView__ctor_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView__ctor_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_UIKit_UIView__ctor_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_9_plt_ZXingNetMobile_UIKit_UIView__ctor_CoreGraphics_CGRect_llvm:
+	.globl _p_9_plt_ZXingNetMobile_UIKit_UIView__ctor_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 108,4822
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Delegate_Combine_System_Delegate_System_Delegate_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Delegate_Combine_System_Delegate_System_Delegate_thumb
+plt_ZXingNetMobile_System_Delegate_Combine_System_Delegate_System_Delegate_thumb:
+
+.thumb_func
+_p_10_plt_ZXingNetMobile_System_Delegate_Combine_System_Delegate_System_Delegate_llvm:
+	.globl _p_10_plt_ZXingNetMobile_System_Delegate_Combine_System_Delegate_System_Delegate_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 112,4827
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_System_Action__System_Action_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_System_Action__System_Action_System_Action_thumb
+plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_System_Action__System_Action_System_Action_thumb:
+
+.thumb_func
+_p_11_plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_System_Action__System_Action_System_Action_llvm:
+	.globl _p_11_plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_System_Action__System_Action_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 116,4832
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Delegate_Remove_System_Delegate_System_Delegate_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Delegate_Remove_System_Delegate_System_Delegate_thumb
+plt_ZXingNetMobile_System_Delegate_Remove_System_Delegate_System_Delegate_thumb:
+
+.thumb_func
+_p_12_plt_ZXingNetMobile_System_Delegate_Remove_System_Delegate_System_Delegate_llvm:
+	.globl _p_12_plt_ZXingNetMobile_System_Delegate_Remove_System_Delegate_System_Delegate_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 120,4844
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_get_Frame_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_get_Frame_thumb
+plt_ZXingNetMobile_UIKit_UIView_get_Frame_thumb:
+
+.thumb_func
+_p_13_plt_ZXingNetMobile_UIKit_UIView_get_Frame_llvm:
+	.globl _p_13_plt_ZXingNetMobile_UIKit_UIView_get_Frame_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 124,4849
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_thumb
+plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_thumb:
+
+.thumb_func
+_p_14_plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm:
+	.globl _p_14_plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 128,4854
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_ldvirtfn_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_ldvirtfn_thumb
+plt_ZXingNetMobile__jit_icall_mono_ldvirtfn_thumb:
+
+.thumb_func
+_p_15_plt_ZXingNetMobile__jit_icall_mono_ldvirtfn_llvm:
+	.globl _p_15_plt_ZXingNetMobile__jit_icall_mono_ldvirtfn_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 132,4859
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Action__ctor_object_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Action__ctor_object_intptr_thumb
+plt_ZXingNetMobile_System_Action__ctor_object_intptr_thumb:
+
+.thumb_func
+_p_16_plt_ZXingNetMobile_System_Action__ctor_object_intptr_llvm:
+	.globl _p_16_plt_ZXingNetMobile_System_Action__ctor_object_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 136,4875
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_ves_icall_object_new_specific_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_ves_icall_object_new_specific_thumb
+plt_ZXingNetMobile__jit_icall_ves_icall_object_new_specific_thumb:
+
+.thumb_func
+_p_17_plt_ZXingNetMobile__jit_icall_ves_icall_object_new_specific_llvm:
+	.globl _p_17_plt_ZXingNetMobile__jit_icall_ves_icall_object_new_specific_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 140,4880
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action_thumb:
+
+.thumb_func
+_p_18_plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action_llvm:
+	.globl _p_18_plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView__ctor_CoreGraphics_CGRect_string_string_string_string_System_Action_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 144,4912
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_set_Frame_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_set_Frame_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_UIKit_UIView_set_Frame_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_19_plt_ZXingNetMobile_UIKit_UIView_set_Frame_CoreGraphics_CGRect_llvm:
+	.globl _p_19_plt_ZXingNetMobile_UIKit_UIView_set_Frame_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 148,4915
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing_thumb
+plt_ZXingNetMobile_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing_thumb:
+
+.thumb_func
+_p_20_plt_ZXingNetMobile_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing_llvm:
+	.globl _p_20_plt_ZXingNetMobile_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 152,4920
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_RemoveFromSuperview_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_RemoveFromSuperview_thumb
+plt_ZXingNetMobile_UIKit_UIView_RemoveFromSuperview_thumb:
+
+.thumb_func
+_p_21_plt_ZXingNetMobile_UIKit_UIView_RemoveFromSuperview_llvm:
+	.globl _p_21_plt_ZXingNetMobile_UIKit_UIView_RemoveFromSuperview_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 156,4925
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution__ctor_thumb
+plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution__ctor_thumb:
+
+.thumb_func
+_p_22_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution__ctor_llvm:
+	.globl _p_22_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 160,4930
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset352x288_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset352x288_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset352x288_thumb:
+
+.thumb_func
+_p_23_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset352x288_llvm:
+	.globl _p_23_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset352x288_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 164,4941
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Add_Foundation_NSString_ZXing_Mobile_CameraResolution_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Add_Foundation_NSString_ZXing_Mobile_CameraResolution_thumb
+plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Add_Foundation_NSString_ZXing_Mobile_CameraResolution_thumb:
+
+.thumb_func
+_p_24_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Add_Foundation_NSString_ZXing_Mobile_CameraResolution_llvm:
+	.globl _p_24_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Add_Foundation_NSString_ZXing_Mobile_CameraResolution_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 168,4946
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_PresetMedium_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_PresetMedium_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_PresetMedium_thumb:
+
+.thumb_func
+_p_25_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_PresetMedium_llvm:
+	.globl _p_25_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_PresetMedium_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 172,4957
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset640x480_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset640x480_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset640x480_thumb:
+
+.thumb_func
+_p_26_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset640x480_llvm:
+	.globl _p_26_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset640x480_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 176,4962
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1280x720_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1280x720_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1280x720_thumb:
+
+.thumb_func
+_p_27_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1280x720_llvm:
+	.globl _p_27_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1280x720_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 180,4967
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1920x1080_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1920x1080_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1920x1080_thumb:
+
+.thumb_func
+_p_28_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1920x1080_llvm:
+	.globl _p_28_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Preset1920x1080_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 184,4972
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession__ctor_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession__ctor_thumb:
+
+.thumb_func
+_p_29_plt_ZXingNetMobile_AVFoundation_AVCaptureSession__ctor_llvm:
+	.globl _p_29_plt_ZXingNetMobile_AVFoundation_AVCaptureSession__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 188,4977
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_set_SessionPreset_Foundation_NSString_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_set_SessionPreset_Foundation_NSString_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_set_SessionPreset_Foundation_NSString_thumb:
+
+.thumb_func
+_p_30_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_set_SessionPreset_Foundation_NSString_llvm:
+	.globl _p_30_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_set_SessionPreset_Foundation_NSString_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 192,4982
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMediaType_get_Video_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMediaType_get_Video_thumb
+plt_ZXingNetMobile_AVFoundation_AVMediaType_get_Video_thumb:
+
+.thumb_func
+_p_31_plt_ZXingNetMobile_AVFoundation_AVMediaType_get_Video_llvm:
+	.globl _p_31_plt_ZXingNetMobile_AVFoundation_AVMediaType_get_Video_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 196,4987
+.code 32
+	.thumb_func plt_ZXingNetMobile_Foundation_NSString_op_Implicit_Foundation_NSString_thumb
+	.no_dead_strip plt_ZXingNetMobile_Foundation_NSString_op_Implicit_Foundation_NSString_thumb
+plt_ZXingNetMobile_Foundation_NSString_op_Implicit_Foundation_NSString_thumb:
+
+.thumb_func
+_p_32_plt_ZXingNetMobile_Foundation_NSString_op_Implicit_Foundation_NSString_llvm:
+	.globl _p_32_plt_ZXingNetMobile_Foundation_NSString_op_Implicit_Foundation_NSString_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 200,4992
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string_thumb:
+
+.thumb_func
+_p_33_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string_llvm:
+	.globl _p_33_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DevicesWithMediaType_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 204,4997
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_Position_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_Position_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_Position_thumb:
+
+.thumb_func
+_p_34_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_Position_llvm:
+	.globl _p_34_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_Position_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 208,5002
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_GetEnumerator_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_GetEnumerator_thumb
+plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_GetEnumerator_thumb:
+
+.thumb_func
+_p_35_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_GetEnumerator_llvm:
+	.globl _p_35_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Foundation_NSString_ZXing_Mobile_CameraResolution_GetEnumerator_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 212,5007
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_thumb
+plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_thumb:
+
+.thumb_func
+_p_36_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_llvm:
+	.globl _p_36_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_GetResolution_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 216,5018
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDeviceInput_FromDevice_AVFoundation_AVCaptureDevice_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDeviceInput_FromDevice_AVFoundation_AVCaptureDevice_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDeviceInput_FromDevice_AVFoundation_AVCaptureDevice_thumb:
+
+.thumb_func
+_p_37_plt_ZXingNetMobile_AVFoundation_AVCaptureDeviceInput_FromDevice_AVFoundation_AVCaptureDevice_llvm:
+	.globl _p_37_plt_ZXingNetMobile_AVFoundation_AVCaptureDeviceInput_FromDevice_AVFoundation_AVCaptureDevice_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 220,5023
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddInput_AVFoundation_AVCaptureInput_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddInput_AVFoundation_AVCaptureInput_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddInput_AVFoundation_AVCaptureInput_thumb:
+
+.thumb_func
+_p_38_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddInput_AVFoundation_AVCaptureInput_llvm:
+	.globl _p_38_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddInput_AVFoundation_AVCaptureInput_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 224,5028
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput__ctor_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput__ctor_thumb:
+
+.thumb_func
+_p_39_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput__ctor_llvm:
+	.globl _p_39_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 228,5033
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_thumb
+plt_ZXingNetMobile_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_thumb:
+
+.thumb_func
+_p_40_plt_ZXingNetMobile_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_llvm:
+	.globl _p_40_plt_ZXingNetMobile_ZXing_Mobile_CaptureDelegate__ctor_System_Action_1_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 232,5038
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreFoundation_DispatchQueue_get_MainQueue_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreFoundation_DispatchQueue_get_MainQueue_thumb
+plt_ZXingNetMobile_CoreFoundation_DispatchQueue_get_MainQueue_thumb:
+
+.thumb_func
+_p_41_plt_ZXingNetMobile_CoreFoundation_DispatchQueue_get_MainQueue_llvm:
+	.globl _p_41_plt_ZXingNetMobile_CoreFoundation_DispatchQueue_get_MainQueue_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 236,5040
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_SetDelegate_AVFoundation_IAVCaptureMetadataOutputObjectsDelegate_CoreFoundation_DispatchQueue_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_SetDelegate_AVFoundation_IAVCaptureMetadataOutputObjectsDelegate_CoreFoundation_DispatchQueue_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_SetDelegate_AVFoundation_IAVCaptureMetadataOutputObjectsDelegate_CoreFoundation_DispatchQueue_thumb:
+
+.thumb_func
+_p_42_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_SetDelegate_AVFoundation_IAVCaptureMetadataOutputObjectsDelegate_CoreFoundation_DispatchQueue_llvm:
+	.globl _p_42_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_SetDelegate_AVFoundation_IAVCaptureMetadataOutputObjectsDelegate_CoreFoundation_DispatchQueue_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 240,5045
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddOutput_AVFoundation_AVCaptureOutput_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddOutput_AVFoundation_AVCaptureOutput_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddOutput_AVFoundation_AVCaptureOutput_thumb:
+
+.thumb_func
+_p_43_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddOutput_AVFoundation_AVCaptureOutput_llvm:
+	.globl _p_43_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_AddOutput_AVFoundation_AVCaptureOutput_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 244,5050
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_get_AvailableMetadataObjectTypes_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_get_AvailableMetadataObjectTypes_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_get_AvailableMetadataObjectTypes_thumb:
+
+.thumb_func
+_p_44_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_get_AvailableMetadataObjectTypes_llvm:
+	.globl _p_44_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_get_AvailableMetadataObjectTypes_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 248,5055
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_set_MetadataObjectTypes_AVFoundation_AVMetadataObjectType_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_set_MetadataObjectTypes_AVFoundation_AVMetadataObjectType_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_set_MetadataObjectTypes_AVFoundation_AVMetadataObjectType_thumb:
+
+.thumb_func
+_p_45_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_set_MetadataObjectTypes_AVFoundation_AVMetadataObjectType_llvm:
+	.globl _p_45_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutput_set_MetadataObjectTypes_AVFoundation_AVMetadataObjectType_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 252,5060
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession_thumb:
+
+.thumb_func
+_p_46_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession_llvm:
+	.globl _p_46_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer__ctor_AVFoundation_AVCaptureSession_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 256,5065
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity_thumb:
+
+.thumb_func
+_p_47_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity_llvm:
+	.globl _p_47_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_set_VideoGravity_AVFoundation_AVLayerVideoGravity_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 260,5070
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreAnimation_CALayer_set_Frame_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreAnimation_CALayer_set_Frame_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_CoreAnimation_CALayer_set_Frame_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_48_plt_ZXingNetMobile_CoreAnimation_CALayer_set_Frame_CoreGraphics_CGRect_llvm:
+	.globl _p_48_plt_ZXingNetMobile_CoreAnimation_CALayer_set_Frame_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 264,5075
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_get_Layer_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_get_Layer_thumb
+plt_ZXingNetMobile_UIKit_UIView_get_Layer_thumb:
+
+.thumb_func
+_p_49_plt_ZXingNetMobile_UIKit_UIView_get_Layer_llvm:
+	.globl _p_49_plt_ZXingNetMobile_UIKit_UIView_get_Layer_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 268,5080
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreAnimation_CALayer_get_Bounds_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreAnimation_CALayer_get_Bounds_thumb
+plt_ZXingNetMobile_CoreAnimation_CALayer_get_Bounds_thumb:
+
+.thumb_func
+_p_50_plt_ZXingNetMobile_CoreAnimation_CALayer_get_Bounds_llvm:
+	.globl _p_50_plt_ZXingNetMobile_CoreAnimation_CALayer_get_Bounds_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 272,5085
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreAnimation_CALayer_AddSublayer_CoreAnimation_CALayer_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreAnimation_CALayer_AddSublayer_CoreAnimation_CALayer_thumb
+plt_ZXingNetMobile_CoreAnimation_CALayer_AddSublayer_CoreAnimation_CALayer_thumb:
+
+.thumb_func
+_p_51_plt_ZXingNetMobile_CoreAnimation_CALayer_AddSublayer_CoreAnimation_CALayer_llvm:
+	.globl _p_51_plt_ZXingNetMobile_CoreAnimation_CALayer_AddSublayer_CoreAnimation_CALayer_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 276,5090
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_AddSubview_UIKit_UIView_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_AddSubview_UIKit_UIView_thumb
+plt_ZXingNetMobile_UIKit_UIView_AddSubview_UIKit_UIView_thumb:
+
+.thumb_func
+_p_52_plt_ZXingNetMobile_UIKit_UIView_AddSubview_UIKit_UIView_llvm:
+	.globl _p_52_plt_ZXingNetMobile_UIKit_UIView_AddSubview_UIKit_UIView_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 280,5095
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIApplication_get_SharedApplication_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIApplication_get_SharedApplication_thumb
+plt_ZXingNetMobile_UIKit_UIApplication_get_SharedApplication_thumb:
+
+.thumb_func
+_p_53_plt_ZXingNetMobile_UIKit_UIApplication_get_SharedApplication_llvm:
+	.globl _p_53_plt_ZXingNetMobile_UIKit_UIApplication_get_SharedApplication_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 284,5100
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarOrientation_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarOrientation_thumb
+plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarOrientation_thumb:
+
+.thumb_func
+_p_54_plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarOrientation_llvm:
+	.globl _p_54_plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarOrientation_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 288,5105
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation_thumb:
+
+.thumb_func
+_p_55_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation_llvm:
+	.globl _p_55_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ResizePreview_UIKit_UIInterfaceOrientation_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 292,5110
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StartRunning_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StartRunning_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StartRunning_thumb:
+
+.thumb_func
+_p_56_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StartRunning_llvm:
+	.globl _p_56_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StartRunning_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 296,5112
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Console_WriteLine_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Console_WriteLine_string_thumb
+plt_ZXingNetMobile_System_Console_WriteLine_string_thumb:
+
+.thumb_func
+_p_57_plt_ZXingNetMobile_System_Console_WriteLine_string_llvm:
+	.globl _p_57_plt_ZXingNetMobile_System_Console_WriteLine_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 300,5117
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsFocusModeSupported_AVFoundation_AVCaptureFocusMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsFocusModeSupported_AVFoundation_AVCaptureFocusMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsFocusModeSupported_AVFoundation_AVCaptureFocusMode_thumb:
+
+.thumb_func
+_p_58_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsFocusModeSupported_AVFoundation_AVCaptureFocusMode_llvm:
+	.globl _p_58_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsFocusModeSupported_AVFoundation_AVCaptureFocusMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 304,5122
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_LockForConfiguration_Foundation_NSError__thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_LockForConfiguration_Foundation_NSError__thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_LockForConfiguration_Foundation_NSError__thumb:
+
+.thumb_func
+_p_59_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_LockForConfiguration_Foundation_NSError__llvm:
+	.globl _p_59_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_LockForConfiguration_Foundation_NSError__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 308,5127
+.code 32
+	.thumb_func plt_ZXingNetMobile_string_Concat_string_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_string_Concat_string_string_thumb
+plt_ZXingNetMobile_string_Concat_string_string_thumb:
+
+.thumb_func
+_p_60_plt_ZXingNetMobile_string_Concat_string_string_llvm:
+	.globl _p_60_plt_ZXingNetMobile_string_Concat_string_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 312,5132
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsExposureModeSupported_AVFoundation_AVCaptureExposureMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsExposureModeSupported_AVFoundation_AVCaptureExposureMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsExposureModeSupported_AVFoundation_AVCaptureExposureMode_thumb:
+
+.thumb_func
+_p_61_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsExposureModeSupported_AVFoundation_AVCaptureExposureMode_llvm:
+	.globl _p_61_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsExposureModeSupported_AVFoundation_AVCaptureExposureMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 316,5137
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsWhiteBalanceModeSupported_AVFoundation_AVCaptureWhiteBalanceMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsWhiteBalanceModeSupported_AVFoundation_AVCaptureWhiteBalanceMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsWhiteBalanceModeSupported_AVFoundation_AVCaptureWhiteBalanceMode_thumb:
+
+.thumb_func
+_p_62_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsWhiteBalanceModeSupported_AVFoundation_AVCaptureWhiteBalanceMode_llvm:
+	.globl _p_62_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_IsWhiteBalanceModeSupported_AVFoundation_AVCaptureWhiteBalanceMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 320,5142
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIDevice_get_CurrentDevice_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIDevice_get_CurrentDevice_thumb
+plt_ZXingNetMobile_UIKit_UIDevice_get_CurrentDevice_thumb:
+
+.thumb_func
+_p_63_plt_ZXingNetMobile_UIKit_UIDevice_get_CurrentDevice_llvm:
+	.globl _p_63_plt_ZXingNetMobile_UIKit_UIDevice_get_CurrentDevice_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 324,5147
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIDevice_CheckSystemVersion_int_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIDevice_CheckSystemVersion_int_int_thumb
+plt_ZXingNetMobile_UIKit_UIDevice_CheckSystemVersion_int_int_thumb:
+
+.thumb_func
+_p_64_plt_ZXingNetMobile_UIKit_UIDevice_CheckSystemVersion_int_int_llvm:
+	.globl _p_64_plt_ZXingNetMobile_UIKit_UIDevice_CheckSystemVersion_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 328,5152
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_FocusPointOfInterestSupported_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_FocusPointOfInterestSupported_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_FocusPointOfInterestSupported_thumb:
+
+.thumb_func
+_p_65_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_FocusPointOfInterestSupported_llvm:
+	.globl _p_65_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_FocusPointOfInterestSupported_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 332,5157
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_ExposurePointOfInterestSupported_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_ExposurePointOfInterestSupported_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_ExposurePointOfInterestSupported_thumb:
+
+.thumb_func
+_p_66_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_ExposurePointOfInterestSupported_llvm:
+	.globl _p_66_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_ExposurePointOfInterestSupported_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 336,5162
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_UnlockForConfiguration_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_UnlockForConfiguration_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_UnlockForConfiguration_thumb:
+
+.thumb_func
+_p_67_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_UnlockForConfiguration_llvm:
+	.globl _p_67_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_UnlockForConfiguration_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 340,5167
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGPoint__ctor_single_single_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGPoint__ctor_single_single_thumb
+plt_ZXingNetMobile_CoreGraphics_CGPoint__ctor_single_single_thumb:
+
+.thumb_func
+_p_68_plt_ZXingNetMobile_CoreGraphics_CGPoint__ctor_single_single_llvm:
+	.globl _p_68_plt_ZXingNetMobile_CoreGraphics_CGPoint__ctor_single_single_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 344,5172
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposurePointOfInterest_CoreGraphics_CGPoint_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposurePointOfInterest_CoreGraphics_CGPoint_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposurePointOfInterest_CoreGraphics_CGPoint_thumb:
+
+.thumb_func
+_p_69_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposurePointOfInterest_CoreGraphics_CGPoint_llvm:
+	.globl _p_69_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposurePointOfInterest_CoreGraphics_CGPoint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 348,5177
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusPointOfInterest_CoreGraphics_CGPoint_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusPointOfInterest_CoreGraphics_CGPoint_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusPointOfInterest_CoreGraphics_CGPoint_thumb:
+
+.thumb_func
+_p_70_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusPointOfInterest_CoreGraphics_CGPoint_llvm:
+	.globl _p_70_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusPointOfInterest_CoreGraphics_CGPoint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 352,5182
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_AutoFocusRangeRestriction_AVFoundation_AVCaptureAutoFocusRangeRestriction_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_AutoFocusRangeRestriction_AVFoundation_AVCaptureAutoFocusRangeRestriction_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_AutoFocusRangeRestriction_AVFoundation_AVCaptureAutoFocusRangeRestriction_thumb:
+
+.thumb_func
+_p_71_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_AutoFocusRangeRestriction_AVFoundation_AVCaptureAutoFocusRangeRestriction_llvm:
+	.globl _p_71_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_AutoFocusRangeRestriction_AVFoundation_AVCaptureAutoFocusRangeRestriction_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 356,5187
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AutoFocusRangeRestrictionSupported_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AutoFocusRangeRestrictionSupported_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AutoFocusRangeRestrictionSupported_thumb:
+
+.thumb_func
+_p_72_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AutoFocusRangeRestrictionSupported_llvm:
+	.globl _p_72_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AutoFocusRangeRestrictionSupported_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 360,5192
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_WhiteBalanceMode_AVFoundation_AVCaptureWhiteBalanceMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_WhiteBalanceMode_AVFoundation_AVCaptureWhiteBalanceMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_WhiteBalanceMode_AVFoundation_AVCaptureWhiteBalanceMode_thumb:
+
+.thumb_func
+_p_73_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_WhiteBalanceMode_AVFoundation_AVCaptureWhiteBalanceMode_llvm:
+	.globl _p_73_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_WhiteBalanceMode_AVFoundation_AVCaptureWhiteBalanceMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 364,5197
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposureMode_AVFoundation_AVCaptureExposureMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposureMode_AVFoundation_AVCaptureExposureMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposureMode_AVFoundation_AVCaptureExposureMode_thumb:
+
+.thumb_func
+_p_74_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposureMode_AVFoundation_AVCaptureExposureMode_llvm:
+	.globl _p_74_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_ExposureMode_AVFoundation_AVCaptureExposureMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 368,5202
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusMode_AVFoundation_AVCaptureFocusMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusMode_AVFoundation_AVCaptureFocusMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusMode_AVFoundation_AVCaptureFocusMode_thumb:
+
+.thumb_func
+_p_75_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusMode_AVFoundation_AVCaptureFocusMode_llvm:
+	.globl _p_75_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FocusMode_AVFoundation_AVCaptureFocusMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 372,5207
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_BringSubviewToFront_UIKit_UIView_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_BringSubviewToFront_UIKit_UIView_thumb
+plt_ZXingNetMobile_UIKit_UIView_BringSubviewToFront_UIKit_UIView_thumb:
+
+.thumb_func
+_p_76_plt_ZXingNetMobile_UIKit_UIView_BringSubviewToFront_UIKit_UIView_llvm:
+	.globl _p_76_plt_ZXingNetMobile_UIKit_UIView_BringSubviewToFront_UIKit_UIView_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 376,5212
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator_thumb
+plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator_thumb:
+
+.thumb_func
+_p_77_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator_llvm:
+	.globl _p_77_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_GetEnumerator_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 380,5217
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext_thumb
+plt_ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext_thumb:
+
+.thumb_func
+_p_78_plt_ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext_llvm:
+	.globl _p_78_plt_ZXingNetMobile_System_Collections_Generic_List_1_Enumerator_ZXing_BarcodeFormat_MoveNext_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 384,5228
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat_thumb:
+
+.thumb_func
+_p_79_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat_llvm:
+	.globl _p_79_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_AVCaptureBarcodeFormatFromZXingBarcodeFormat_ZXing_BarcodeFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 388,5239
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_Where_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_Where_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_Where_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool_thumb:
+
+.thumb_func
+_p_80_plt_ZXingNetMobile_System_Linq_Enumerable_Where_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool_llvm:
+	.globl _p_80_plt_ZXingNetMobile_System_Linq_Enumerable_Where_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 392,5241
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_Select_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_Select_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_Select_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_thumb:
+
+.thumb_func
+_p_81_plt_ZXingNetMobile_System_Linq_Enumerable_Select_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_llvm:
+	.globl _p_81_plt_ZXingNetMobile_System_Linq_Enumerable_Select_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_System_Func_2_System_Collections_Generic_KeyValuePair_2_Foundation_NSString_ZXing_Mobile_CameraResolution_Foundation_NSString_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 396,5253
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_Foundation_NSString_System_Collections_Generic_IEnumerable_1_Foundation_NSString_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_Foundation_NSString_System_Collections_Generic_IEnumerable_1_Foundation_NSString_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_Foundation_NSString_System_Collections_Generic_IEnumerable_1_Foundation_NSString_thumb:
+
+.thumb_func
+_p_82_plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_Foundation_NSString_System_Collections_Generic_IEnumerable_1_Foundation_NSString_llvm:
+	.globl _p_82_plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_Foundation_NSString_System_Collections_Generic_IEnumerable_1_Foundation_NSString_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 400,5265
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_MoveNext_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_MoveNext_thumb
+plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_MoveNext_thumb:
+
+.thumb_func
+_p_83_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_MoveNext_llvm:
+	.globl _p_83_plt_ZXingNetMobile_System_Collections_Generic_Dictionary_2_Enumerator_Foundation_NSString_ZXing_Mobile_CameraResolution_MoveNext_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 404,5277
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_SupportsAVCaptureSessionPreset_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_SupportsAVCaptureSessionPreset_string_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_SupportsAVCaptureSessionPreset_string_thumb:
+
+.thumb_func
+_p_84_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_SupportsAVCaptureSessionPreset_string_llvm:
+	.globl _p_84_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_SupportsAVCaptureSessionPreset_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 408,5288
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_Add_ZXing_Mobile_CameraResolution_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_Add_ZXing_Mobile_CameraResolution_thumb
+plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_Add_ZXing_Mobile_CameraResolution_thumb:
+
+.thumb_func
+_p_85_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_Add_ZXing_Mobile_CameraResolution_llvm:
+	.globl _p_85_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_Mobile_CameraResolution_Add_ZXing_Mobile_CameraResolution_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 412,5293
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Nullable_1_bool_get_Value_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Nullable_1_bool_get_Value_thumb
+plt_ZXingNetMobile_System_Nullable_1_bool_get_Value_thumb:
+
+.thumb_func
+_p_86_plt_ZXingNetMobile_System_Nullable_1_bool_get_Value_llvm:
+	.globl _p_86_plt_ZXingNetMobile_System_Nullable_1_bool_get_Value_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 416,5304
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_llvm_resume_unwind_trampoline_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_llvm_resume_unwind_trampoline_thumb
+plt_ZXingNetMobile__jit_icall_llvm_resume_unwind_trampoline_thumb:
+
+.thumb_func
+_p_87_plt_ZXingNetMobile__jit_icall_llvm_resume_unwind_trampoline_llvm:
+	.globl _p_87_plt_ZXingNetMobile__jit_icall_llvm_resume_unwind_trampoline_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 420,5315
+.code 32
+	.thumb_func plt_ZXingNetMobile_ObjCRuntime_Selector__ctor_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_ObjCRuntime_Selector__ctor_string_thumb
+plt_ZXingNetMobile_ObjCRuntime_Selector__ctor_string_thumb:
+
+.thumb_func
+_p_88_plt_ZXingNetMobile_ObjCRuntime_Selector__ctor_string_llvm:
+	.globl _p_88_plt_ZXingNetMobile_ObjCRuntime_Selector__ctor_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 424,5347
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_get_Connection_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_get_Connection_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_get_Connection_thumb:
+
+.thumb_func
+_p_89_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_get_Connection_llvm:
+	.globl _p_89_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoPreviewLayer_get_Connection_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 428,5352
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureConnection_set_VideoOrientation_AVFoundation_AVCaptureVideoOrientation_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureConnection_set_VideoOrientation_AVFoundation_AVCaptureVideoOrientation_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureConnection_set_VideoOrientation_AVFoundation_AVCaptureVideoOrientation_thumb:
+
+.thumb_func
+_p_90_plt_ZXingNetMobile_AVFoundation_AVCaptureConnection_set_VideoOrientation_AVFoundation_AVCaptureVideoOrientation_llvm:
+	.globl _p_90_plt_ZXingNetMobile_AVFoundation_AVCaptureConnection_set_VideoOrientation_AVFoundation_AVCaptureVideoOrientation_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 432,5357
+.code 32
+	.thumb_func plt_ZXingNetMobile_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString_thumb
+	.no_dead_strip plt_ZXingNetMobile_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString_thumb
+plt_ZXingNetMobile_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString_thumb:
+
+.thumb_func
+_p_91_plt_ZXingNetMobile_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString_llvm:
+	.globl _p_91_plt_ZXingNetMobile_Foundation_NSString_op_Equality_Foundation_NSString_Foundation_NSString_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 436,5362
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DefaultDeviceWithMediaType_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DefaultDeviceWithMediaType_string_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DefaultDeviceWithMediaType_string_thumb:
+
+.thumb_func
+_p_92_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DefaultDeviceWithMediaType_string_llvm:
+	.globl _p_92_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_DefaultDeviceWithMediaType_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 440,5367
+.code 32
+	.thumb_func plt_ZXingNetMobile_wrapper_alloc_object_AllocVector_intptr_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_wrapper_alloc_object_AllocVector_intptr_intptr_thumb
+plt_ZXingNetMobile_wrapper_alloc_object_AllocVector_intptr_intptr_thumb:
+
+.thumb_func
+_p_93_plt_ZXingNetMobile_wrapper_alloc_object_AllocVector_intptr_intptr_llvm:
+	.globl _p_93_plt_ZXingNetMobile_wrapper_alloc_object_AllocVector_intptr_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 444,5372
+.code 32
+	.thumb_func plt_ZXingNetMobile_string_Concat_object___thumb
+	.no_dead_strip plt_ZXingNetMobile_string_Concat_object___thumb
+plt_ZXingNetMobile_string_Concat_object___thumb:
+
+.thumb_func
+_p_94_plt_ZXingNetMobile_string_Concat_object___llvm:
+	.globl _p_94_plt_ZXingNetMobile_string_Concat_object___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 448,5380
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AdjustingFocus_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AdjustingFocus_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AdjustingFocus_thumb:
+
+.thumb_func
+_p_95_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AdjustingFocus_llvm:
+	.globl _p_95_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_AdjustingFocus_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 452,5385
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Setup_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Setup_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Setup_thumb:
+
+.thumb_func
+_p_96_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Setup_llvm:
+	.globl _p_96_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Setup_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 456,5390
+.code 32
+	.thumb_func plt_ZXingNetMobile_Foundation_NSObject_InvokeOnMainThread_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_Foundation_NSObject_InvokeOnMainThread_System_Action_thumb
+plt_ZXingNetMobile_Foundation_NSObject_InvokeOnMainThread_System_Action_thumb:
+
+.thumb_func
+_p_97_plt_ZXingNetMobile_Foundation_NSObject_InvokeOnMainThread_System_Action_llvm:
+	.globl _p_97_plt_ZXingNetMobile_Foundation_NSObject_InvokeOnMainThread_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 460,5392
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Running_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Running_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Running_thumb:
+
+.thumb_func
+_p_98_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Running_llvm:
+	.globl _p_98_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Running_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 464,5397
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StopRunning_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StopRunning_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StopRunning_thumb:
+
+.thumb_func
+_p_99_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StopRunning_llvm:
+	.globl _p_99_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_StopRunning_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 468,5402
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Inputs_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Inputs_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Inputs_thumb:
+
+.thumb_func
+_p_100_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Inputs_llvm:
+	.globl _p_100_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Inputs_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 472,5407
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveInput_AVFoundation_AVCaptureInput_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveInput_AVFoundation_AVCaptureInput_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveInput_AVFoundation_AVCaptureInput_thumb:
+
+.thumb_func
+_p_101_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveInput_AVFoundation_AVCaptureInput_llvm:
+	.globl _p_101_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveInput_AVFoundation_AVCaptureInput_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 476,5412
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Outputs_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Outputs_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Outputs_thumb:
+
+.thumb_func
+_p_102_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Outputs_llvm:
+	.globl _p_102_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_get_Outputs_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 480,5417
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveOutput_AVFoundation_AVCaptureOutput_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveOutput_AVFoundation_AVCaptureOutput_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveOutput_AVFoundation_AVCaptureOutput_thumb:
+
+.thumb_func
+_p_103_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveOutput_AVFoundation_AVCaptureOutput_llvm:
+	.globl _p_103_plt_ZXingNetMobile_AVFoundation_AVCaptureSession_RemoveOutput_AVFoundation_AVCaptureOutput_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 484,5422
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_thread_get_undeniable_exception_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_thread_get_undeniable_exception_thumb
+plt_ZXingNetMobile__jit_icall_mono_thread_get_undeniable_exception_thumb:
+
+.thumb_func
+_p_104_plt_ZXingNetMobile__jit_icall_mono_thread_get_undeniable_exception_llvm:
+	.globl _p_104_plt_ZXingNetMobile__jit_icall_mono_thread_get_undeniable_exception_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 488,5427
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_arch_throw_exception_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_arch_throw_exception_thumb
+plt_ZXingNetMobile__jit_icall_mono_arch_throw_exception_thumb:
+
+.thumb_func
+_p_105_plt_ZXingNetMobile__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_105_plt_ZXingNetMobile__jit_icall_mono_arch_throw_exception_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 492,5466
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasFlash_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasFlash_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasFlash_thumb:
+
+.thumb_func
+_p_106_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasFlash_llvm:
+	.globl _p_106_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasFlash_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 496,5494
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasTorch_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasTorch_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasTorch_thumb:
+
+.thumb_func
+_p_107_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasTorch_llvm:
+	.globl _p_107_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_HasTorch_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 500,5499
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FlashMode_AVFoundation_AVCaptureFlashMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FlashMode_AVFoundation_AVCaptureFlashMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FlashMode_AVFoundation_AVCaptureFlashMode_thumb:
+
+.thumb_func
+_p_108_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FlashMode_AVFoundation_AVCaptureFlashMode_llvm:
+	.globl _p_108_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_FlashMode_AVFoundation_AVCaptureFlashMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 504,5504
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_TorchMode_AVFoundation_AVCaptureTorchMode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_TorchMode_AVFoundation_AVCaptureTorchMode_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_TorchMode_AVFoundation_AVCaptureTorchMode_thumb:
+
+.thumb_func
+_p_109_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_TorchMode_AVFoundation_AVCaptureTorchMode_llvm:
+	.globl _p_109_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_set_TorchMode_AVFoundation_AVCaptureTorchMode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 508,5509
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Torch_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Torch_bool_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Torch_bool_thumb:
+
+.thumb_func
+_p_110_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Torch_bool_llvm:
+	.globl _p_110_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_Torch_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 512,5514
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Nullable_1_bool__ctor_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Nullable_1_bool__ctor_bool_thumb
+plt_ZXingNetMobile_System_Nullable_1_bool__ctor_bool_thumb:
+
+.thumb_func
+_p_111_plt_ZXingNetMobile_System_Nullable_1_bool__ctor_bool_llvm:
+	.globl _p_111_plt_ZXingNetMobile_System_Nullable_1_bool__ctor_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 516,5516
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Add_ZXing_BarcodeFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Add_ZXing_BarcodeFormat_thumb
+plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Add_ZXing_BarcodeFormat_thumb:
+
+.thumb_func
+_p_112_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Add_ZXing_BarcodeFormat_llvm:
+	.globl _p_112_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Add_ZXing_BarcodeFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 520,5527
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_Any_ZXing_BarcodeFormat_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_System_Func_2_ZXing_BarcodeFormat_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_Any_ZXing_BarcodeFormat_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_System_Func_2_ZXing_BarcodeFormat_bool_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_Any_ZXing_BarcodeFormat_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_System_Func_2_ZXing_BarcodeFormat_bool_thumb:
+
+.thumb_func
+_p_113_plt_ZXingNetMobile_System_Linq_Enumerable_Any_ZXing_BarcodeFormat_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_System_Func_2_ZXing_BarcodeFormat_bool_llvm:
+	.globl _p_113_plt_ZXingNetMobile_System_Linq_Enumerable_Any_ZXing_BarcodeFormat_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_System_Func_2_ZXing_BarcodeFormat_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 524,5538
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeAztecCode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeAztecCode_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeAztecCode_thumb:
+
+.thumb_func
+_p_114_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeAztecCode_llvm:
+	.globl _p_114_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeAztecCode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 528,5550
+.code 32
+	.thumb_func plt_ZXingNetMobile_string_op_Equality_string_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_string_op_Equality_string_string_thumb
+plt_ZXingNetMobile_string_op_Equality_string_string_thumb:
+
+.thumb_func
+_p_115_plt_ZXingNetMobile_string_op_Equality_string_string_llvm:
+	.globl _p_115_plt_ZXingNetMobile_string_op_Equality_string_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 532,5555
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode128Code_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode128Code_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode128Code_thumb:
+
+.thumb_func
+_p_116_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode128Code_llvm:
+	.globl _p_116_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode128Code_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 536,5560
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Code_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Code_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Code_thumb:
+
+.thumb_func
+_p_117_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Code_llvm:
+	.globl _p_117_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Code_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 540,5565
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Mod43Code_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Mod43Code_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Mod43Code_thumb:
+
+.thumb_func
+_p_118_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Mod43Code_llvm:
+	.globl _p_118_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode39Mod43Code_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 544,5570
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode93Code_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode93Code_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode93Code_thumb:
+
+.thumb_func
+_p_119_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode93Code_llvm:
+	.globl _p_119_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeCode93Code_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 548,5575
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN13Code_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN13Code_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN13Code_thumb:
+
+.thumb_func
+_p_120_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN13Code_llvm:
+	.globl _p_120_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN13Code_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 552,5580
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN8Code_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN8Code_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN8Code_thumb:
+
+.thumb_func
+_p_121_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN8Code_llvm:
+	.globl _p_121_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeEAN8Code_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 556,5585
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypePDF417Code_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypePDF417Code_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypePDF417Code_thumb:
+
+.thumb_func
+_p_122_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypePDF417Code_llvm:
+	.globl _p_122_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypePDF417Code_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 560,5590
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeQRCode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeQRCode_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeQRCode_thumb:
+
+.thumb_func
+_p_123_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeQRCode_llvm:
+	.globl _p_123_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeQRCode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 564,5595
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeUPCECode_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeUPCECode_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeUPCECode_thumb:
+
+.thumb_func
+_p_124_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeUPCECode_llvm:
+	.globl _p_124_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_TypeUPCECode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 568,5600
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_DateTime_op_Subtraction_System_DateTime_System_DateTime_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_DateTime_op_Subtraction_System_DateTime_System_DateTime_thumb
+plt_ZXingNetMobile_System_DateTime_op_Subtraction_System_DateTime_System_DateTime_thumb:
+
+.thumb_func
+_p_125_plt_ZXingNetMobile_System_DateTime_op_Subtraction_System_DateTime_System_DateTime_llvm:
+	.globl _p_125_plt_ZXingNetMobile_System_DateTime_op_Subtraction_System_DateTime_System_DateTime_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 572,5605
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_TimeSpan_get_TotalMilliseconds_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_TimeSpan_get_TotalMilliseconds_thumb
+plt_ZXingNetMobile_System_TimeSpan_get_TotalMilliseconds_thumb:
+
+.thumb_func
+_p_126_plt_ZXingNetMobile_System_TimeSpan_get_TotalMilliseconds_llvm:
+	.globl _p_126_plt_ZXingNetMobile_System_TimeSpan_get_TotalMilliseconds_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 576,5610
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVMetadataObject_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVMetadataObject_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVMetadataObject_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_thumb:
+
+.thumb_func
+_p_127_plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVMetadataObject_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_llvm:
+	.globl _p_127_plt_ZXingNetMobile_System_Linq_Enumerable_FirstOrDefault_AVFoundation_AVMetadataObject_System_Collections_Generic_IEnumerable_1_AVFoundation_AVMetadataObject_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 580,5615
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_Type_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_Type_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_Type_thumb:
+
+.thumb_func
+_p_128_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_Type_llvm:
+	.globl _p_128_plt_ZXingNetMobile_AVFoundation_AVMetadataObject_get_Type_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 584,5627
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Enum_ToString_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Enum_ToString_thumb
+plt_ZXingNetMobile_System_Enum_ToString_thumb:
+
+.thumb_func
+_p_129_plt_ZXingNetMobile_System_Enum_ToString_llvm:
+	.globl _p_129_plt_ZXingNetMobile_System_Enum_ToString_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 588,5632
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string_thumb:
+
+.thumb_func
+_p_130_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string_llvm:
+	.globl _p_130_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ZXingBarcodeFormatFromAVCaptureBarcodeFormat_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 592,5637
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVMetadataMachineReadableCodeObject_get_StringValue_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVMetadataMachineReadableCodeObject_get_StringValue_thumb
+plt_ZXingNetMobile_AVFoundation_AVMetadataMachineReadableCodeObject_get_StringValue_thumb:
+
+.thumb_func
+_p_131_plt_ZXingNetMobile_AVFoundation_AVMetadataMachineReadableCodeObject_get_StringValue_llvm:
+	.globl _p_131_plt_ZXingNetMobile_AVFoundation_AVMetadataMachineReadableCodeObject_get_StringValue_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 596,5639
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Result__ctor_string_byte___ZXing_ResultPoint___ZXing_BarcodeFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Result__ctor_string_byte___ZXing_ResultPoint___ZXing_BarcodeFormat_thumb
+plt_ZXingNetMobile_ZXing_Result__ctor_string_byte___ZXing_ResultPoint___ZXing_BarcodeFormat_thumb:
+
+.thumb_func
+_p_132_plt_ZXingNetMobile_ZXing_Result__ctor_string_byte___ZXing_ResultPoint___ZXing_BarcodeFormat_llvm:
+	.globl _p_132_plt_ZXingNetMobile_ZXing_Result__ctor_string_byte___ZXing_ResultPoint___ZXing_BarcodeFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 600,5644
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession_thumb:
+
+.thumb_func
+_p_133_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession_llvm:
+	.globl _p_133_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SetupCaptureSession_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 604,5649
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIColor_get_LightGray_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIColor_get_LightGray_thumb
+plt_ZXingNetMobile_UIKit_UIColor_get_LightGray_thumb:
+
+.thumb_func
+_p_134_plt_ZXingNetMobile_UIKit_UIColor_get_LightGray_llvm:
+	.globl _p_134_plt_ZXingNetMobile_UIKit_UIColor_get_LightGray_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 608,5651
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_InsertSubview_UIKit_UIView_System_nint_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_InsertSubview_UIKit_UIView_System_nint_thumb
+plt_ZXingNetMobile_UIKit_UIView_InsertSubview_UIKit_UIView_System_nint_thumb:
+
+.thumb_func
+_p_135_plt_ZXingNetMobile_UIKit_UIView_InsertSubview_UIKit_UIView_System_nint_llvm:
+	.globl _p_135_plt_ZXingNetMobile_UIKit_UIView_InsertSubview_UIKit_UIView_System_nint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 612,5656
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Contains_ZXing_BarcodeFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Contains_ZXing_BarcodeFormat_thumb
+plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Contains_ZXing_BarcodeFormat_thumb:
+
+.thumb_func
+_p_136_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Contains_ZXing_BarcodeFormat_llvm:
+	.globl _p_136_plt_ZXingNetMobile_System_Collections_Generic_List_1_ZXing_BarcodeFormat_Contains_ZXing_BarcodeFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 616,5661
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutputObjectsDelegate__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutputObjectsDelegate__ctor_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutputObjectsDelegate__ctor_thumb:
+
+.thumb_func
+_p_137_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutputObjectsDelegate__ctor_llvm:
+	.globl _p_137_plt_ZXingNetMobile_AVFoundation_AVCaptureMetadataOutputObjectsDelegate__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 620,5672
+.code 32
+	.thumb_func plt_ZXingNetMobile_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_thumb
+plt_ZXingNetMobile_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_thumb:
+
+.thumb_func
+_p_138_plt_ZXingNetMobile_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_llvm:
+	.globl _p_138_plt_ZXingNetMobile_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 624,5677
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_1_ZXing_Result_System_Action_1_ZXing_Result__System_Action_1_ZXing_Result_System_Action_1_ZXing_Result_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_1_ZXing_Result_System_Action_1_ZXing_Result__System_Action_1_ZXing_Result_System_Action_1_ZXing_Result_thumb
+plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_1_ZXing_Result_System_Action_1_ZXing_Result__System_Action_1_ZXing_Result_System_Action_1_ZXing_Result_thumb:
+
+.thumb_func
+_p_139_plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_1_ZXing_Result_System_Action_1_ZXing_Result__System_Action_1_ZXing_Result_System_Action_1_ZXing_Result_llvm:
+	.globl _p_139_plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_System_Action_1_ZXing_Result_System_Action_1_ZXing_Result__System_Action_1_ZXing_Result_System_Action_1_ZXing_Result_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 628,5685
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIViewController__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIViewController__ctor_thumb
+plt_ZXingNetMobile_UIKit_UIViewController__ctor_thumb:
+
+.thumb_func
+_p_140_plt_ZXingNetMobile_UIKit_UIViewController__ctor_llvm:
+	.globl _p_140_plt_ZXingNetMobile_UIKit_UIViewController__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 632,5697
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIScreen_get_MainScreen_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIScreen_get_MainScreen_thumb
+plt_ZXingNetMobile_UIKit_UIScreen_get_MainScreen_thumb:
+
+.thumb_func
+_p_141_plt_ZXingNetMobile_UIKit_UIScreen_get_MainScreen_llvm:
+	.globl _p_141_plt_ZXingNetMobile_UIKit_UIScreen_get_MainScreen_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 636,5702
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIScreen_get_ApplicationFrame_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIScreen_get_ApplicationFrame_thumb
+plt_ZXingNetMobile_UIKit_UIScreen_get_ApplicationFrame_thumb:
+
+.thumb_func
+_p_142_plt_ZXingNetMobile_UIKit_UIScreen_get_ApplicationFrame_llvm:
+	.globl _p_142_plt_ZXingNetMobile_UIKit_UIScreen_get_ApplicationFrame_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 640,5707
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIViewController_get_View_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIViewController_get_View_thumb
+plt_ZXingNetMobile_UIKit_UIViewController_get_View_thumb:
+
+.thumb_func
+_p_143_plt_ZXingNetMobile_UIKit_UIViewController_get_View_llvm:
+	.globl _p_143_plt_ZXingNetMobile_UIKit_UIViewController_get_View_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 644,5712
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIColor_get_Black_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIColor_get_Black_thumb
+plt_ZXingNetMobile_UIKit_UIColor_get_Black_thumb:
+
+.thumb_func
+_p_144_plt_ZXingNetMobile_UIKit_UIColor_get_Black_llvm:
+	.globl _p_144_plt_ZXingNetMobile_UIKit_UIColor_get_Black_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 648,5717
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_thumb
+plt_ZXingNetMobile_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_thumb:
+
+.thumb_func
+_p_145_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_llvm:
+	.globl _p_145_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 652,5722
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StartAnimating_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StartAnimating_thumb
+plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StartAnimating_thumb:
+
+.thumb_func
+_p_146_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StartAnimating_llvm:
+	.globl _p_146_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StartAnimating_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 656,5727
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_147_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect_llvm:
+	.globl _p_147_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView__ctor_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 660,5732
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action_thumb:
+
+.thumb_func
+_p_148_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action_llvm:
+	.globl _p_148_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_add_OnCancelButtonPressed_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 664,5734
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ToggleTorch_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ToggleTorch_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ToggleTorch_thumb:
+
+.thumb_func
+_p_149_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ToggleTorch_llvm:
+	.globl _p_149_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_ToggleTorch_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 668,5736
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarStyle_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarStyle_thumb
+plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarStyle_thumb:
+
+.thumb_func
+_p_150_plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarStyle_llvm:
+	.globl _p_150_plt_ZXingNetMobile_UIKit_UIApplication_get_StatusBarStyle_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 672,5738
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIApplication_SetStatusBarStyle_UIKit_UIStatusBarStyle_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIApplication_SetStatusBarStyle_UIKit_UIStatusBarStyle_bool_thumb
+plt_ZXingNetMobile_UIKit_UIApplication_SetStatusBarStyle_UIKit_UIStatusBarStyle_bool_thumb:
+
+.thumb_func
+_p_151_plt_ZXingNetMobile_UIKit_UIApplication_SetStatusBarStyle_UIKit_UIStatusBarStyle_bool_llvm:
+	.globl _p_151_plt_ZXingNetMobile_UIKit_UIApplication_SetStatusBarStyle_UIKit_UIStatusBarStyle_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 676,5743
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_thumb:
+
+.thumb_func
+_p_152_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_llvm:
+	.globl _p_152_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 680,5748
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIApplication_set_StatusBarStyle_UIKit_UIStatusBarStyle_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIApplication_set_StatusBarStyle_UIKit_UIStatusBarStyle_thumb
+plt_ZXingNetMobile_UIKit_UIApplication_set_StatusBarStyle_UIKit_UIStatusBarStyle_thumb:
+
+.thumb_func
+_p_153_plt_ZXingNetMobile_UIKit_UIApplication_set_StatusBarStyle_UIKit_UIStatusBarStyle_llvm:
+	.globl _p_153_plt_ZXingNetMobile_UIKit_UIApplication_set_StatusBarStyle_UIKit_UIStatusBarStyle_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 684,5750
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIViewController_SetNeedsStatusBarAppearanceUpdate_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIViewController_SetNeedsStatusBarAppearanceUpdate_thumb
+plt_ZXingNetMobile_UIKit_UIViewController_SetNeedsStatusBarAppearanceUpdate_thumb:
+
+.thumb_func
+_p_154_plt_ZXingNetMobile_UIKit_UIViewController_SetNeedsStatusBarAppearanceUpdate_llvm:
+	.globl _p_154_plt_ZXingNetMobile_UIKit_UIViewController_SetNeedsStatusBarAppearanceUpdate_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 688,5755
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StopScanning_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StopScanning_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StopScanning_thumb:
+
+.thumb_func
+_p_155_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StopScanning_llvm:
+	.globl _p_155_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_StopScanning_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 692,5760
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIViewController_get_InterfaceOrientation_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIViewController_get_InterfaceOrientation_thumb
+plt_ZXingNetMobile_UIKit_UIViewController_get_InterfaceOrientation_thumb:
+
+.thumb_func
+_p_156_plt_ZXingNetMobile_UIKit_UIViewController_get_InterfaceOrientation_llvm:
+	.globl _p_156_plt_ZXingNetMobile_UIKit_UIViewController_get_InterfaceOrientation_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 696,5762
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation_thumb:
+
+.thumb_func
+_p_157_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation_llvm:
+	.globl _p_157_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_DidRotate_UIKit_UIInterfaceOrientation_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 700,5767
+.code 32
+	.thumb_func plt_ZXingNetMobile_Foundation_NSObject_BeginInvokeOnMainThread_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_Foundation_NSObject_BeginInvokeOnMainThread_System_Action_thumb
+plt_ZXingNetMobile_Foundation_NSObject_BeginInvokeOnMainThread_System_Action_thumb:
+
+.thumb_func
+_p_158_plt_ZXingNetMobile_Foundation_NSObject_BeginInvokeOnMainThread_System_Action_llvm:
+	.globl _p_158_plt_ZXingNetMobile_Foundation_NSObject_BeginInvokeOnMainThread_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 704,5769
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StopAnimating_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StopAnimating_thumb
+plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StopAnimating_thumb:
+
+.thumb_func
+_p_159_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StopAnimating_llvm:
+	.globl _p_159_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_StopAnimating_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 708,5774
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_BeginAnimations_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_BeginAnimations_string_thumb
+plt_ZXingNetMobile_UIKit_UIView_BeginAnimations_string_thumb:
+
+.thumb_func
+_p_160_plt_ZXingNetMobile_UIKit_UIView_BeginAnimations_string_llvm:
+	.globl _p_160_plt_ZXingNetMobile_UIKit_UIView_BeginAnimations_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 712,5779
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_SetAnimationDuration_double_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_SetAnimationDuration_double_thumb
+plt_ZXingNetMobile_UIKit_UIView_SetAnimationDuration_double_thumb:
+
+.thumb_func
+_p_161_plt_ZXingNetMobile_UIKit_UIView_SetAnimationDuration_double_llvm:
+	.globl _p_161_plt_ZXingNetMobile_UIKit_UIView_SetAnimationDuration_double_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 716,5784
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_SetAnimationCurve_UIKit_UIViewAnimationCurve_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_SetAnimationCurve_UIKit_UIViewAnimationCurve_thumb
+plt_ZXingNetMobile_UIKit_UIView_SetAnimationCurve_UIKit_UIViewAnimationCurve_thumb:
+
+.thumb_func
+_p_162_plt_ZXingNetMobile_UIKit_UIView_SetAnimationCurve_UIKit_UIViewAnimationCurve_llvm:
+	.globl _p_162_plt_ZXingNetMobile_UIKit_UIView_SetAnimationCurve_UIKit_UIViewAnimationCurve_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 720,5789
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGAffineTransform_MakeScale_System_nfloat_System_nfloat_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGAffineTransform_MakeScale_System_nfloat_System_nfloat_thumb
+plt_ZXingNetMobile_CoreGraphics_CGAffineTransform_MakeScale_System_nfloat_System_nfloat_thumb:
+
+.thumb_func
+_p_163_plt_ZXingNetMobile_CoreGraphics_CGAffineTransform_MakeScale_System_nfloat_System_nfloat_llvm:
+	.globl _p_163_plt_ZXingNetMobile_CoreGraphics_CGAffineTransform_MakeScale_System_nfloat_System_nfloat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 724,5794
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_set_Transform_CoreGraphics_CGAffineTransform_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_set_Transform_CoreGraphics_CGAffineTransform_thumb
+plt_ZXingNetMobile_UIKit_UIView_set_Transform_CoreGraphics_CGAffineTransform_thumb:
+
+.thumb_func
+_p_164_plt_ZXingNetMobile_UIKit_UIView_set_Transform_CoreGraphics_CGAffineTransform_llvm:
+	.globl _p_164_plt_ZXingNetMobile_UIKit_UIView_set_Transform_CoreGraphics_CGAffineTransform_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 728,5799
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_set_Alpha_System_nfloat_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_set_Alpha_System_nfloat_thumb
+plt_ZXingNetMobile_UIKit_UIView_set_Alpha_System_nfloat_thumb:
+
+.thumb_func
+_p_165_plt_ZXingNetMobile_UIKit_UIView_set_Alpha_System_nfloat_llvm:
+	.globl _p_165_plt_ZXingNetMobile_UIKit_UIView_set_Alpha_System_nfloat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 732,5804
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_CommitAnimations_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_CommitAnimations_thumb
+plt_ZXingNetMobile_UIKit_UIView_CommitAnimations_thumb:
+
+.thumb_func
+_p_166_plt_ZXingNetMobile_UIKit_UIView_CommitAnimations_llvm:
+	.globl _p_166_plt_ZXingNetMobile_UIKit_UIView_CommitAnimations_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 736,5809
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_get_IsAnimating_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_get_IsAnimating_thumb
+plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_get_IsAnimating_thumb:
+
+.thumb_func
+_p_167_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_get_IsAnimating_llvm:
+	.globl _p_167_plt_ZXingNetMobile_UIKit_UIActivityIndicatorView_get_IsAnimating_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 740,5814
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_thumb
+plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_thumb:
+
+.thumb_func
+_p_168_plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_llvm:
+	.globl _p_168_plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 744,5819
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_thumb
+plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_thumb:
+
+.thumb_func
+_p_169_plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_llvm:
+	.globl _p_169_plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 748,5821
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_thumb
+plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_thumb:
+
+.thumb_func
+_p_170_plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_llvm:
+	.globl _p_170_plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 752,5832
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_thumb
+plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_thumb:
+
+.thumb_func
+_p_171_plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_llvm:
+	.globl _p_171_plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 756,5843
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_1_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_1_thumb
+plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_1_thumb:
+
+.thumb_func
+_p_172_plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_1_llvm:
+	.globl _p_172_plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_1_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 760,5863
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS__ctor_UIKit_UIImage_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS__ctor_UIKit_UIImage_thumb
+plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS__ctor_UIKit_UIImage_thumb:
+
+.thumb_func
+_p_173_plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS__ctor_UIKit_UIImage_llvm:
+	.globl _p_173_plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS__ctor_UIKit_UIImage_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 764,5896
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_EncodingOptions__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_EncodingOptions__ctor_thumb
+plt_ZXingNetMobile_ZXing_Common_EncodingOptions__ctor_thumb:
+
+.thumb_func
+_p_174_plt_ZXingNetMobile_ZXing_Common_EncodingOptions__ctor_llvm:
+	.globl _p_174_plt_ZXingNetMobile_ZXing_Common_EncodingOptions__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 768,5899
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions_thumb
+plt_ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions_thumb:
+
+.thumb_func
+_p_175_plt_ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions_llvm:
+	.globl _p_175_plt_ZXingNetMobile_ZXing_Mobile_BitmapRenderer_Render_ZXing_Common_BitMatrix_ZXing_BarcodeFormat_string_ZXing_Common_EncodingOptions_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 772,5904
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGSize__ctor_single_single_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGSize__ctor_single_single_thumb
+plt_ZXingNetMobile_CoreGraphics_CGSize__ctor_single_single_thumb:
+
+.thumb_func
+_p_176_plt_ZXingNetMobile_CoreGraphics_CGSize__ctor_single_single_llvm:
+	.globl _p_176_plt_ZXingNetMobile_CoreGraphics_CGSize__ctor_single_single_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 776,5906
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_thumb
+plt_ZXingNetMobile_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_thumb:
+
+.thumb_func
+_p_177_plt_ZXingNetMobile_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_llvm:
+	.globl _p_177_plt_ZXingNetMobile_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 780,5911
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIGraphics_GetCurrentContext_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIGraphics_GetCurrentContext_thumb
+plt_ZXingNetMobile_UIKit_UIGraphics_GetCurrentContext_thumb:
+
+.thumb_func
+_p_178_plt_ZXingNetMobile_UIKit_UIGraphics_GetCurrentContext_llvm:
+	.globl _p_178_plt_ZXingNetMobile_UIKit_UIGraphics_GetCurrentContext_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 784,5916
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGColor__ctor_System_nfloat_System_nfloat_System_nfloat_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGColor__ctor_System_nfloat_System_nfloat_System_nfloat_thumb
+plt_ZXingNetMobile_CoreGraphics_CGColor__ctor_System_nfloat_System_nfloat_System_nfloat_thumb:
+
+.thumb_func
+_p_179_plt_ZXingNetMobile_CoreGraphics_CGColor__ctor_System_nfloat_System_nfloat_System_nfloat_llvm:
+	.globl _p_179_plt_ZXingNetMobile_CoreGraphics_CGColor__ctor_System_nfloat_System_nfloat_System_nfloat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 788,5921
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_BitMatrix_get_Item_int_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_BitMatrix_get_Item_int_int_thumb
+plt_ZXingNetMobile_ZXing_Common_BitMatrix_get_Item_int_int_thumb:
+
+.thumb_func
+_p_180_plt_ZXingNetMobile_ZXing_Common_BitMatrix_get_Item_int_int_llvm:
+	.globl _p_180_plt_ZXingNetMobile_ZXing_Common_BitMatrix_get_Item_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 792,5926
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_thumb
+plt_ZXingNetMobile_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_thumb:
+
+.thumb_func
+_p_181_plt_ZXingNetMobile_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_llvm:
+	.globl _p_181_plt_ZXingNetMobile_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 796,5931
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_single_single_single_single_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_single_single_single_single_thumb
+plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_single_single_single_single_thumb:
+
+.thumb_func
+_p_182_plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_single_single_single_single_llvm:
+	.globl _p_182_plt_ZXingNetMobile_CoreGraphics_CGRect__ctor_single_single_single_single_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 800,5936
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_183_plt_ZXingNetMobile_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm:
+	.globl _p_183_plt_ZXingNetMobile_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 804,5941
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIGraphics_GetImageFromCurrentImageContext_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIGraphics_GetImageFromCurrentImageContext_thumb
+plt_ZXingNetMobile_UIKit_UIGraphics_GetImageFromCurrentImageContext_thumb:
+
+.thumb_func
+_p_184_plt_ZXingNetMobile_UIKit_UIGraphics_GetImageFromCurrentImageContext_llvm:
+	.globl _p_184_plt_ZXingNetMobile_UIKit_UIGraphics_GetImageFromCurrentImageContext_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 808,5946
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIGraphics_EndImageContext_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIGraphics_EndImageContext_thumb
+plt_ZXingNetMobile_UIKit_UIGraphics_EndImageContext_thumb:
+
+.thumb_func
+_p_185_plt_ZXingNetMobile_UIKit_UIGraphics_EndImageContext_llvm:
+	.globl _p_185_plt_ZXingNetMobile_UIKit_UIGraphics_EndImageContext_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 812,5951
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_ManualResetEvent__ctor_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_ManualResetEvent__ctor_bool_thumb
+plt_ZXingNetMobile_System_Threading_ManualResetEvent__ctor_bool_thumb:
+
+.thumb_func
+_p_186_plt_ZXingNetMobile_System_Threading_ManualResetEvent__ctor_bool_llvm:
+	.globl _p_186_plt_ZXingNetMobile_System_Threading_ManualResetEvent__ctor_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 816,5956
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScannerBase__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScannerBase__ctor_thumb
+plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScannerBase__ctor_thumb:
+
+.thumb_func
+_p_187_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScannerBase__ctor_llvm:
+	.globl _p_187_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScannerBase__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 820,5961
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIApplication_get_Windows_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIApplication_get_Windows_thumb
+plt_ZXingNetMobile_UIKit_UIApplication_get_Windows_thumb:
+
+.thumb_func
+_p_188_plt_ZXingNetMobile_UIKit_UIApplication_get_Windows_llvm:
+	.globl _p_188_plt_ZXingNetMobile_UIKit_UIApplication_get_Windows_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 824,5966
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIWindow_get_RootViewController_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIWindow_get_RootViewController_thumb
+plt_ZXingNetMobile_UIKit_UIWindow_get_RootViewController_thumb:
+
+.thumb_func
+_p_189_plt_ZXingNetMobile_UIKit_UIWindow_get_RootViewController_llvm:
+	.globl _p_189_plt_ZXingNetMobile_UIKit_UIWindow_get_RootViewController_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 828,5971
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool_thumb
+plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool_thumb:
+
+.thumb_func
+_p_190_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool_llvm:
+	.globl _p_190_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_Scan_ZXing_Mobile_MobileBarcodeScanningOptions_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 832,5976
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result_thumb
+plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result_thumb:
+
+.thumb_func
+_p_191_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result_llvm:
+	.globl _p_191_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanner_ScanContinuously_ZXing_Mobile_MobileBarcodeScanningOptions_bool_System_Action_1_ZXing_Result_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 836,5978
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Version__ctor_int_int_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Version__ctor_int_int_int_thumb
+plt_ZXingNetMobile_System_Version__ctor_int_int_int_thumb:
+
+.thumb_func
+_p_192_plt_ZXingNetMobile_System_Version__ctor_int_int_int_llvm:
+	.globl _p_192_plt_ZXingNetMobile_System_Version__ctor_int_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 840,5980
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIDevice_get_SystemVersion_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIDevice_get_SystemVersion_thumb
+plt_ZXingNetMobile_UIKit_UIDevice_get_SystemVersion_thumb:
+
+.thumb_func
+_p_193_plt_ZXingNetMobile_UIKit_UIDevice_get_SystemVersion_llvm:
+	.globl _p_193_plt_ZXingNetMobile_UIKit_UIDevice_get_SystemVersion_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 844,5985
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Version_TryParse_string_System_Version__thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Version_TryParse_string_System_Version__thumb
+plt_ZXingNetMobile_System_Version_TryParse_string_System_Version__thumb:
+
+.thumb_func
+_p_194_plt_ZXingNetMobile_System_Version_TryParse_string_System_Version__llvm:
+	.globl _p_194_plt_ZXingNetMobile_System_Version_TryParse_string_System_Version__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 848,5990
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_thumb:
+
+.thumb_func
+_p_195_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_llvm:
+	.globl _p_195_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerView_SupportsAllRequestedBarcodeFormats_System_Collections_Generic_IEnumerable_1_ZXing_BarcodeFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 852,5995
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Console_WriteLine_object_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Console_WriteLine_object_thumb
+plt_ZXingNetMobile_System_Console_WriteLine_object_thumb:
+
+.thumb_func
+_p_196_plt_ZXingNetMobile_System_Console_WriteLine_object_llvm:
+	.globl _p_196_plt_ZXingNetMobile_System_Console_WriteLine_object_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 856,5997
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_ZXing_Result_System_Func_1_ZXing_Result_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_ZXing_Result_System_Func_1_ZXing_Result_thumb
+plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_ZXing_Result_System_Func_1_ZXing_Result_thumb:
+
+.thumb_func
+_p_197_plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_ZXing_Result_System_Func_1_ZXing_Result_llvm:
+	.globl _p_197_plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_ZXing_Result_System_Func_1_ZXing_Result_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 860,6002
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_generic_class_init_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_generic_class_init_thumb
+plt_ZXingNetMobile__jit_icall_mono_generic_class_init_thumb:
+
+.thumb_func
+_p_198_plt_ZXingNetMobile__jit_icall_mono_generic_class_init_llvm:
+	.globl _p_198_plt_ZXingNetMobile__jit_icall_mono_generic_class_init_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 864,6014
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_EventWaitHandle_Set_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_EventWaitHandle_Set_thumb
+plt_ZXingNetMobile_System_Threading_EventWaitHandle_Set_thumb:
+
+.thumb_func
+_p_199_plt_ZXingNetMobile_System_Threading_EventWaitHandle_Set_llvm:
+	.globl _p_199_plt_ZXingNetMobile_System_Threading_EventWaitHandle_Set_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 868,6040
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIViewController_DismissViewController_bool_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIViewController_DismissViewController_bool_System_Action_thumb
+plt_ZXingNetMobile_UIKit_UIViewController_DismissViewController_bool_System_Action_thumb:
+
+.thumb_func
+_p_200_plt_ZXingNetMobile_UIKit_UIViewController_DismissViewController_bool_System_Action_llvm:
+	.globl _p_200_plt_ZXingNetMobile_UIKit_UIViewController_DismissViewController_bool_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 872,6045
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_thumb:
+
+.thumb_func
+_p_201_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_llvm:
+	.globl _p_201_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 876,6050
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIViewController_PresentViewController_UIKit_UIViewController_bool_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIViewController_PresentViewController_UIKit_UIViewController_bool_System_Action_thumb
+plt_ZXingNetMobile_UIKit_UIViewController_PresentViewController_UIKit_UIViewController_bool_System_Action_thumb:
+
+.thumb_func
+_p_202_plt_ZXingNetMobile_UIKit_UIViewController_PresentViewController_UIKit_UIViewController_bool_System_Action_llvm:
+	.globl _p_202_plt_ZXingNetMobile_UIKit_UIViewController_PresentViewController_UIKit_UIViewController_bool_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 880,6053
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_thumb
+plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_thumb:
+
+.thumb_func
+_p_203_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_llvm:
+	.globl _p_203_plt_ZXingNetMobile_ZXing_Mobile_AVCaptureScannerViewController__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_ZXing_Mobile_MobileBarcodeScanner_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 884,6058
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_EventWaitHandle_Reset_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_EventWaitHandle_Reset_thumb
+plt_ZXingNetMobile_System_Threading_EventWaitHandle_Reset_thumb:
+
+.thumb_func
+_p_204_plt_ZXingNetMobile_System_Threading_EventWaitHandle_Reset_llvm:
+	.globl _p_204_plt_ZXingNetMobile_System_Threading_EventWaitHandle_Reset_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 888,6060
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_WaitHandle_WaitOne_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_WaitHandle_WaitOne_thumb
+plt_ZXingNetMobile_System_Threading_WaitHandle_WaitOne_thumb:
+
+.thumb_func
+_p_205_plt_ZXingNetMobile_System_Threading_WaitHandle_WaitOne_llvm:
+	.globl _p_205_plt_ZXingNetMobile_System_Threading_WaitHandle_WaitOne_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 892,6065
+.code 32
+	.thumb_func plt_ZXingNetMobile_Foundation_NSObject_Dispose_thumb
+	.no_dead_strip plt_ZXingNetMobile_Foundation_NSObject_Dispose_thumb
+plt_ZXingNetMobile_Foundation_NSObject_Dispose_thumb:
+
+.thumb_func
+_p_206_plt_ZXingNetMobile_Foundation_NSObject_Dispose_llvm:
+	.globl _p_206_plt_ZXingNetMobile_Foundation_NSObject_Dispose_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 896,6070
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIImage_get_CGImage_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIImage_get_CGImage_thumb
+plt_ZXingNetMobile_UIKit_UIImage_get_CGImage_thumb:
+
+.thumb_func
+_p_207_plt_ZXingNetMobile_UIKit_UIImage_get_CGImage_llvm:
+	.globl _p_207_plt_ZXingNetMobile_UIKit_UIImage_get_CGImage_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 900,6075
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGImage_get_Width_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGImage_get_Width_thumb
+plt_ZXingNetMobile_CoreGraphics_CGImage_get_Width_thumb:
+
+.thumb_func
+_p_208_plt_ZXingNetMobile_CoreGraphics_CGImage_get_Width_llvm:
+	.globl _p_208_plt_ZXingNetMobile_CoreGraphics_CGImage_get_Width_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 904,6080
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGImage_get_Height_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGImage_get_Height_thumb
+plt_ZXingNetMobile_CoreGraphics_CGImage_get_Height_thumb:
+
+.thumb_func
+_p_209_plt_ZXingNetMobile_CoreGraphics_CGImage_get_Height_llvm:
+	.globl _p_209_plt_ZXingNetMobile_CoreGraphics_CGImage_get_Height_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 908,6085
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_int_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_int_int_thumb
+plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_int_int_thumb:
+
+.thumb_func
+_p_210_plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_int_int_llvm:
+	.globl _p_210_plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 912,6090
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage_thumb
+plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage_thumb:
+
+.thumb_func
+_p_211_plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage_llvm:
+	.globl _p_211_plt_ZXingNetMobile_ZXing_Mobile_RGBLuminanceSourceiOS_CalculateLuminance_UIKit_UIImage_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 916,6095
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGColorSpace_CreateDeviceRGB_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGColorSpace_CreateDeviceRGB_thumb
+plt_ZXingNetMobile_CoreGraphics_CGColorSpace_CreateDeviceRGB_thumb:
+
+.thumb_func
+_p_212_plt_ZXingNetMobile_CoreGraphics_CGColorSpace_CreateDeviceRGB_llvm:
+	.globl _p_212_plt_ZXingNetMobile_CoreGraphics_CGColorSpace_CreateDeviceRGB_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 920,6098
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_AllocHGlobal_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_AllocHGlobal_int_thumb
+plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_AllocHGlobal_int_thumb:
+
+.thumb_func
+_p_213_plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_AllocHGlobal_int_llvm:
+	.globl _p_213_plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_AllocHGlobal_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 924,6103
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGBitmapContext__ctor_intptr_System_nint_System_nint_System_nint_System_nint_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGBitmapContext__ctor_intptr_System_nint_System_nint_System_nint_System_nint_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_thumb
+plt_ZXingNetMobile_CoreGraphics_CGBitmapContext__ctor_intptr_System_nint_System_nint_System_nint_System_nint_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_thumb:
+
+.thumb_func
+_p_214_plt_ZXingNetMobile_CoreGraphics_CGBitmapContext__ctor_intptr_System_nint_System_nint_System_nint_System_nint_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_llvm:
+	.globl _p_214_plt_ZXingNetMobile_CoreGraphics_CGBitmapContext__ctor_intptr_System_nint_System_nint_System_nint_System_nint_CoreGraphics_CGColorSpace_CoreGraphics_CGImageAlphaInfo_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 928,6108
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage_thumb
+plt_ZXingNetMobile_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage_thumb:
+
+.thumb_func
+_p_215_plt_ZXingNetMobile_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage_llvm:
+	.globl _p_215_plt_ZXingNetMobile_CoreGraphics_CGContext_DrawImage_CoreGraphics_CGRect_CoreGraphics_CGImage_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 932,6113
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int_thumb
+plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int_thumb:
+
+.thumb_func
+_p_216_plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int_llvm:
+	.globl _p_216_plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 936,6118
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_RGBLuminanceSource_CalculateLuminance_byte___ZXing_RGBLuminanceSource_BitmapFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_RGBLuminanceSource_CalculateLuminance_byte___ZXing_RGBLuminanceSource_BitmapFormat_thumb
+plt_ZXingNetMobile_ZXing_RGBLuminanceSource_CalculateLuminance_byte___ZXing_RGBLuminanceSource_BitmapFormat_thumb:
+
+.thumb_func
+_p_217_plt_ZXingNetMobile_ZXing_RGBLuminanceSource_CalculateLuminance_byte___ZXing_RGBLuminanceSource_BitmapFormat_llvm:
+	.globl _p_217_plt_ZXingNetMobile_ZXing_RGBLuminanceSource_CalculateLuminance_byte___ZXing_RGBLuminanceSource_BitmapFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 940,6123
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr_thumb
+plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr_thumb:
+
+.thumb_func
+_p_218_plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr_llvm:
+	.globl _p_218_plt_ZXingNetMobile_System_Runtime_InteropServices_Marshal_FreeHGlobal_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 944,6128
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Initialize_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Initialize_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Initialize_thumb:
+
+.thumb_func
+_p_219_plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Initialize_llvm:
+	.globl _p_219_plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Initialize_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 948,6133
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_set_Opaque_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_set_Opaque_bool_thumb
+plt_ZXingNetMobile_UIKit_UIView_set_Opaque_bool_thumb:
+
+.thumb_func
+_p_220_plt_ZXingNetMobile_UIKit_UIView_set_Opaque_bool_llvm:
+	.globl _p_220_plt_ZXingNetMobile_UIKit_UIView_set_Opaque_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 952,6136
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIColor_get_Clear_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIColor_get_Clear_thumb
+plt_ZXingNetMobile_UIKit_UIColor_get_Clear_thumb:
+
+.thumb_func
+_p_221_plt_ZXingNetMobile_UIKit_UIColor_get_Clear_llvm:
+	.globl _p_221_plt_ZXingNetMobile_UIKit_UIColor_get_Clear_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 956,6141
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIColor_get_Red_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIColor_get_Red_thumb
+plt_ZXingNetMobile_UIKit_UIColor_get_Red_thumb:
+
+.thumb_func
+_p_222_plt_ZXingNetMobile_UIKit_UIColor_get_Red_llvm:
+	.globl _p_222_plt_ZXingNetMobile_UIKit_UIColor_get_Red_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 960,6146
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UILabel__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UILabel__ctor_thumb
+plt_ZXingNetMobile_UIKit_UILabel__ctor_thumb:
+
+.thumb_func
+_p_223_plt_ZXingNetMobile_UIKit_UILabel__ctor_llvm:
+	.globl _p_223_plt_ZXingNetMobile_UIKit_UILabel__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 964,6151
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UILabel_set_Text_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UILabel_set_Text_string_thumb
+plt_ZXingNetMobile_UIKit_UILabel_set_Text_string_thumb:
+
+.thumb_func
+_p_224_plt_ZXingNetMobile_UIKit_UILabel_set_Text_string_llvm:
+	.globl _p_224_plt_ZXingNetMobile_UIKit_UILabel_set_Text_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 968,6156
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIFont_SystemFontOfSize_System_nfloat_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIFont_SystemFontOfSize_System_nfloat_thumb
+plt_ZXingNetMobile_UIKit_UIFont_SystemFontOfSize_System_nfloat_thumb:
+
+.thumb_func
+_p_225_plt_ZXingNetMobile_UIKit_UIFont_SystemFontOfSize_System_nfloat_llvm:
+	.globl _p_225_plt_ZXingNetMobile_UIKit_UIFont_SystemFontOfSize_System_nfloat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 972,6161
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UILabel_set_Font_UIKit_UIFont_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UILabel_set_Font_UIKit_UIFont_thumb
+plt_ZXingNetMobile_UIKit_UILabel_set_Font_UIKit_UIFont_thumb:
+
+.thumb_func
+_p_226_plt_ZXingNetMobile_UIKit_UILabel_set_Font_UIKit_UIFont_llvm:
+	.globl _p_226_plt_ZXingNetMobile_UIKit_UILabel_set_Font_UIKit_UIFont_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 976,6166
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment_thumb
+plt_ZXingNetMobile_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment_thumb:
+
+.thumb_func
+_p_227_plt_ZXingNetMobile_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment_llvm:
+	.globl _p_227_plt_ZXingNetMobile_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 980,6171
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIColor_get_White_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIColor_get_White_thumb
+plt_ZXingNetMobile_UIKit_UIColor_get_White_thumb:
+
+.thumb_func
+_p_228_plt_ZXingNetMobile_UIKit_UIColor_get_White_llvm:
+	.globl _p_228_plt_ZXingNetMobile_UIKit_UIColor_get_White_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 984,6176
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UILabel_set_TextColor_UIKit_UIColor_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UILabel_set_TextColor_UIKit_UIColor_thumb
+plt_ZXingNetMobile_UIKit_UILabel_set_TextColor_UIKit_UIColor_thumb:
+
+.thumb_func
+_p_229_plt_ZXingNetMobile_UIKit_UILabel_set_TextColor_UIKit_UIColor_llvm:
+	.globl _p_229_plt_ZXingNetMobile_UIKit_UILabel_set_TextColor_UIKit_UIColor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 988,6181
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UILabel_set_Lines_System_nint_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UILabel_set_Lines_System_nint_thumb
+plt_ZXingNetMobile_UIKit_UILabel_set_Lines_System_nint_thumb:
+
+.thumb_func
+_p_230_plt_ZXingNetMobile_UIKit_UILabel_set_Lines_System_nint_llvm:
+	.globl _p_230_plt_ZXingNetMobile_UIKit_UILabel_set_Lines_System_nint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 992,6186
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_SizeToFit_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_SizeToFit_thumb
+plt_ZXingNetMobile_UIKit_UIView_SizeToFit_thumb:
+
+.thumb_func
+_p_231_plt_ZXingNetMobile_UIKit_UIView_SizeToFit_llvm:
+	.globl _p_231_plt_ZXingNetMobile_UIKit_UIView_SizeToFit_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 996,6191
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_TorchAvailable_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_TorchAvailable_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_TorchAvailable_thumb:
+
+.thumb_func
+_p_232_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_TorchAvailable_llvm:
+	.globl _p_232_plt_ZXingNetMobile_AVFoundation_AVCaptureDevice_get_TorchAvailable_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1000,6196
+.code 32
+	.thumb_func plt_ZXingNetMobile_string_Split_char___thumb
+	.no_dead_strip plt_ZXingNetMobile_string_Split_char___thumb
+plt_ZXingNetMobile_string_Split_char___thumb:
+
+.thumb_func
+_p_233_plt_ZXingNetMobile_string_Split_char___llvm:
+	.globl _p_233_plt_ZXingNetMobile_string_Split_char___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1004,6201
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_thread_interruption_checkpoint_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_thread_interruption_checkpoint_thumb
+plt_ZXingNetMobile__jit_icall_mono_thread_interruption_checkpoint_thumb:
+
+.thumb_func
+_p_234_plt_ZXingNetMobile__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_234_plt_ZXingNetMobile__jit_icall_mono_thread_interruption_checkpoint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1008,6206
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_LayoutSubviews_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_LayoutSubviews_thumb
+plt_ZXingNetMobile_UIKit_UIView_LayoutSubviews_thumb:
+
+.thumb_func
+_p_235_plt_ZXingNetMobile_UIKit_UIView_LayoutSubviews_llvm:
+	.globl _p_235_plt_ZXingNetMobile_UIKit_UIView_LayoutSubviews_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1012,6244
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIToolbar__ctor_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIToolbar__ctor_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_UIKit_UIToolbar__ctor_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_236_plt_ZXingNetMobile_UIKit_UIToolbar__ctor_CoreGraphics_CGRect_llvm:
+	.globl _p_236_plt_ZXingNetMobile_UIKit_UIToolbar__ctor_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1016,6249
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler_thumb
+plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler_thumb:
+
+.thumb_func
+_p_237_plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler_llvm:
+	.globl _p_237_plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_string_UIKit_UIBarButtonItemStyle_System_EventHandler_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1020,6254
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_Add_UIKit_UIBarButtonItem_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_Add_UIKit_UIBarButtonItem_thumb
+plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_Add_UIKit_UIBarButtonItem_thumb:
+
+.thumb_func
+_p_238_plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_Add_UIKit_UIBarButtonItem_llvm:
+	.globl _p_238_plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_Add_UIKit_UIBarButtonItem_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1024,6259
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_ToArray_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_ToArray_thumb
+plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_ToArray_thumb:
+
+.thumb_func
+_p_239_plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_ToArray_llvm:
+	.globl _p_239_plt_ZXingNetMobile_System_Collections_Generic_List_1_UIKit_UIBarButtonItem_ToArray_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1028,6270
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_set_TintColor_UIKit_UIColor_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_set_TintColor_UIKit_UIColor_thumb
+plt_ZXingNetMobile_UIKit_UIView_set_TintColor_UIKit_UIColor_thumb:
+
+.thumb_func
+_p_240_plt_ZXingNetMobile_UIKit_UIView_set_TintColor_UIKit_UIColor_llvm:
+	.globl _p_240_plt_ZXingNetMobile_UIKit_UIView_set_TintColor_UIKit_UIColor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1032,6281
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_Add_UIKit_UIView_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_Add_UIKit_UIView_thumb
+plt_ZXingNetMobile_UIKit_UIView_Add_UIKit_UIView_thumb:
+
+.thumb_func
+_p_241_plt_ZXingNetMobile_UIKit_UIView_Add_UIKit_UIView_llvm:
+	.globl _p_241_plt_ZXingNetMobile_UIKit_UIView_Add_UIKit_UIView_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1036,6286
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem_thumb
+plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem_thumb:
+
+.thumb_func
+_p_242_plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem_llvm:
+	.globl _p_242_plt_ZXingNetMobile_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1040,6291
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate__ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate__ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb
+plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate__ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb:
+
+.thumb_func
+_p_243_plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate__ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_llvm:
+	.globl _p_243_plt_ZXingNetMobile_System_Threading_Interlocked_CompareExchange_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate__ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1044,6296
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Console_WriteLine_string_object_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Console_WriteLine_string_object_thumb
+plt_ZXingNetMobile_System_Console_WriteLine_string_object_thumb:
+
+.thumb_func
+_p_244_plt_ZXingNetMobile_System_Console_WriteLine_string_object_llvm:
+	.globl _p_244_plt_ZXingNetMobile_System_Console_WriteLine_string_object_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1048,6308
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Start_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Start_thumb
+plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Start_thumb:
+
+.thumb_func
+_p_245_plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Start_llvm:
+	.globl _p_245_plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Start_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1052,6313
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation_thumb:
+
+.thumb_func
+_p_246_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation_llvm:
+	.globl _p_246_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ResizePreview_UIKit_UIInterfaceOrientation_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1056,6318
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Stop_string_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Stop_string_string_thumb
+plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Stop_string_string_thumb:
+
+.thumb_func
+_p_247_plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Stop_string_string_llvm:
+	.globl _p_247_plt_ZXingNetMobile_ZXing_Mobile_PerformanceCounter_Stop_string_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1060,6321
+.code 32
+	.thumb_func plt_ZXingNetMobile_Foundation_NSNumber__ctor_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_Foundation_NSNumber__ctor_int_thumb
+plt_ZXingNetMobile_Foundation_NSNumber__ctor_int_thumb:
+
+.thumb_func
+_p_248_plt_ZXingNetMobile_Foundation_NSNumber__ctor_int_llvm:
+	.globl _p_248_plt_ZXingNetMobile_Foundation_NSNumber__ctor_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1064,6326
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_PixelFormatTypeKey_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_PixelFormatTypeKey_thumb
+plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_PixelFormatTypeKey_thumb:
+
+.thumb_func
+_p_249_plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_PixelFormatTypeKey_llvm:
+	.globl _p_249_plt_ZXingNetMobile_CoreVideo_CVPixelBuffer_get_PixelFormatTypeKey_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1068,6331
+.code 32
+	.thumb_func plt_ZXingNetMobile_Foundation_NSDictionary_FromObjectAndKey_Foundation_NSObject_Foundation_NSObject_thumb
+	.no_dead_strip plt_ZXingNetMobile_Foundation_NSDictionary_FromObjectAndKey_Foundation_NSObject_Foundation_NSObject_thumb
+plt_ZXingNetMobile_Foundation_NSDictionary_FromObjectAndKey_Foundation_NSObject_Foundation_NSObject_thumb:
+
+.thumb_func
+_p_250_plt_ZXingNetMobile_Foundation_NSDictionary_FromObjectAndKey_Foundation_NSObject_Foundation_NSObject_llvm:
+	.globl _p_250_plt_ZXingNetMobile_Foundation_NSDictionary_FromObjectAndKey_Foundation_NSObject_Foundation_NSObject_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1072,6336
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput__ctor_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput__ctor_thumb:
+
+.thumb_func
+_p_251_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput__ctor_llvm:
+	.globl _p_251_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1076,6341
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_WeakVideoSettings_Foundation_NSDictionary_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_WeakVideoSettings_Foundation_NSDictionary_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_WeakVideoSettings_Foundation_NSDictionary_thumb:
+
+.thumb_func
+_p_252_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_WeakVideoSettings_Foundation_NSDictionary_llvm:
+	.globl _p_252_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_WeakVideoSettings_Foundation_NSDictionary_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1080,6346
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreFoundation_DispatchQueue__ctor_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreFoundation_DispatchQueue__ctor_string_thumb
+plt_ZXingNetMobile_CoreFoundation_DispatchQueue__ctor_string_thumb:
+
+.thumb_func
+_p_253_plt_ZXingNetMobile_CoreFoundation_DispatchQueue__ctor_string_llvm:
+	.globl _p_253_plt_ZXingNetMobile_CoreFoundation_DispatchQueue__ctor_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1084,6351
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_thumb
+plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_thumb:
+
+.thumb_func
+_p_254_plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_llvm:
+	.globl _p_254_plt_ZXingNetMobile_ZXing_Mobile_BarcodeReaderiOS__ctor_ZXing_Reader_System_Func_2_UIKit_UIImage_ZXing_LuminanceSource_System_Func_2_ZXing_LuminanceSource_ZXing_Binarizer_System_Func_5_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_ZXing_LuminanceSource_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1088,6356
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_System_Func_2_ZXing_LuminanceSource_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_System_Func_2_ZXing_LuminanceSource_bool_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_System_Func_2_ZXing_LuminanceSource_bool_thumb:
+
+.thumb_func
+_p_255_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_System_Func_2_ZXing_LuminanceSource_bool_llvm:
+	.globl _p_255_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_OutputRecorder__ctor_ZXing_Mobile_MobileBarcodeScanningOptions_System_Func_2_ZXing_LuminanceSource_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1092,6358
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_AlwaysDiscardsLateVideoFrames_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_AlwaysDiscardsLateVideoFrames_bool_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_AlwaysDiscardsLateVideoFrames_bool_thumb:
+
+.thumb_func
+_p_256_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_AlwaysDiscardsLateVideoFrames_bool_llvm:
+	.globl _p_256_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_set_AlwaysDiscardsLateVideoFrames_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1096,6361
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_SetSampleBufferDelegate_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate_CoreFoundation_DispatchQueue_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_SetSampleBufferDelegate_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate_CoreFoundation_DispatchQueue_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_SetSampleBufferDelegate_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate_CoreFoundation_DispatchQueue_thumb:
+
+.thumb_func
+_p_257_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_SetSampleBufferDelegate_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate_CoreFoundation_DispatchQueue_llvm:
+	.globl _p_257_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutput_SetSampleBufferDelegate_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate_CoreFoundation_DispatchQueue_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1100,6366
+.code 32
+	.thumb_func plt_ZXingNetMobile_CoreGraphics_CGPoint_op_Implicit_System_Drawing_PointF_thumb
+	.no_dead_strip plt_ZXingNetMobile_CoreGraphics_CGPoint_op_Implicit_System_Drawing_PointF_thumb
+plt_ZXingNetMobile_CoreGraphics_CGPoint_op_Implicit_System_Drawing_PointF_thumb:
+
+.thumb_func
+_p_258_plt_ZXingNetMobile_CoreGraphics_CGPoint_op_Implicit_System_Drawing_PointF_llvm:
+	.globl _p_258_plt_ZXingNetMobile_CoreGraphics_CGPoint_op_Implicit_System_Drawing_PointF_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1104,6371
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage_get_Options_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage_get_Options_thumb
+plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage_get_Options_thumb:
+
+.thumb_func
+_p_259_plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage_get_Options_llvm:
+	.globl _p_259_plt_ZXingNetMobile_ZXing_BarcodeReaderGeneric_1_UIKit_UIImage_get_Options_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1108,6376
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PossibleFormats_System_Collections_Generic_IList_1_ZXing_BarcodeFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PossibleFormats_System_Collections_Generic_IList_1_ZXing_BarcodeFormat_thumb
+plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PossibleFormats_System_Collections_Generic_IList_1_ZXing_BarcodeFormat_thumb:
+
+.thumb_func
+_p_260_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PossibleFormats_System_Collections_Generic_IList_1_ZXing_BarcodeFormat_llvm:
+	.globl _p_260_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PossibleFormats_System_Collections_Generic_IList_1_ZXing_BarcodeFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1112,6387
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_DecodingOptions_get_PossibleFormats_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_DecodingOptions_get_PossibleFormats_thumb
+plt_ZXingNetMobile_ZXing_Common_DecodingOptions_get_PossibleFormats_thumb:
+
+.thumb_func
+_p_261_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_get_PossibleFormats_llvm:
+	.globl _p_261_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_get_PossibleFormats_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1116,6392
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_CharacterSet_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_CharacterSet_string_thumb
+plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_CharacterSet_string_thumb:
+
+.thumb_func
+_p_262_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_CharacterSet_string_llvm:
+	.globl _p_262_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_CharacterSet_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1120,6397
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_UseCode39ExtendedMode_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_UseCode39ExtendedMode_bool_thumb
+plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_UseCode39ExtendedMode_bool_thumb:
+
+.thumb_func
+_p_263_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_UseCode39ExtendedMode_bool_llvm:
+	.globl _p_263_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_UseCode39ExtendedMode_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1124,6402
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PureBarcode_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PureBarcode_bool_thumb
+plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PureBarcode_bool_thumb:
+
+.thumb_func
+_p_264_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PureBarcode_bool_llvm:
+	.globl _p_264_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_PureBarcode_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1128,6407
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_TryHarder_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_TryHarder_bool_thumb
+plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_TryHarder_bool_thumb:
+
+.thumb_func
+_p_265_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_TryHarder_bool_llvm:
+	.globl _p_265_plt_ZXingNetMobile_ZXing_Common_DecodingOptions_set_TryHarder_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1132,6412
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_266_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect_llvm:
+	.globl _p_266_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Setup_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1136,6417
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default_thumb
+plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default_thumb:
+
+.thumb_func
+_p_267_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default_llvm:
+	.globl _p_267_plt_ZXingNetMobile_ZXing_Mobile_MobileBarcodeScanningOptions_get_Default_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1140,6420
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_CancellationTokenSource_Cancel_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_CancellationTokenSource_Cancel_thumb
+plt_ZXingNetMobile_System_Threading_CancellationTokenSource_Cancel_thumb:
+
+.thumb_func
+_p_268_plt_ZXingNetMobile_System_Threading_CancellationTokenSource_Cancel_llvm:
+	.globl _p_268_plt_ZXingNetMobile_System_Threading_CancellationTokenSource_Cancel_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1144,6425
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Destroy_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Destroy_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Destroy_thumb:
+
+.thumb_func
+_p_269_plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Destroy_llvm:
+	.globl _p_269_plt_ZXingNetMobile_ZXing_Mobile_ZXingDefaultOverlayView_Destroy_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1148,6430
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Torch_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Torch_bool_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Torch_bool_thumb:
+
+.thumb_func
+_p_270_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Torch_bool_llvm:
+	.globl _p_270_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_Torch_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1152,6433
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_SetupCaptureSession_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_SetupCaptureSession_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_SetupCaptureSession_thumb:
+
+.thumb_func
+_p_271_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_SetupCaptureSession_llvm:
+	.globl _p_271_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_SetupCaptureSession_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1156,6436
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_CancellationTokenSource__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_CancellationTokenSource__ctor_thumb
+plt_ZXingNetMobile_System_Threading_CancellationTokenSource__ctor_thumb:
+
+.thumb_func
+_p_272_plt_ZXingNetMobile_System_Threading_CancellationTokenSource__ctor_llvm:
+	.globl _p_272_plt_ZXingNetMobile_System_Threading_CancellationTokenSource__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1160,6439
+.code 32
+	.thumb_func plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate__ctor_thumb
+plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate__ctor_thumb:
+
+.thumb_func
+_p_273_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate__ctor_llvm:
+	.globl _p_273_plt_ZXingNetMobile_AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1164,6444
+.code 32
+	.thumb_func plt_ZXingNetMobile_string_Concat_object_object_thumb
+	.no_dead_strip plt_ZXingNetMobile_string_Concat_object_object_thumb
+plt_ZXingNetMobile_string_Concat_object_object_thumb:
+
+.thumb_func
+_p_274_plt_ZXingNetMobile_string_Concat_object_object_llvm:
+	.globl _p_274_plt_ZXingNetMobile_string_Concat_object_object_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1168,6449
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect_thumb:
+
+.thumb_func
+_p_275_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect_llvm:
+	.globl _p_275_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView__ctor_CoreGraphics_CGRect_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1172,6454
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action_thumb:
+
+.thumb_func
+_p_276_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action_llvm:
+	.globl _p_276_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnCancelButtonPressed_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1176,6457
+.code 32
+	.thumb_func plt_ZXingNetMobile_UIKit_UIView_InsertSubviewBelow_UIKit_UIView_UIKit_UIView_thumb
+	.no_dead_strip plt_ZXingNetMobile_UIKit_UIView_InsertSubviewBelow_UIKit_UIView_UIKit_UIView_thumb
+plt_ZXingNetMobile_UIKit_UIView_InsertSubviewBelow_UIKit_UIView_UIKit_UIView_thumb:
+
+.thumb_func
+_p_277_plt_ZXingNetMobile_UIKit_UIView_InsertSubviewBelow_UIKit_UIView_UIKit_UIView_llvm:
+	.globl _p_277_plt_ZXingNetMobile_UIKit_UIView_InsertSubviewBelow_UIKit_UIView_UIKit_UIView_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1180,6460
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ToggleTorch_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ToggleTorch_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ToggleTorch_thumb:
+
+.thumb_func
+_p_278_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ToggleTorch_llvm:
+	.globl _p_278_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_ToggleTorch_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1184,6465
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb:
+
+.thumb_func
+_p_279_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_llvm:
+	.globl _p_279_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_add_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1188,6468
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_System_Action_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_System_Action_thumb
+plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_System_Action_thumb:
+
+.thumb_func
+_p_280_plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_System_Action_llvm:
+	.globl _p_280_plt_ZXingNetMobile_System_Threading_Tasks_TaskFactory_StartNew_System_Action_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1192,6471
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_thumb:
+
+.thumb_func
+_p_281_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_llvm:
+	.globl _p_281_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_remove_OnScannerSetupComplete_ZXing_Mobile_ZXingScannerView_ScannerSetupCompleteDelegate_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1196,6476
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StopScanning_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StopScanning_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StopScanning_thumb:
+
+.thumb_func
+_p_282_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StopScanning_llvm:
+	.globl _p_282_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StopScanning_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1200,6479
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation_thumb:
+
+.thumb_func
+_p_283_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation_llvm:
+	.globl _p_283_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_DidRotate_UIKit_UIInterfaceOrientation_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1204,6482
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_thumb
+plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_thumb:
+
+.thumb_func
+_p_284_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_llvm:
+	.globl _p_284_plt_ZXingNetMobile_ZXing_Mobile_ZXingScannerView_StartScanning_System_Action_1_ZXing_Result_ZXing_Mobile_MobileBarcodeScanningOptions_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1208,6485
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_BaseLuminanceSource__ctor_int_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_BaseLuminanceSource__ctor_int_int_thumb
+plt_ZXingNetMobile_ZXing_BaseLuminanceSource__ctor_int_int_thumb:
+
+.thumb_func
+_p_285_plt_ZXingNetMobile_ZXing_BaseLuminanceSource__ctor_int_int_llvm:
+	.globl _p_285_plt_ZXingNetMobile_ZXing_BaseLuminanceSource__ctor_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1212,6488
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CalculateLuminance_byte__int_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CalculateLuminance_byte__int_thumb
+plt_ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CalculateLuminance_byte__int_thumb:
+
+.thumb_func
+_p_286_plt_ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CalculateLuminance_byte__int_llvm:
+	.globl _p_286_plt_ZXingNetMobile_ZXing_Mobile_CVPixelBufferARGB32LuminanceSource_CalculateLuminance_byte__int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1216,6493
+.code 32
+	.thumb_func plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_thumb
+	.no_dead_strip plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_thumb
+plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_thumb:
+
+.thumb_func
+_p_287_plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_llvm:
+	.globl _p_287_plt_ZXingNetMobile_ZXing_RGBLuminanceSource__ctor_byte___int_int_ZXing_RGBLuminanceSource_BitmapFormat_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1220,6496
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_mscorlib_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_mscorlib_thumb
+plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_mscorlib_thumb:
+
+.thumb_func
+_p_288_plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_mscorlib_llvm:
+	.globl _p_288_plt_ZXingNetMobile__jit_icall_mono_helper_ldstr_mscorlib_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1224,6501
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Nullable_1_bool_Unbox_object_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Nullable_1_bool_Unbox_object_thumb
+plt_ZXingNetMobile_System_Nullable_1_bool_Unbox_object_thumb:
+
+.thumb_func
+_p_289_plt_ZXingNetMobile_System_Nullable_1_bool_Unbox_object_llvm:
+	.globl _p_289_plt_ZXingNetMobile_System_Nullable_1_bool_Unbox_object_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1228,6530
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool_thumb
+plt_ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool_thumb:
+
+.thumb_func
+_p_290_plt_ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool_llvm:
+	.globl _p_290_plt_ZXingNetMobile_System_Nullable_1_bool_Equals_System_Nullable_1_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1232,6551
+.code 32
+	.thumb_func plt_ZXingNetMobile_bool_Equals_object_thumb
+	.no_dead_strip plt_ZXingNetMobile_bool_Equals_object_thumb
+plt_ZXingNetMobile_bool_Equals_object_thumb:
+
+.thumb_func
+_p_291_plt_ZXingNetMobile_bool_Equals_object_llvm:
+	.globl _p_291_plt_ZXingNetMobile_bool_Equals_object_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1236,6572
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_0_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_0_thumb
+plt_ZXingNetMobile__rgctx_fetch_0_thumb:
+
+.thumb_func
+_p_292_plt_ZXingNetMobile__rgctx_fetch_0_llvm:
+	.globl _p_292_plt_ZXingNetMobile__rgctx_fetch_0_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1240,6605
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_thumb
+plt_ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_thumb:
+
+.thumb_func
+_p_293_plt_ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm:
+	.globl _p_293_plt_ZXingNetMobile_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1244,6613
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_1_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_1_thumb
+plt_ZXingNetMobile__rgctx_fetch_1_thumb:
+
+.thumb_func
+_p_294_plt_ZXingNetMobile__rgctx_fetch_1_llvm:
+	.globl _p_294_plt_ZXingNetMobile__rgctx_fetch_1_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1248,6651
+.code 32
+	.thumb_func plt_ZXingNetMobile_Locale_GetText_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_Locale_GetText_string_thumb
+plt_ZXingNetMobile_Locale_GetText_string_thumb:
+
+.thumb_func
+_p_295_plt_ZXingNetMobile_Locale_GetText_string_llvm:
+	.globl _p_295_plt_ZXingNetMobile_Locale_GetText_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1252,6675
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Array_Copy_System_Array_int_System_Array_int_int_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Array_Copy_System_Array_int_System_Array_int_int_thumb
+plt_ZXingNetMobile_System_Array_Copy_System_Array_int_System_Array_int_int_thumb:
+
+.thumb_func
+_p_296_plt_ZXingNetMobile_System_Array_Copy_System_Array_int_System_Array_int_int_llvm:
+	.globl _p_296_plt_ZXingNetMobile_System_Array_Copy_System_Array_int_System_Array_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1256,6680
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_2_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_2_thumb
+plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_2_thumb:
+
+.thumb_func
+_p_297_plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_2_llvm:
+	.globl _p_297_plt_ZXingNetMobile__jit_icall_mono_create_corlib_exception_2_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1260,6685
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_2_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_2_thumb
+plt_ZXingNetMobile__rgctx_fetch_2_thumb:
+
+.thumb_func
+_p_298_plt_ZXingNetMobile__rgctx_fetch_2_llvm:
+	.globl _p_298_plt_ZXingNetMobile__rgctx_fetch_2_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1264,6736
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_3_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_3_thumb
+plt_ZXingNetMobile__rgctx_fetch_3_thumb:
+
+.thumb_func
+_p_299_plt_ZXingNetMobile__rgctx_fetch_3_llvm:
+	.globl _p_299_plt_ZXingNetMobile__rgctx_fetch_3_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1268,6760
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_4_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_4_thumb
+plt_ZXingNetMobile__rgctx_fetch_4_thumb:
+
+.thumb_func
+_p_300_plt_ZXingNetMobile__rgctx_fetch_4_llvm:
+	.globl _p_300_plt_ZXingNetMobile__rgctx_fetch_4_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1272,6802
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_5_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_5_thumb
+plt_ZXingNetMobile__rgctx_fetch_5_thumb:
+
+.thumb_func
+_p_301_plt_ZXingNetMobile__rgctx_fetch_5_llvm:
+	.globl _p_301_plt_ZXingNetMobile__rgctx_fetch_5_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1276,6810
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_6_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_6_thumb
+plt_ZXingNetMobile__rgctx_fetch_6_thumb:
+
+.thumb_func
+_p_302_plt_ZXingNetMobile__rgctx_fetch_6_llvm:
+	.globl _p_302_plt_ZXingNetMobile__rgctx_fetch_6_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1280,6833
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_7_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_7_thumb
+plt_ZXingNetMobile__rgctx_fetch_7_thumb:
+
+.thumb_func
+_p_303_plt_ZXingNetMobile__rgctx_fetch_7_llvm:
+	.globl _p_303_plt_ZXingNetMobile__rgctx_fetch_7_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1284,6869
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_8_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_8_thumb
+plt_ZXingNetMobile__rgctx_fetch_8_thumb:
+
+.thumb_func
+_p_304_plt_ZXingNetMobile__rgctx_fetch_8_llvm:
+	.globl _p_304_plt_ZXingNetMobile__rgctx_fetch_8_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1288,6877
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_9_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_9_thumb
+plt_ZXingNetMobile__rgctx_fetch_9_thumb:
+
+.thumb_func
+_p_305_plt_ZXingNetMobile__rgctx_fetch_9_llvm:
+	.globl _p_305_plt_ZXingNetMobile__rgctx_fetch_9_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1292,6918
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_10_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_10_thumb
+plt_ZXingNetMobile__rgctx_fetch_10_thumb:
+
+.thumb_func
+_p_306_plt_ZXingNetMobile__rgctx_fetch_10_llvm:
+	.globl _p_306_plt_ZXingNetMobile__rgctx_fetch_10_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1296,6942
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_11_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_11_thumb
+plt_ZXingNetMobile__rgctx_fetch_11_thumb:
+
+.thumb_func
+_p_307_plt_ZXingNetMobile__rgctx_fetch_11_llvm:
+	.globl _p_307_plt_ZXingNetMobile__rgctx_fetch_11_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1300,6984
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_12_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_12_thumb
+plt_ZXingNetMobile__rgctx_fetch_12_thumb:
+
+.thumb_func
+_p_308_plt_ZXingNetMobile__rgctx_fetch_12_llvm:
+	.globl _p_308_plt_ZXingNetMobile__rgctx_fetch_12_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1304,6992
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_13_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_13_thumb
+plt_ZXingNetMobile__rgctx_fetch_13_thumb:
+
+.thumb_func
+_p_309_plt_ZXingNetMobile__rgctx_fetch_13_llvm:
+	.globl _p_309_plt_ZXingNetMobile__rgctx_fetch_13_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1308,7015
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_14_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_14_thumb
+plt_ZXingNetMobile__rgctx_fetch_14_thumb:
+
+.thumb_func
+_p_310_plt_ZXingNetMobile__rgctx_fetch_14_llvm:
+	.globl _p_310_plt_ZXingNetMobile__rgctx_fetch_14_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1312,7051
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_15_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_15_thumb
+plt_ZXingNetMobile__rgctx_fetch_15_thumb:
+
+.thumb_func
+_p_311_plt_ZXingNetMobile__rgctx_fetch_15_llvm:
+	.globl _p_311_plt_ZXingNetMobile__rgctx_fetch_15_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1316,7059
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_16_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_16_thumb
+plt_ZXingNetMobile__rgctx_fetch_16_thumb:
+
+.thumb_func
+_p_312_plt_ZXingNetMobile__rgctx_fetch_16_llvm:
+	.globl _p_312_plt_ZXingNetMobile__rgctx_fetch_16_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1320,7101
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_17_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_17_thumb
+plt_ZXingNetMobile__rgctx_fetch_17_thumb:
+
+.thumb_func
+_p_313_plt_ZXingNetMobile__rgctx_fetch_17_llvm:
+	.globl _p_313_plt_ZXingNetMobile__rgctx_fetch_17_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1324,7125
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_18_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_18_thumb
+plt_ZXingNetMobile__rgctx_fetch_18_thumb:
+
+.thumb_func
+_p_314_plt_ZXingNetMobile__rgctx_fetch_18_llvm:
+	.globl _p_314_plt_ZXingNetMobile__rgctx_fetch_18_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1328,7133
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_19_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_19_thumb
+plt_ZXingNetMobile__rgctx_fetch_19_thumb:
+
+.thumb_func
+_p_315_plt_ZXingNetMobile__rgctx_fetch_19_llvm:
+	.globl _p_315_plt_ZXingNetMobile__rgctx_fetch_19_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1332,7147
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_20_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_20_thumb
+plt_ZXingNetMobile__rgctx_fetch_20_thumb:
+
+.thumb_func
+_p_316_plt_ZXingNetMobile__rgctx_fetch_20_llvm:
+	.globl _p_316_plt_ZXingNetMobile__rgctx_fetch_20_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1336,7179
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_21_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_21_thumb
+plt_ZXingNetMobile__rgctx_fetch_21_thumb:
+
+.thumb_func
+_p_317_plt_ZXingNetMobile__rgctx_fetch_21_llvm:
+	.globl _p_317_plt_ZXingNetMobile__rgctx_fetch_21_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1340,7187
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_22_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_22_thumb
+plt_ZXingNetMobile__rgctx_fetch_22_thumb:
+
+.thumb_func
+_p_318_plt_ZXingNetMobile__rgctx_fetch_22_llvm:
+	.globl _p_318_plt_ZXingNetMobile__rgctx_fetch_22_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1344,7195
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_23_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_23_thumb
+plt_ZXingNetMobile__rgctx_fetch_23_thumb:
+
+.thumb_func
+_p_319_plt_ZXingNetMobile__rgctx_fetch_23_llvm:
+	.globl _p_319_plt_ZXingNetMobile__rgctx_fetch_23_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1348,7236
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Type_op_Equality_System_Type_System_Type_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Type_op_Equality_System_Type_System_Type_thumb
+plt_ZXingNetMobile_System_Type_op_Equality_System_Type_System_Type_thumb:
+
+.thumb_func
+_p_320_plt_ZXingNetMobile_System_Type_op_Equality_System_Type_System_Type_llvm:
+	.globl _p_320_plt_ZXingNetMobile_System_Type_op_Equality_System_Type_System_Type_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1352,7244
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_24_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_24_thumb
+plt_ZXingNetMobile__rgctx_fetch_24_thumb:
+
+.thumb_func
+_p_321_plt_ZXingNetMobile__rgctx_fetch_24_llvm:
+	.globl _p_321_plt_ZXingNetMobile__rgctx_fetch_24_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1356,7258
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_25_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_25_thumb
+plt_ZXingNetMobile__rgctx_fetch_25_thumb:
+
+.thumb_func
+_p_322_plt_ZXingNetMobile__rgctx_fetch_25_llvm:
+	.globl _p_322_plt_ZXingNetMobile__rgctx_fetch_25_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1360,7275
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_26_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_26_thumb
+plt_ZXingNetMobile__rgctx_fetch_26_thumb:
+
+.thumb_func
+_p_323_plt_ZXingNetMobile__rgctx_fetch_26_llvm:
+	.globl _p_323_plt_ZXingNetMobile__rgctx_fetch_26_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1364,7283
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Enum_GetUnderlyingType_System_Type_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Enum_GetUnderlyingType_System_Type_thumb
+plt_ZXingNetMobile_System_Enum_GetUnderlyingType_System_Type_thumb:
+
+.thumb_func
+_p_324_plt_ZXingNetMobile_System_Enum_GetUnderlyingType_System_Type_llvm:
+	.globl _p_324_plt_ZXingNetMobile_System_Enum_GetUnderlyingType_System_Type_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1368,7306
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Type_GetTypeCode_System_Type_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Type_GetTypeCode_System_Type_thumb
+plt_ZXingNetMobile_System_Type_GetTypeCode_System_Type_thumb:
+
+.thumb_func
+_p_325_plt_ZXingNetMobile_System_Type_GetTypeCode_System_Type_llvm:
+	.globl _p_325_plt_ZXingNetMobile_System_Type_GetTypeCode_System_Type_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1372,7311
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_thumb
+plt_ZXingNetMobile_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_thumb:
+
+.thumb_func
+_p_326_plt_ZXingNetMobile_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_llvm:
+	.globl _p_326_plt_ZXingNetMobile_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1376,7316
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_27_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_27_thumb
+plt_ZXingNetMobile__rgctx_fetch_27_thumb:
+
+.thumb_func
+_p_327_plt_ZXingNetMobile__rgctx_fetch_27_llvm:
+	.globl _p_327_plt_ZXingNetMobile__rgctx_fetch_27_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1380,7321
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_InternalStringComparer__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_InternalStringComparer__ctor_thumb
+plt_ZXingNetMobile_System_Collections_Generic_InternalStringComparer__ctor_thumb:
+
+.thumb_func
+_p_328_plt_ZXingNetMobile_System_Collections_Generic_InternalStringComparer__ctor_llvm:
+	.globl _p_328_plt_ZXingNetMobile_System_Collections_Generic_InternalStringComparer__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1384,7329
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Collections_Generic_ByteEqualityComparer__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Collections_Generic_ByteEqualityComparer__ctor_thumb
+plt_ZXingNetMobile_System_Collections_Generic_ByteEqualityComparer__ctor_thumb:
+
+.thumb_func
+_p_329_plt_ZXingNetMobile_System_Collections_Generic_ByteEqualityComparer__ctor_llvm:
+	.globl _p_329_plt_ZXingNetMobile_System_Collections_Generic_ByteEqualityComparer__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1388,7334
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_28_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_28_thumb
+plt_ZXingNetMobile__rgctx_fetch_28_thumb:
+
+.thumb_func
+_p_330_plt_ZXingNetMobile__rgctx_fetch_28_llvm:
+	.globl _p_330_plt_ZXingNetMobile__rgctx_fetch_28_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1392,7357
+.code 32
+	.thumb_func plt_ZXingNetMobile_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_thumb
+	.no_dead_strip plt_ZXingNetMobile_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_thumb
+plt_ZXingNetMobile_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_thumb:
+
+.thumb_func
+_p_331_plt_ZXingNetMobile_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_llvm:
+	.globl _p_331_plt_ZXingNetMobile_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1396,7365
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_thumb
+plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_thumb:
+
+.thumb_func
+_p_332_plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_llvm:
+	.globl _p_332_plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1400,7373
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_29_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_29_thumb
+plt_ZXingNetMobile__rgctx_fetch_29_thumb:
+
+.thumb_func
+_p_333_plt_ZXingNetMobile__rgctx_fetch_29_llvm:
+	.globl _p_333_plt_ZXingNetMobile__rgctx_fetch_29_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1404,7378
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_30_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_30_thumb
+plt_ZXingNetMobile__rgctx_fetch_30_thumb:
+
+.thumb_func
+_p_334_plt_ZXingNetMobile__rgctx_fetch_30_llvm:
+	.globl _p_334_plt_ZXingNetMobile__rgctx_fetch_30_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1408,7404
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_31_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_31_thumb
+plt_ZXingNetMobile__rgctx_fetch_31_thumb:
+
+.thumb_func
+_p_335_plt_ZXingNetMobile__rgctx_fetch_31_llvm:
+	.globl _p_335_plt_ZXingNetMobile__rgctx_fetch_31_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1412,7412
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_32_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_32_thumb
+plt_ZXingNetMobile__rgctx_fetch_32_thumb:
+
+.thumb_func
+_p_336_plt_ZXingNetMobile__rgctx_fetch_32_llvm:
+	.globl _p_336_plt_ZXingNetMobile__rgctx_fetch_32_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1416,7447
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_33_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_33_thumb
+plt_ZXingNetMobile__rgctx_fetch_33_thumb:
+
+.thumb_func
+_p_337_plt_ZXingNetMobile__rgctx_fetch_33_llvm:
+	.globl _p_337_plt_ZXingNetMobile__rgctx_fetch_33_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1420,7488
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_34_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_34_thumb
+plt_ZXingNetMobile__rgctx_fetch_34_thumb:
+
+.thumb_func
+_p_338_plt_ZXingNetMobile__rgctx_fetch_34_llvm:
+	.globl _p_338_plt_ZXingNetMobile__rgctx_fetch_34_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1424,7529
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_35_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_35_thumb
+plt_ZXingNetMobile__rgctx_fetch_35_thumb:
+
+.thumb_func
+_p_339_plt_ZXingNetMobile__rgctx_fetch_35_llvm:
+	.globl _p_339_plt_ZXingNetMobile__rgctx_fetch_35_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1428,7553
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_36_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_36_thumb
+plt_ZXingNetMobile__rgctx_fetch_36_thumb:
+
+.thumb_func
+_p_340_plt_ZXingNetMobile__rgctx_fetch_36_llvm:
+	.globl _p_340_plt_ZXingNetMobile__rgctx_fetch_36_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1432,7595
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_37_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_37_thumb
+plt_ZXingNetMobile__rgctx_fetch_37_thumb:
+
+.thumb_func
+_p_341_plt_ZXingNetMobile__rgctx_fetch_37_llvm:
+	.globl _p_341_plt_ZXingNetMobile__rgctx_fetch_37_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1436,7619
+.code 32
+	.thumb_func plt_ZXingNetMobile_int_GetHashCode_thumb
+	.no_dead_strip plt_ZXingNetMobile_int_GetHashCode_thumb
+plt_ZXingNetMobile_int_GetHashCode_thumb:
+
+.thumb_func
+_p_342_plt_ZXingNetMobile_int_GetHashCode_llvm:
+	.globl _p_342_plt_ZXingNetMobile_int_GetHashCode_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1440,7643
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_38_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_38_thumb
+plt_ZXingNetMobile__rgctx_fetch_38_thumb:
+
+.thumb_func
+_p_343_plt_ZXingNetMobile__rgctx_fetch_38_llvm:
+	.globl _p_343_plt_ZXingNetMobile__rgctx_fetch_38_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1444,7666
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_39_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_39_thumb
+plt_ZXingNetMobile__rgctx_fetch_39_thumb:
+
+.thumb_func
+_p_344_plt_ZXingNetMobile__rgctx_fetch_39_llvm:
+	.globl _p_344_plt_ZXingNetMobile__rgctx_fetch_39_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1448,7683
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Runtime_Serialization_SerializationInfo_SetType_System_Type_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Runtime_Serialization_SerializationInfo_SetType_System_Type_thumb
+plt_ZXingNetMobile_System_Runtime_Serialization_SerializationInfo_SetType_System_Type_thumb:
+
+.thumb_func
+_p_345_plt_ZXingNetMobile_System_Runtime_Serialization_SerializationInfo_SetType_System_Type_llvm:
+	.globl _p_345_plt_ZXingNetMobile_System_Runtime_Serialization_SerializationInfo_SetType_System_Type_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1452,7691
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_40_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_40_thumb
+plt_ZXingNetMobile__rgctx_fetch_40_thumb:
+
+.thumb_func
+_p_346_plt_ZXingNetMobile__rgctx_fetch_40_llvm:
+	.globl _p_346_plt_ZXingNetMobile__rgctx_fetch_40_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1456,7714
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_41_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_41_thumb
+plt_ZXingNetMobile__rgctx_fetch_41_thumb:
+
+.thumb_func
+_p_347_plt_ZXingNetMobile__rgctx_fetch_41_llvm:
+	.globl _p_347_plt_ZXingNetMobile__rgctx_fetch_41_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1460,7740
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_42_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_42_thumb
+plt_ZXingNetMobile__rgctx_fetch_42_thumb:
+
+.thumb_func
+_p_348_plt_ZXingNetMobile__rgctx_fetch_42_llvm:
+	.globl _p_348_plt_ZXingNetMobile__rgctx_fetch_42_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1464,7748
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_thumb
+plt_ZXingNetMobile_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_thumb:
+
+.thumb_func
+_p_349_plt_ZXingNetMobile_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_llvm:
+	.globl _p_349_plt_ZXingNetMobile_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1468,7771
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_43_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_43_thumb
+plt_ZXingNetMobile__rgctx_fetch_43_thumb:
+
+.thumb_func
+_p_350_plt_ZXingNetMobile__rgctx_fetch_43_llvm:
+	.globl _p_350_plt_ZXingNetMobile__rgctx_fetch_43_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1472,7794
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_44_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_44_thumb
+plt_ZXingNetMobile__rgctx_fetch_44_thumb:
+
+.thumb_func
+_p_351_plt_ZXingNetMobile__rgctx_fetch_44_llvm:
+	.globl _p_351_plt_ZXingNetMobile__rgctx_fetch_44_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1476,7802
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_45_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_45_thumb
+plt_ZXingNetMobile__rgctx_fetch_45_thumb:
+
+.thumb_func
+_p_352_plt_ZXingNetMobile__rgctx_fetch_45_llvm:
+	.globl _p_352_plt_ZXingNetMobile__rgctx_fetch_45_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1480,7825
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_46_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_46_thumb
+plt_ZXingNetMobile__rgctx_fetch_46_thumb:
+
+.thumb_func
+_p_353_plt_ZXingNetMobile__rgctx_fetch_46_llvm:
+	.globl _p_353_plt_ZXingNetMobile__rgctx_fetch_46_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1484,7852
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_47_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_47_thumb
+plt_ZXingNetMobile__rgctx_fetch_47_thumb:
+
+.thumb_func
+_p_354_plt_ZXingNetMobile__rgctx_fetch_47_llvm:
+	.globl _p_354_plt_ZXingNetMobile__rgctx_fetch_47_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1488,7876
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_48_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_48_thumb
+plt_ZXingNetMobile__rgctx_fetch_48_thumb:
+
+.thumb_func
+_p_355_plt_ZXingNetMobile__rgctx_fetch_48_llvm:
+	.globl _p_355_plt_ZXingNetMobile__rgctx_fetch_48_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1492,7884
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_49_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_49_thumb
+plt_ZXingNetMobile__rgctx_fetch_49_thumb:
+
+.thumb_func
+_p_356_plt_ZXingNetMobile__rgctx_fetch_49_llvm:
+	.globl _p_356_plt_ZXingNetMobile__rgctx_fetch_49_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1496,7898
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_50_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_50_thumb
+plt_ZXingNetMobile__rgctx_fetch_50_thumb:
+
+.thumb_func
+_p_357_plt_ZXingNetMobile__rgctx_fetch_50_llvm:
+	.globl _p_357_plt_ZXingNetMobile__rgctx_fetch_50_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1500,7931
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_51_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_51_thumb
+plt_ZXingNetMobile__rgctx_fetch_51_thumb:
+
+.thumb_func
+_p_358_plt_ZXingNetMobile__rgctx_fetch_51_llvm:
+	.globl _p_358_plt_ZXingNetMobile__rgctx_fetch_51_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1504,7974
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_52_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_52_thumb
+plt_ZXingNetMobile__rgctx_fetch_52_thumb:
+
+.thumb_func
+_p_359_plt_ZXingNetMobile__rgctx_fetch_52_llvm:
+	.globl _p_359_plt_ZXingNetMobile__rgctx_fetch_52_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1508,7998
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_delegate_begin_invoke_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_delegate_begin_invoke_thumb
+plt_ZXingNetMobile__jit_icall_mono_delegate_begin_invoke_thumb:
+
+.thumb_func
+_p_360_plt_ZXingNetMobile__jit_icall_mono_delegate_begin_invoke_llvm:
+	.globl _p_360_plt_ZXingNetMobile__jit_icall_mono_delegate_begin_invoke_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1512,8006
+.code 32
+	.thumb_func plt_ZXingNetMobile__jit_icall_mono_delegate_end_invoke_thumb
+	.no_dead_strip plt_ZXingNetMobile__jit_icall_mono_delegate_end_invoke_thumb
+plt_ZXingNetMobile__jit_icall_mono_delegate_end_invoke_thumb:
+
+.thumb_func
+_p_361_plt_ZXingNetMobile__jit_icall_mono_delegate_end_invoke_llvm:
+	.globl _p_361_plt_ZXingNetMobile__jit_icall_mono_delegate_end_invoke_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1516,8035
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_53_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_53_thumb
+plt_ZXingNetMobile__rgctx_fetch_53_thumb:
+
+.thumb_func
+_p_362_plt_ZXingNetMobile__rgctx_fetch_53_llvm:
+	.globl _p_362_plt_ZXingNetMobile__rgctx_fetch_53_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1520,8093
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_54_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_54_thumb
+plt_ZXingNetMobile__rgctx_fetch_54_thumb:
+
+.thumb_func
+_p_363_plt_ZXingNetMobile__rgctx_fetch_54_llvm:
+	.globl _p_363_plt_ZXingNetMobile__rgctx_fetch_54_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1524,8101
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_55_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_55_thumb
+plt_ZXingNetMobile__rgctx_fetch_55_thumb:
+
+.thumb_func
+_p_364_plt_ZXingNetMobile__rgctx_fetch_55_llvm:
+	.globl _p_364_plt_ZXingNetMobile__rgctx_fetch_55_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1528,8120
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_56_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_56_thumb
+plt_ZXingNetMobile__rgctx_fetch_56_thumb:
+
+.thumb_func
+_p_365_plt_ZXingNetMobile__rgctx_fetch_56_llvm:
+	.globl _p_365_plt_ZXingNetMobile__rgctx_fetch_56_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1532,8140
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_57_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_57_thumb
+plt_ZXingNetMobile__rgctx_fetch_57_thumb:
+
+.thumb_func
+_p_366_plt_ZXingNetMobile__rgctx_fetch_57_llvm:
+	.globl _p_366_plt_ZXingNetMobile__rgctx_fetch_57_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1536,8148
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_58_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_58_thumb
+plt_ZXingNetMobile__rgctx_fetch_58_thumb:
+
+.thumb_func
+_p_367_plt_ZXingNetMobile__rgctx_fetch_58_llvm:
+	.globl _p_367_plt_ZXingNetMobile__rgctx_fetch_58_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1540,8186
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_59_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_59_thumb
+plt_ZXingNetMobile__rgctx_fetch_59_thumb:
+
+.thumb_func
+_p_368_plt_ZXingNetMobile__rgctx_fetch_59_llvm:
+	.globl _p_368_plt_ZXingNetMobile__rgctx_fetch_59_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1544,8194
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_60_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_60_thumb
+plt_ZXingNetMobile__rgctx_fetch_60_thumb:
+
+.thumb_func
+_p_369_plt_ZXingNetMobile__rgctx_fetch_60_llvm:
+	.globl _p_369_plt_ZXingNetMobile__rgctx_fetch_60_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1548,8232
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_61_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_61_thumb
+plt_ZXingNetMobile__rgctx_fetch_61_thumb:
+
+.thumb_func
+_p_370_plt_ZXingNetMobile__rgctx_fetch_61_llvm:
+	.globl _p_370_plt_ZXingNetMobile__rgctx_fetch_61_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1552,8240
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_62_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_62_thumb
+plt_ZXingNetMobile__rgctx_fetch_62_thumb:
+
+.thumb_func
+_p_371_plt_ZXingNetMobile__rgctx_fetch_62_llvm:
+	.globl _p_371_plt_ZXingNetMobile__rgctx_fetch_62_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1556,8266
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_63_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_63_thumb
+plt_ZXingNetMobile__rgctx_fetch_63_thumb:
+
+.thumb_func
+_p_372_plt_ZXingNetMobile__rgctx_fetch_63_llvm:
+	.globl _p_372_plt_ZXingNetMobile__rgctx_fetch_63_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1560,8292
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Error_ArgumentNull_string_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Error_ArgumentNull_string_thumb
+plt_ZXingNetMobile_System_Linq_Error_ArgumentNull_string_thumb:
+
+.thumb_func
+_p_373_plt_ZXingNetMobile_System_Linq_Error_ArgumentNull_string_llvm:
+	.globl _p_373_plt_ZXingNetMobile_System_Linq_Error_ArgumentNull_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1564,8318
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_64_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_64_thumb
+plt_ZXingNetMobile__rgctx_fetch_64_thumb:
+
+.thumb_func
+_p_374_plt_ZXingNetMobile__rgctx_fetch_64_llvm:
+	.globl _p_374_plt_ZXingNetMobile__rgctx_fetch_64_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1568,8351
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_65_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_65_thumb
+plt_ZXingNetMobile__rgctx_fetch_65_thumb:
+
+.thumb_func
+_p_375_plt_ZXingNetMobile__rgctx_fetch_65_llvm:
+	.globl _p_375_plt_ZXingNetMobile__rgctx_fetch_65_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1572,8359
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_66_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_66_thumb
+plt_ZXingNetMobile__rgctx_fetch_66_thumb:
+
+.thumb_func
+_p_376_plt_ZXingNetMobile__rgctx_fetch_66_llvm:
+	.globl _p_376_plt_ZXingNetMobile__rgctx_fetch_66_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1576,8378
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_67_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_67_thumb
+plt_ZXingNetMobile__rgctx_fetch_67_thumb:
+
+.thumb_func
+_p_377_plt_ZXingNetMobile__rgctx_fetch_67_llvm:
+	.globl _p_377_plt_ZXingNetMobile__rgctx_fetch_67_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1580,8395
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_68_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_68_thumb
+plt_ZXingNetMobile__rgctx_fetch_68_thumb:
+
+.thumb_func
+_p_378_plt_ZXingNetMobile__rgctx_fetch_68_llvm:
+	.globl _p_378_plt_ZXingNetMobile__rgctx_fetch_68_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1584,8403
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_69_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_69_thumb
+plt_ZXingNetMobile__rgctx_fetch_69_thumb:
+
+.thumb_func
+_p_379_plt_ZXingNetMobile__rgctx_fetch_69_llvm:
+	.globl _p_379_plt_ZXingNetMobile__rgctx_fetch_69_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1588,8435
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_70_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_70_thumb
+plt_ZXingNetMobile__rgctx_fetch_70_thumb:
+
+.thumb_func
+_p_380_plt_ZXingNetMobile__rgctx_fetch_70_llvm:
+	.globl _p_380_plt_ZXingNetMobile__rgctx_fetch_70_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1592,8443
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_71_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_71_thumb
+plt_ZXingNetMobile__rgctx_fetch_71_thumb:
+
+.thumb_func
+_p_381_plt_ZXingNetMobile__rgctx_fetch_71_llvm:
+	.globl _p_381_plt_ZXingNetMobile__rgctx_fetch_71_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1596,8475
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_72_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_72_thumb
+plt_ZXingNetMobile__rgctx_fetch_72_thumb:
+
+.thumb_func
+_p_382_plt_ZXingNetMobile__rgctx_fetch_72_llvm:
+	.globl _p_382_plt_ZXingNetMobile__rgctx_fetch_72_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1600,8483
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_73_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_73_thumb
+plt_ZXingNetMobile__rgctx_fetch_73_thumb:
+
+.thumb_func
+_p_383_plt_ZXingNetMobile__rgctx_fetch_73_llvm:
+	.globl _p_383_plt_ZXingNetMobile__rgctx_fetch_73_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1604,8533
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_74_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_74_thumb
+plt_ZXingNetMobile__rgctx_fetch_74_thumb:
+
+.thumb_func
+_p_384_plt_ZXingNetMobile__rgctx_fetch_74_llvm:
+	.globl _p_384_plt_ZXingNetMobile__rgctx_fetch_74_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1608,8541
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_75_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_75_thumb
+plt_ZXingNetMobile__rgctx_fetch_75_thumb:
+
+.thumb_func
+_p_385_plt_ZXingNetMobile__rgctx_fetch_75_llvm:
+	.globl _p_385_plt_ZXingNetMobile__rgctx_fetch_75_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1612,8592
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_76_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_76_thumb
+plt_ZXingNetMobile__rgctx_fetch_76_thumb:
+
+.thumb_func
+_p_386_plt_ZXingNetMobile__rgctx_fetch_76_llvm:
+	.globl _p_386_plt_ZXingNetMobile__rgctx_fetch_76_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1616,8624
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_77_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_77_thumb
+plt_ZXingNetMobile__rgctx_fetch_77_thumb:
+
+.thumb_func
+_p_387_plt_ZXingNetMobile__rgctx_fetch_77_llvm:
+	.globl _p_387_plt_ZXingNetMobile__rgctx_fetch_77_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1620,8665
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_78_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_78_thumb
+plt_ZXingNetMobile__rgctx_fetch_78_thumb:
+
+.thumb_func
+_p_388_plt_ZXingNetMobile__rgctx_fetch_78_llvm:
+	.globl _p_388_plt_ZXingNetMobile__rgctx_fetch_78_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1624,8706
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_79_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_79_thumb
+plt_ZXingNetMobile__rgctx_fetch_79_thumb:
+
+.thumb_func
+_p_389_plt_ZXingNetMobile__rgctx_fetch_79_llvm:
+	.globl _p_389_plt_ZXingNetMobile__rgctx_fetch_79_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1628,8716
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_80_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_80_thumb
+plt_ZXingNetMobile__rgctx_fetch_80_thumb:
+
+.thumb_func
+_p_390_plt_ZXingNetMobile__rgctx_fetch_80_llvm:
+	.globl _p_390_plt_ZXingNetMobile__rgctx_fetch_80_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1632,8751
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_81_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_81_thumb
+plt_ZXingNetMobile__rgctx_fetch_81_thumb:
+
+.thumb_func
+_p_391_plt_ZXingNetMobile__rgctx_fetch_81_llvm:
+	.globl _p_391_plt_ZXingNetMobile__rgctx_fetch_81_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1636,8759
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_82_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_82_thumb
+plt_ZXingNetMobile__rgctx_fetch_82_thumb:
+
+.thumb_func
+_p_392_plt_ZXingNetMobile__rgctx_fetch_82_llvm:
+	.globl _p_392_plt_ZXingNetMobile__rgctx_fetch_82_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1640,8801
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_83_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_83_thumb
+plt_ZXingNetMobile__rgctx_fetch_83_thumb:
+
+.thumb_func
+_p_393_plt_ZXingNetMobile__rgctx_fetch_83_llvm:
+	.globl _p_393_plt_ZXingNetMobile__rgctx_fetch_83_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1644,8852
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_thumb:
+
+.thumb_func
+_p_394_plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_llvm:
+	.globl _p_394_plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1648,8884
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0_thumb:
+
+.thumb_func
+_p_395_plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0_llvm:
+	.globl _p_395_plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_0_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1652,8912
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1_thumb
+plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1_thumb:
+
+.thumb_func
+_p_396_plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1_llvm:
+	.globl _p_396_plt_ZXingNetMobile_System_Linq_Enumerable_Iterator_1_TResult_REF__ctor_1_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1656,8940
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_84_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_84_thumb
+plt_ZXingNetMobile__rgctx_fetch_84_thumb:
+
+.thumb_func
+_p_397_plt_ZXingNetMobile__rgctx_fetch_84_llvm:
+	.globl _p_397_plt_ZXingNetMobile__rgctx_fetch_84_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1660,8986
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_85_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_85_thumb
+plt_ZXingNetMobile__rgctx_fetch_85_thumb:
+
+.thumb_func
+_p_398_plt_ZXingNetMobile__rgctx_fetch_85_llvm:
+	.globl _p_398_plt_ZXingNetMobile__rgctx_fetch_85_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1664,9036
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_86_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_86_thumb
+plt_ZXingNetMobile__rgctx_fetch_86_thumb:
+
+.thumb_func
+_p_399_plt_ZXingNetMobile__rgctx_fetch_86_llvm:
+	.globl _p_399_plt_ZXingNetMobile__rgctx_fetch_86_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1668,9086
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_87_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_87_thumb
+plt_ZXingNetMobile__rgctx_fetch_87_thumb:
+
+.thumb_func
+_p_400_plt_ZXingNetMobile__rgctx_fetch_87_llvm:
+	.globl _p_400_plt_ZXingNetMobile__rgctx_fetch_87_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1672,9127
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_Thread_get_CurrentThread_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_Thread_get_CurrentThread_thumb
+plt_ZXingNetMobile_System_Threading_Thread_get_CurrentThread_thumb:
+
+.thumb_func
+_p_401_plt_ZXingNetMobile_System_Threading_Thread_get_CurrentThread_llvm:
+	.globl _p_401_plt_ZXingNetMobile_System_Threading_Thread_get_CurrentThread_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1676,9150
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_Threading_Thread_get_ManagedThreadId_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_Threading_Thread_get_ManagedThreadId_thumb
+plt_ZXingNetMobile_System_Threading_Thread_get_ManagedThreadId_thumb:
+
+.thumb_func
+_p_402_plt_ZXingNetMobile_System_Threading_Thread_get_ManagedThreadId_llvm:
+	.globl _p_402_plt_ZXingNetMobile_System_Threading_Thread_get_ManagedThreadId_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1680,9155
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_88_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_88_thumb
+plt_ZXingNetMobile__rgctx_fetch_88_thumb:
+
+.thumb_func
+_p_403_plt_ZXingNetMobile__rgctx_fetch_88_llvm:
+	.globl _p_403_plt_ZXingNetMobile__rgctx_fetch_88_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1684,9178
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_89_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_89_thumb
+plt_ZXingNetMobile__rgctx_fetch_89_thumb:
+
+.thumb_func
+_p_404_plt_ZXingNetMobile__rgctx_fetch_89_llvm:
+	.globl _p_404_plt_ZXingNetMobile__rgctx_fetch_89_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1688,9186
+.code 32
+	.thumb_func plt_ZXingNetMobile__rgctx_fetch_90_thumb
+	.no_dead_strip plt_ZXingNetMobile__rgctx_fetch_90_thumb
+plt_ZXingNetMobile__rgctx_fetch_90_thumb:
+
+.thumb_func
+_p_405_plt_ZXingNetMobile__rgctx_fetch_90_llvm:
+	.globl _p_405_plt_ZXingNetMobile__rgctx_fetch_90_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1692,9194
+.code 32
+	.thumb_func plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_thumb
+	.no_dead_strip plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_thumb
+plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_thumb:
+
+.thumb_func
+_p_406_plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm:
+	.globl _p_406_plt_ZXingNetMobile_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_ZXingNetMobile_got - . + 1696,9204
+.code 32
+plt_end:
+_mono_aot_ZXingNetMobileplt_end:
+	.globl _mono_aot_ZXingNetMobileplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_ZXingNetMobilejit_got:
+	.globl _mono_aot_ZXingNetMobilejit_got
+.lcomm mono_aot_ZXingNetMobile_got, 1724
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_ZXingNetMobileglobals:
+	.globl _mono_aot_ZXingNetMobileglobals
+	.align 2
+	.long Lglobals_hash
+	.align 2
+	.long name_0
+	.align 2
+	.long _unbox_trampoline_p
+
+	.long 0,0
+.section __DWARF, __debug_info,regular,debug
+LTDIE_3:
+
+	.byte 17
+	.asciz "System_Object"
+
+	.byte 8,7
+	.asciz "System_Object"
+
+LDIFF_SYM4=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM4
+LTDIE_3_POINTER:
+
+	.byte 13
+LDIFF_SYM5=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM5
+LTDIE_3_REFERENCE:
+
+	.byte 14
+LDIFF_SYM6=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM6
+LTDIE_4:
+
+	.byte 8
+	.asciz "_Flags"
+
+	.byte 1
+LDIFF_SYM7=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM7
+	.byte 9
+	.asciz "Disposed"
+
+	.byte 1,9
+	.asciz "NativeRef"
+
+	.byte 2,9
+	.asciz "IsDirectBinding"
+
+	.byte 4,9
+	.asciz "RegisteredToggleRef"
+
+	.byte 8,9
+	.asciz "InFinalizerQueue"
+
+	.byte 16,9
+	.asciz "HasManagedRef"
+
+	.byte 32,0,7
+	.asciz "_Flags"
+
+LDIFF_SYM8=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM8
+LTDIE_4_POINTER:
+
+	.byte 13
+LDIFF_SYM9=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM9
+LTDIE_4_REFERENCE:
+
+	.byte 14
+LDIFF_SYM10=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM10
+LTDIE_2:
+
+	.byte 5
+	.asciz "Foundation_NSObject"
+
+	.byte 20,16
+LDIFF_SYM11=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM11
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM12=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM12
+	.byte 2,35,8,6
+	.asciz "class_handle"
+
+LDIFF_SYM13=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM13
+	.byte 2,35,12,6
+	.asciz "flags"
+
+LDIFF_SYM14=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM14
+	.byte 2,35,16,0,7
+	.asciz "Foundation_NSObject"
+
+LDIFF_SYM15=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM15
+LTDIE_2_POINTER:
+
+	.byte 13
+LDIFF_SYM16=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM16
+LTDIE_2_REFERENCE:
+
+	.byte 14
+LDIFF_SYM17=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM17
+LTDIE_1:
+
+	.byte 5
+	.asciz "AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate"
+
+	.byte 20,16
+LDIFF_SYM18=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM18
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVCaptureVideoDataOutputSampleBufferDelegate"
+
+LDIFF_SYM19=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM19
+LTDIE_1_POINTER:
+
+	.byte 13
+LDIFF_SYM20=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM20
+LTDIE_1_REFERENCE:
+
+	.byte 14
+LDIFF_SYM21=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM21
+LTDIE_11:
+
+	.byte 5
+	.asciz "System_Reflection_MemberInfo"
+
+	.byte 8,16
+LDIFF_SYM22=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM22
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MemberInfo"
+
+LDIFF_SYM23=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM23
+LTDIE_11_POINTER:
+
+	.byte 13
+LDIFF_SYM24=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM24
+LTDIE_11_REFERENCE:
+
+	.byte 14
+LDIFF_SYM25=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM25
+LTDIE_10:
+
+	.byte 5
+	.asciz "System_Reflection_MethodBase"
+
+	.byte 8,16
+LDIFF_SYM26=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM26
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodBase"
+
+LDIFF_SYM27=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM27
+LTDIE_10_POINTER:
+
+	.byte 13
+LDIFF_SYM28=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM28
+LTDIE_10_REFERENCE:
+
+	.byte 14
+LDIFF_SYM29=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM29
+LTDIE_9:
+
+	.byte 5
+	.asciz "System_Reflection_MethodInfo"
+
+	.byte 8,16
+LDIFF_SYM30=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM30
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodInfo"
+
+LDIFF_SYM31=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM31
+LTDIE_9_POINTER:
+
+	.byte 13
+LDIFF_SYM32=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM32
+LTDIE_9_REFERENCE:
+
+	.byte 14
+LDIFF_SYM33=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM33
+LTDIE_13:
+
+	.byte 5
+	.asciz "System_Type"
+
+	.byte 12,16
+LDIFF_SYM34=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM34
+	.byte 2,35,0,6
+	.asciz "_impl"
+
+LDIFF_SYM35=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM35
+	.byte 2,35,8,0,7
+	.asciz "System_Type"
+
+LDIFF_SYM36=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM36
+LTDIE_13_POINTER:
+
+	.byte 13
+LDIFF_SYM37=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM37
+LTDIE_13_REFERENCE:
+
+	.byte 14
+LDIFF_SYM38=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM38
+LTDIE_15:
+
+	.byte 5
+	.asciz "System_ValueType"
+
+	.byte 8,16
+LDIFF_SYM39=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM39
+	.byte 2,35,0,0,7
+	.asciz "System_ValueType"
+
+LDIFF_SYM40=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM40
+LTDIE_15_POINTER:
+
+	.byte 13
+LDIFF_SYM41=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM41
+LTDIE_15_REFERENCE:
+
+	.byte 14
+LDIFF_SYM42=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM42
+LTDIE_14:
+
+	.byte 5
+	.asciz "System_Boolean"
+
+	.byte 9,16
+LDIFF_SYM43=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM43
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM44=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM44
+	.byte 2,35,8,0,7
+	.asciz "System_Boolean"
+
+LDIFF_SYM45=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM45
+LTDIE_14_POINTER:
+
+	.byte 13
+LDIFF_SYM46=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM46
+LTDIE_14_REFERENCE:
+
+	.byte 14
+LDIFF_SYM47=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM47
+LTDIE_12:
+
+	.byte 5
+	.asciz "System_DelegateData"
+
+	.byte 20,16
+LDIFF_SYM48=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM48
+	.byte 2,35,0,6
+	.asciz "target_type"
+
+LDIFF_SYM49=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM49
+	.byte 2,35,8,6
+	.asciz "method_name"
+
+LDIFF_SYM50=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM50
+	.byte 2,35,12,6
+	.asciz "curried_first_arg"
+
+LDIFF_SYM51=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM51
+	.byte 2,35,16,0,7
+	.asciz "System_DelegateData"
+
+LDIFF_SYM52=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM52
+LTDIE_12_POINTER:
+
+	.byte 13
+LDIFF_SYM53=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM53
+LTDIE_12_REFERENCE:
+
+	.byte 14
+LDIFF_SYM54=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM54
+LTDIE_8:
+
+	.byte 5
+	.asciz "System_Delegate"
+
+	.byte 52,16
+LDIFF_SYM55=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM55
+	.byte 2,35,0,6
+	.asciz "method_ptr"
+
+LDIFF_SYM56=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM56
+	.byte 2,35,8,6
+	.asciz "invoke_impl"
+
+LDIFF_SYM57=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM57
+	.byte 2,35,12,6
+	.asciz "m_target"
+
+LDIFF_SYM58=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM58
+	.byte 2,35,16,6
+	.asciz "method"
+
+LDIFF_SYM59=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM59
+	.byte 2,35,20,6
+	.asciz "delegate_trampoline"
+
+LDIFF_SYM60=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM60
+	.byte 2,35,24,6
+	.asciz "extra_arg"
+
+LDIFF_SYM61=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM61
+	.byte 2,35,28,6
+	.asciz "method_code"
+
+LDIFF_SYM62=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM62
+	.byte 2,35,32,6
+	.asciz "method_info"
+
+LDIFF_SYM63=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM63
+	.byte 2,35,36,6
+	.asciz "original_method_info"
+
+LDIFF_SYM64=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM64
+	.byte 2,35,40,6
+	.asciz "data"
+
+LDIFF_SYM65=LTDIE_12_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM65
+	.byte 2,35,44,6
+	.asciz "method_is_virtual"
+
+LDIFF_SYM66=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM66
+	.byte 2,35,48,0,7
+	.asciz "System_Delegate"
+
+LDIFF_SYM67=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM67
+LTDIE_8_POINTER:
+
+	.byte 13
+LDIFF_SYM68=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM68
+LTDIE_8_REFERENCE:
+
+	.byte 14
+LDIFF_SYM69=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM69
+LTDIE_7:
+
+	.byte 5
+	.asciz "System_MulticastDelegate"
+
+	.byte 56,16
+LDIFF_SYM70=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM70
+	.byte 2,35,0,6
+	.asciz "delegates"
+
+LDIFF_SYM71=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM71
+	.byte 2,35,52,0,7
+	.asciz "System_MulticastDelegate"
+
+LDIFF_SYM72=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM72
+LTDIE_7_POINTER:
+
+	.byte 13
+LDIFF_SYM73=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM73
+LTDIE_7_REFERENCE:
+
+	.byte 14
+LDIFF_SYM74=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM74
+LTDIE_6:
+
+	.byte 5
+	.asciz "_CameraResolutionSelectorDelegate"
+
+	.byte 56,16
+LDIFF_SYM75=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM75
+	.byte 2,35,0,0,7
+	.asciz "_CameraResolutionSelectorDelegate"
+
+LDIFF_SYM76=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM76
+LTDIE_6_POINTER:
+
+	.byte 13
+LDIFF_SYM77=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM77
+LTDIE_6_REFERENCE:
+
+	.byte 14
+LDIFF_SYM78=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM78
+LTDIE_17:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 12,16
+LDIFF_SYM79=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM79
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM80=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM80
+	.byte 2,35,8,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM81=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM81
+LTDIE_17_POINTER:
+
+	.byte 13
+LDIFF_SYM82=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM82
+LTDIE_17_REFERENCE:
+
+	.byte 14
+LDIFF_SYM83=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM83
+LTDIE_16:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 24,16
+LDIFF_SYM84=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM84
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM85=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM85
+	.byte 2,35,8,6
+	.asciz "_size"
+
+LDIFF_SYM86=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM86
+	.byte 2,35,16,6
+	.asciz "_version"
+
+LDIFF_SYM87=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM87
+	.byte 2,35,20,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM88=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM88
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM89=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM89
+LTDIE_16_POINTER:
+
+	.byte 13
+LDIFF_SYM90=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM90
+LTDIE_16_REFERENCE:
+
+	.byte 14
+LDIFF_SYM91=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM91
+LTDIE_5:
+
+	.byte 5
+	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions"
+
+	.byte 48,16
+LDIFF_SYM92=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM92
+	.byte 2,35,0,6
+	.asciz "<CameraResolutionSelector>k__BackingField"
+
+LDIFF_SYM93=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM93
+	.byte 2,35,8,6
+	.asciz "<PossibleFormats>k__BackingField"
+
+LDIFF_SYM94=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM94
+	.byte 2,35,12,6
+	.asciz "<TryHarder>k__BackingField"
+
+LDIFF_SYM95=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM95
+	.byte 2,35,20,6
+	.asciz "<PureBarcode>k__BackingField"
+
+LDIFF_SYM96=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM96
+	.byte 2,35,22,6
+	.asciz "<AutoRotate>k__BackingField"
+
+LDIFF_SYM97=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM97
+	.byte 2,35,24,6
+	.asciz "<UseCode39ExtendedMode>k__BackingField"
+
+LDIFF_SYM98=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM98
+	.byte 2,35,26,6
+	.asciz "<CharacterSet>k__BackingField"
+
+LDIFF_SYM99=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM99
+	.byte 2,35,16,6
+	.asciz "<TryInverted>k__BackingField"
+
+LDIFF_SYM100=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM100
+	.byte 2,35,28,6
+	.asciz "<UseFrontCameraIfAvailable>k__BackingField"
+
+LDIFF_SYM101=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM101
+	.byte 2,35,30,6
+	.asciz "<UseNativeScanning>k__BackingField"
+
+LDIFF_SYM102=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM102
+	.byte 2,35,32,6
+	.asciz "<DelayBetweenContinuousScans>k__BackingField"
+
+LDIFF_SYM103=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM103
+	.byte 2,35,36,6
+	.asciz "<DelayBetweenAnalyzingFrames>k__BackingField"
+
+LDIFF_SYM104=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM104
+	.byte 2,35,40,6
+	.asciz "<InitialDelayBeforeAnalyzingFrames>k__BackingField"
+
+LDIFF_SYM105=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM105
+	.byte 2,35,44,0,7
+	.asciz "ZXing_Mobile_MobileBarcodeScanningOptions"
+
+LDIFF_SYM106=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM106
+LTDIE_5_POINTER:
+
+	.byte 13
+LDIFF_SYM107=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM107
+LTDIE_5_REFERENCE:
+
+	.byte 14
+LDIFF_SYM108=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM108
+LTDIE_18:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 56,16
+LDIFF_SYM109=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM109
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM110=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM110
+LTDIE_18_POINTER:
+
+	.byte 13
+LDIFF_SYM111=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM111
+LTDIE_18_REFERENCE:
+
+	.byte 14
+LDIFF_SYM112=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM112
+LTDIE_23:
+
+	.byte 5
+	.asciz "System_MarshalByRefObject"
+
+	.byte 12,16
+LDIFF_SYM113=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM113
+	.byte 2,35,0,6
+	.asciz "_identity"
+
+LDIFF_SYM114=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM114
+	.byte 2,35,8,0,7
+	.asciz "System_MarshalByRefObject"
+
+LDIFF_SYM115=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM115
+LTDIE_23_POINTER:
+
+	.byte 13
+LDIFF_SYM116=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM116
+LTDIE_23_REFERENCE:
+
+	.byte 14
+LDIFF_SYM117=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM117
+LTDIE_27:
+
+	.byte 5
+	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
+
+	.byte 8,16
+LDIFF_SYM118=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM118
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
+
+LDIFF_SYM119=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM119
+LTDIE_27_POINTER:
+
+	.byte 13
+LDIFF_SYM120=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM120
+LTDIE_27_REFERENCE:
+
+	.byte 14
+LDIFF_SYM121=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM121
+LTDIE_26:
+
+	.byte 5
+	.asciz "System_Runtime_InteropServices_SafeHandle"
+
+	.byte 20,16
+LDIFF_SYM122=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM122
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM123=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM123
+	.byte 2,35,8,6
+	.asciz "_state"
+
+LDIFF_SYM124=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM124
+	.byte 2,35,12,6
+	.asciz "_ownsHandle"
+
+LDIFF_SYM125=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM125
+	.byte 2,35,16,6
+	.asciz "_fullyInitialized"
+
+LDIFF_SYM126=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM126
+	.byte 2,35,17,0,7
+	.asciz "System_Runtime_InteropServices_SafeHandle"
+
+LDIFF_SYM127=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM127
+LTDIE_26_POINTER:
+
+	.byte 13
+LDIFF_SYM128=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM128
+LTDIE_26_REFERENCE:
+
+	.byte 14
+LDIFF_SYM129=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM129
+LTDIE_25:
+
+	.byte 5
+	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
+
+	.byte 20,16
+LDIFF_SYM130=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM130
+	.byte 2,35,0,0,7
+	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
+
+LDIFF_SYM131=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM131
+LTDIE_25_POINTER:
+
+	.byte 13
+LDIFF_SYM132=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM132
+LTDIE_25_REFERENCE:
+
+	.byte 14
+LDIFF_SYM133=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM133
+LTDIE_24:
+
+	.byte 5
+	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
+
+	.byte 20,16
+LDIFF_SYM134=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM134
+	.byte 2,35,0,0,7
+	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
+
+LDIFF_SYM135=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM135
+LTDIE_24_POINTER:
+
+	.byte 13
+LDIFF_SYM136=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM136
+LTDIE_24_REFERENCE:
+
+	.byte 14
+LDIFF_SYM137=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM137
+LTDIE_22:
+
+	.byte 5
+	.asciz "System_Threading_WaitHandle"
+
+	.byte 24,16
+LDIFF_SYM138=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM138
+	.byte 2,35,0,6
+	.asciz "waitHandle"
+
+LDIFF_SYM139=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM139
+	.byte 2,35,12,6
+	.asciz "safeWaitHandle"
+
+LDIFF_SYM140=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM140
+	.byte 2,35,16,6
+	.asciz "hasThreadAffinity"
+
+LDIFF_SYM141=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM141
+	.byte 2,35,20,0,7
+	.asciz "System_Threading_WaitHandle"
+
+LDIFF_SYM142=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM142
+LTDIE_22_POINTER:
+
+	.byte 13
+LDIFF_SYM143=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM143
+LTDIE_22_REFERENCE:
+
+	.byte 14
+LDIFF_SYM144=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM144
+LTDIE_21:
+
+	.byte 5
+	.asciz "System_Threading_EventWaitHandle"
+
+	.byte 28,16
+LDIFF_SYM145=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM145
+	.byte 2,35,0,6
+	.asciz "disposed"
+
+LDIFF_SYM146=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM146
+	.byte 2,35,24,0,7
+	.asciz "System_Threading_EventWaitHandle"
+
+LDIFF_SYM147=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM147
+LTDIE_21_POINTER:
+
+	.byte 13
+LDIFF_SYM148=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM148
+LTDIE_21_REFERENCE:
+
+	.byte 14
+LDIFF_SYM149=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM149
+LTDIE_20:
+
+	.byte 5
+	.asciz "System_Threading_ManualResetEvent"
+
+	.byte 28,16
+LDIFF_SYM150=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM150
+	.byte 2,35,0,0,7
+	.asciz "System_Threading_ManualResetEvent"
+
+LDIFF_SYM151=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM151
+LTDIE_20_POINTER:
+
+	.byte 13
+LDIFF_SYM152=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM152
+LTDIE_20_REFERENCE:
+
+	.byte 14
+LDIFF_SYM153=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM153
+LTDIE_29:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 56,16
+LDIFF_SYM154=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM154
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM155=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM155
+LTDIE_29_POINTER:
+
+	.byte 13
+LDIFF_SYM156=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM156
+LTDIE_29_REFERENCE:
+
+	.byte 14
+LDIFF_SYM157=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM157
+LTDIE_30:
+
+	.byte 5
+	.asciz "System_Threading_SynchronizationContext"
+
+	.byte 8,16
+LDIFF_SYM158=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM158
+	.byte 2,35,0,0,7
+	.asciz "System_Threading_SynchronizationContext"
+
+LDIFF_SYM159=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM159
+LTDIE_30_POINTER:
+
+	.byte 13
+LDIFF_SYM160=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM160
+LTDIE_30_REFERENCE:
+
+	.byte 14
+LDIFF_SYM161=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM161
+LTDIE_34:
+
+	.byte 5
+	.asciz "System_Single"
+
+	.byte 12,16
+LDIFF_SYM162=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM162
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM163=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM163
+	.byte 2,35,8,0,7
+	.asciz "System_Single"
+
+LDIFF_SYM164=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM164
+LTDIE_34_POINTER:
+
+	.byte 13
+LDIFF_SYM165=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM165
+LTDIE_34_REFERENCE:
+
+	.byte 14
+LDIFF_SYM166=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM166
+LTDIE_35:
+
+	.byte 17
+	.asciz "System_Collections_ICollection"
+
+	.byte 8,7
+	.asciz "System_Collections_ICollection"
+
+LDIFF_SYM167=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM167
+LTDIE_35_POINTER:
+
+	.byte 13
+LDIFF_SYM168=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM168
+LTDIE_35_REFERENCE:
+
+	.byte 14
+LDIFF_SYM169=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM169
+LTDIE_36:
+
+	.byte 17
+	.asciz "System_Collections_IEqualityComparer"
+
+	.byte 8,7
+	.asciz "System_Collections_IEqualityComparer"
+
+LDIFF_SYM170=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM170
+LTDIE_36_POINTER:
+
+	.byte 13
+LDIFF_SYM171=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM171
+LTDIE_36_REFERENCE:
+
+	.byte 14
+LDIFF_SYM172=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM172
+LTDIE_33:
+
+	.byte 5
+	.asciz "System_Collections_Hashtable"
+
+	.byte 52,16
+LDIFF_SYM173=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM173
+	.byte 2,35,0,6
+	.asciz "buckets"
+
+LDIFF_SYM174=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM174
+	.byte 2,35,8,6
+	.asciz "count"
+
+LDIFF_SYM175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM175
+	.byte 2,35,28,6
+	.asciz "occupancy"
+
+LDIFF_SYM176=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM176
+	.byte 2,35,32,6
+	.asciz "loadsize"
+
+LDIFF_SYM177=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM177
+	.byte 2,35,36,6
+	.asciz "loadFactor"
+
+LDIFF_SYM178=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM178
+	.byte 2,35,40,6
+	.asciz "version"
+
+LDIFF_SYM179=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM179
+	.byte 2,35,44,6
+	.asciz "isWriterInProgress"
+
+LDIFF_SYM180=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM180
+	.byte 2,35,48,6
+	.asciz "keys"
+
+LDIFF_SYM181=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM181
+	.byte 2,35,12,6
+	.asciz "values"
+
+LDIFF_SYM182=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM182
+	.byte 2,35,16,6
+	.asciz "_keycomparer"
+
+LDIFF_SYM183=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM183
+	.byte 2,35,20,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM184=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM184
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_Hashtable"
+
+LDIFF_SYM185=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM185
+LTDIE_33_POINTER:
+
+	.byte 13
+LDIFF_SYM186=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM186
+LTDIE_33_REFERENCE:
+
+	.byte 14
+LDIFF_SYM187=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM187
+LTDIE_37:
+
+	.byte 5
+	.asciz "System_Runtime_Remoting_Messaging_CallContextRemotingData"
+
+	.byte 8,16
+LDIFF_SYM188=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM188
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Remoting_Messaging_CallContextRemotingData"
+
+LDIFF_SYM189=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM189
+LTDIE_37_POINTER:
+
+	.byte 13
+LDIFF_SYM190=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM190
+LTDIE_37_REFERENCE:
+
+	.byte 14
+LDIFF_SYM191=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM191
+LTDIE_38:
+
+	.byte 5
+	.asciz "System_Runtime_Remoting_Messaging_CallContextSecurityData"
+
+	.byte 8,16
+LDIFF_SYM192=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM192
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Remoting_Messaging_CallContextSecurityData"
+
+LDIFF_SYM193=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM193
+LTDIE_38_POINTER:
+
+	.byte 13
+LDIFF_SYM194=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM194
+LTDIE_38_REFERENCE:
+
+	.byte 14
+LDIFF_SYM195=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM195
+LTDIE_32:
+
+	.byte 5
+	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
+
+	.byte 28,16
+LDIFF_SYM196=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM196
+	.byte 2,35,0,6
+	.asciz "m_Datastore"
+
+LDIFF_SYM197=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM197
+	.byte 2,35,8,6
+	.asciz "m_RemotingData"
+
+LDIFF_SYM198=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM198
+	.byte 2,35,12,6
+	.asciz "m_SecurityData"
+
+LDIFF_SYM199=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM199
+	.byte 2,35,16,6
+	.asciz "m_HostContext"
+
+LDIFF_SYM200=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM200
+	.byte 2,35,20,6
+	.asciz "m_IsCorrelationMgr"
+
+LDIFF_SYM201=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM201
+	.byte 2,35,24,0,7
+	.asciz "System_Runtime_Remoting_Messaging_LogicalCallContext"
+
+LDIFF_SYM202=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM202
+LTDIE_32_POINTER:
+
+	.byte 13
+LDIFF_SYM203=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM203
+LTDIE_32_REFERENCE:
+
+	.byte 14
+LDIFF_SYM204=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM204
+LTDIE_39:
+
+	.byte 5
+	.asciz "System_Runtime_Remoting_Messaging_IllogicalCallContext"
+
+	.byte 8,16
+LDIFF_SYM205=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM205
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Remoting_Messaging_IllogicalCallContext"
+
+LDIFF_SYM206=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM206
+LTDIE_39_POINTER:
+
+	.byte 13
+LDIFF_SYM207=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM207
+LTDIE_39_REFERENCE:
+
+	.byte 14
+LDIFF_SYM208=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM208
+LTDIE_40:
+
+	.byte 8
+	.asciz "_Flags"
+
+	.byte 4
+LDIFF_SYM209=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM209
+	.byte 9
+	.asciz "None"
+
+	.byte 0,9
+	.asciz "IsNewCapture"
+
+	.byte 1,9
+	.asciz "IsFlowSuppressed"
+
+	.byte 2,9
+	.asciz "IsPreAllocatedDefault"
+
+	.byte 4,0,7
+	.asciz "_Flags"
+
+LDIFF_SYM210=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM210
+LTDIE_40_POINTER:
+
+	.byte 13
+LDIFF_SYM211=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM211
+LTDIE_40_REFERENCE:
+
+	.byte 14
+LDIFF_SYM212=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM212
+LTDIE_42:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM213=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM213
+LTDIE_42_POINTER:
+
+	.byte 13
+LDIFF_SYM214=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM214
+LTDIE_42_REFERENCE:
+
+	.byte 14
+LDIFF_SYM215=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM215
+LTDIE_43:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 12,16
+LDIFF_SYM216=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM216
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM217=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM217
+	.byte 2,35,8,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM218=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM218
+LTDIE_43_POINTER:
+
+	.byte 13
+LDIFF_SYM219=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM219
+LTDIE_43_REFERENCE:
+
+	.byte 14
+LDIFF_SYM220=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM220
+LTDIE_44:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 12,16
+LDIFF_SYM221=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM221
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM222=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM222
+	.byte 2,35,8,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM223=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM223
+LTDIE_44_POINTER:
+
+	.byte 13
+LDIFF_SYM224=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM224
+LTDIE_44_REFERENCE:
+
+	.byte 14
+LDIFF_SYM225=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM225
+LTDIE_41:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 48,16
+LDIFF_SYM226=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM226
+	.byte 2,35,0,6
+	.asciz "buckets"
+
+LDIFF_SYM227=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM227
+	.byte 2,35,8,6
+	.asciz "entries"
+
+LDIFF_SYM228=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM228
+	.byte 2,35,12,6
+	.asciz "count"
+
+LDIFF_SYM229=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM229
+	.byte 2,35,32,6
+	.asciz "version"
+
+LDIFF_SYM230=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM230
+	.byte 2,35,36,6
+	.asciz "freeList"
+
+LDIFF_SYM231=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM231
+	.byte 2,35,40,6
+	.asciz "freeCount"
+
+LDIFF_SYM232=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM232
+	.byte 2,35,44,6
+	.asciz "comparer"
+
+LDIFF_SYM233=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM233
+	.byte 2,35,16,6
+	.asciz "keys"
+
+LDIFF_SYM234=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM234
+	.byte 2,35,20,6
+	.asciz "values"
+
+LDIFF_SYM235=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM235
+	.byte 2,35,24,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM236=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM236
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM237=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM237
+LTDIE_41_POINTER:
+
+	.byte 13
+LDIFF_SYM238=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM238
+LTDIE_41_REFERENCE:
+
+	.byte 14
+LDIFF_SYM239=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM239
+LTDIE_45:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 24,16
+LDIFF_SYM240=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM240
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM241=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM241
+	.byte 2,35,8,6
+	.asciz "_size"
+
+LDIFF_SYM242=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM242
+	.byte 2,35,16,6
+	.asciz "_version"
+
+LDIFF_SYM243=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM243
+	.byte 2,35,20,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM244=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM244
+	.byte 2,35,12,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM245=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM245
+LTDIE_45_POINTER:
+
+	.byte 13
+LDIFF_SYM246=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM246
+LTDIE_45_REFERENCE:
+
+	.byte 14
+LDIFF_SYM247=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM247
+LTDIE_31:
+
+	.byte 5
+	.asciz "System_Threading_ExecutionContext"
+
+	.byte 36,16
+LDIFF_SYM248=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM248
+	.byte 2,35,0,6
+	.asciz "_syncContext"
+
+LDIFF_SYM249=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM249
+	.byte 2,35,8,6
+	.asciz "_syncContextNoFlow"
+
+LDIFF_SYM250=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM250
+	.byte 2,35,12,6
+	.asciz "_logicalCallContext"
+
+LDIFF_SYM251=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM251
+	.byte 2,35,16,6
+	.asciz "_illogicalCallContext"
+
+LDIFF_SYM252=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM252
+	.byte 2,35,20,6
+	.asciz "_flags"
+
+LDIFF_SYM253=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM253
+	.byte 2,35,32,6
+	.asciz "_localValues"
+
+LDIFF_SYM254=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM254
+	.byte 2,35,24,6
+	.asciz "_localChangeNotifications"
+
+LDIFF_SYM255=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM255
+	.byte 2,35,28,0,7
+	.asciz "System_Threading_ExecutionContext"
+
+LDIFF_SYM256=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM256
+LTDIE_31_POINTER:
+
+	.byte 13
+LDIFF_SYM257=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM257
+LTDIE_31_REFERENCE:
+
+	.byte 14
+LDIFF_SYM258=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM258
+LTDIE_28:
+
+	.byte 5
+	.asciz "System_Threading_CancellationCallbackInfo"
+
+	.byte 28,16
+LDIFF_SYM259=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM259
+	.byte 2,35,0,6
+	.asciz "Callback"
+
+LDIFF_SYM260=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM260
+	.byte 2,35,8,6
+	.asciz "StateForCallback"
+
+LDIFF_SYM261=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM261
+	.byte 2,35,12,6
+	.asciz "TargetSyncContext"
+
+LDIFF_SYM262=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM262
+	.byte 2,35,16,6
+	.asciz "TargetExecutionContext"
+
+LDIFF_SYM263=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM263
+	.byte 2,35,20,6
+	.asciz "CancellationTokenSource"
+
+LDIFF_SYM264=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM264
+	.byte 2,35,24,0,7
+	.asciz "System_Threading_CancellationCallbackInfo"
+
+LDIFF_SYM265=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM265
+LTDIE_28_POINTER:
+
+	.byte 13
+LDIFF_SYM266=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM266
+LTDIE_28_REFERENCE:
+
+	.byte 14
+LDIFF_SYM267=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM267
+LTDIE_47:
+
+	.byte 5
+	.asciz "System_Threading_TimerCallback"
+
+	.byte 56,16
+LDIFF_SYM268=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM268
+	.byte 2,35,0,0,7
+	.asciz "System_Threading_TimerCallback"
+
+LDIFF_SYM269=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM269
+LTDIE_47_POINTER:
+
+	.byte 13
+LDIFF_SYM270=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM270
+LTDIE_47_REFERENCE:
+
+	.byte 14
+LDIFF_SYM271=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM271
+LTDIE_48:
+
+	.byte 5
+	.asciz "System_Int64"
+
+	.byte 16,16
+LDIFF_SYM272=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM272
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM273=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM273
+	.byte 2,35,8,0,7
+	.asciz "System_Int64"
+
+LDIFF_SYM274=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM274
+LTDIE_48_POINTER:
+
+	.byte 13
+LDIFF_SYM275=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM275
+LTDIE_48_REFERENCE:
+
+	.byte 14
+LDIFF_SYM276=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM276
+LTDIE_46:
+
+	.byte 5
+	.asciz "System_Threading_Timer"
+
+	.byte 48,16
+LDIFF_SYM277=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM277
+	.byte 2,35,0,6
+	.asciz "callback"
+
+LDIFF_SYM278=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM278
+	.byte 2,35,12,6
+	.asciz "state"
+
+LDIFF_SYM279=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM279
+	.byte 2,35,16,6
+	.asciz "due_time_ms"
+
+LDIFF_SYM280=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM280
+	.byte 2,35,20,6
+	.asciz "period_ms"
+
+LDIFF_SYM281=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM281
+	.byte 2,35,28,6
+	.asciz "next_run"
+
+LDIFF_SYM282=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM282
+	.byte 2,35,36,6
+	.asciz "disposed"
+
+LDIFF_SYM283=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM283
+	.byte 2,35,44,0,7
+	.asciz "System_Threading_Timer"
+
+LDIFF_SYM284=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM284
+LTDIE_46_POINTER:
+
+	.byte 13
+LDIFF_SYM285=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM285
+LTDIE_46_REFERENCE:
+
+	.byte 14
+LDIFF_SYM286=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM286
+LTDIE_19:
+
+	.byte 5
+	.asciz "System_Threading_CancellationTokenSource"
+
+	.byte 40,16
+LDIFF_SYM287=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM287
+	.byte 2,35,0,6
+	.asciz "m_kernelEvent"
+
+LDIFF_SYM288=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM288
+	.byte 2,35,8,6
+	.asciz "m_registeredCallbacksLists"
+
+LDIFF_SYM289=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM289
+	.byte 2,35,12,6
+	.asciz "m_state"
+
+LDIFF_SYM290=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM290
+	.byte 2,35,28,6
+	.asciz "m_threadIDExecutingCallbacks"
+
+LDIFF_SYM291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM291
+	.byte 2,35,32,6
+	.asciz "m_disposed"
+
+LDIFF_SYM292=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM292
+	.byte 2,35,36,6
+	.asciz "m_linkingRegistrations"
+
+LDIFF_SYM293=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM293
+	.byte 2,35,16,6
+	.asciz "m_executingCallback"
+
+LDIFF_SYM294=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM294
+	.byte 2,35,20,6
+	.asciz "m_timer"
+
+LDIFF_SYM295=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 2,35,24,0,7
+	.asciz "System_Threading_CancellationTokenSource"
+
+LDIFF_SYM296=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM296
+LTDIE_19_POINTER:
+
+	.byte 13
+LDIFF_SYM297=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM297
+LTDIE_19_REFERENCE:
+
+	.byte 14
+LDIFF_SYM298=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM298
+LTDIE_0:
+
+	.byte 5
+	.asciz "_OutputRecorder"
+
+	.byte 44,16
+LDIFF_SYM299=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM299
+	.byte 2,35,0,6
+	.asciz "options"
+
+LDIFF_SYM300=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM300
+	.byte 2,35,20,6
+	.asciz "HandleImage"
+
+LDIFF_SYM301=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM301
+	.byte 2,35,24,6
+	.asciz "lastAnalysis"
+
+LDIFF_SYM302=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM302
+	.byte 2,35,32,6
+	.asciz "working"
+
+LDIFF_SYM303=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM303
+	.byte 2,35,40,6
+	.asciz "wasScanned"
+
+LDIFF_SYM304=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM304
+	.byte 2,35,41,6
+	.asciz "CancelTokenSource"
+
+LDIFF_SYM305=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM305
+	.byte 2,35,28,0,7
+	.asciz "_OutputRecorder"
+
+LDIFF_SYM306=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM306
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM307=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM307
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM308=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM308
+LTDIE_49:
+
+	.byte 5
+	.asciz "AVFoundation_AVCaptureOutput"
+
+	.byte 20,16
+LDIFF_SYM309=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM309
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVCaptureOutput"
+
+LDIFF_SYM310=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM310
+LTDIE_49_POINTER:
+
+	.byte 13
+LDIFF_SYM311=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM311
+LTDIE_49_REFERENCE:
+
+	.byte 14
+LDIFF_SYM312=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM312
+LTDIE_50:
+
+	.byte 5
+	.asciz "CoreMedia_CMSampleBuffer"
+
+	.byte 16,16
+LDIFF_SYM313=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM313
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM314=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM314
+	.byte 2,35,8,6
+	.asciz "invalidate"
+
+LDIFF_SYM315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM315
+	.byte 2,35,12,0,7
+	.asciz "CoreMedia_CMSampleBuffer"
+
+LDIFF_SYM316=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM316
+LTDIE_50_POINTER:
+
+	.byte 13
+LDIFF_SYM317=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM317
+LTDIE_50_REFERENCE:
+
+	.byte 14
+LDIFF_SYM318=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM318
+LTDIE_51:
+
+	.byte 5
+	.asciz "AVFoundation_AVCaptureConnection"
+
+	.byte 20,16
+LDIFF_SYM319=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM319
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVCaptureConnection"
+
+LDIFF_SYM320=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM320
+LTDIE_51_POINTER:
+
+	.byte 13
+LDIFF_SYM321=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM321
+LTDIE_51_REFERENCE:
+
+	.byte 14
+LDIFF_SYM322=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM322
+LTDIE_52:
+
+	.byte 5
+	.asciz "System_Double"
+
+	.byte 16,16
+LDIFF_SYM323=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM323
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM324=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM324
+	.byte 2,35,8,0,7
+	.asciz "System_Double"
+
+LDIFF_SYM325=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM325
+LTDIE_52_POINTER:
+
+	.byte 13
+LDIFF_SYM326=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM326
+LTDIE_52_REFERENCE:
+
+	.byte 14
+LDIFF_SYM327=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM327
+LTDIE_55:
+
+	.byte 5
+	.asciz "CoreVideo_CVBuffer"
+
+	.byte 12,16
+LDIFF_SYM328=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM328
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM329=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM329
+	.byte 2,35,8,0,7
+	.asciz "CoreVideo_CVBuffer"
+
+LDIFF_SYM330=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM330
+LTDIE_55_POINTER:
+
+	.byte 13
+LDIFF_SYM331=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM331
+LTDIE_55_REFERENCE:
+
+	.byte 14
+LDIFF_SYM332=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM332
+LTDIE_54:
+
+	.byte 5
+	.asciz "CoreVideo_CVImageBuffer"
+
+	.byte 12,16
+LDIFF_SYM333=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM333
+	.byte 2,35,0,0,7
+	.asciz "CoreVideo_CVImageBuffer"
+
+LDIFF_SYM334=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM334
+LTDIE_54_POINTER:
+
+	.byte 13
+LDIFF_SYM335=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM335
+LTDIE_54_REFERENCE:
+
+	.byte 14
+LDIFF_SYM336=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM336
+LTDIE_53:
+
+	.byte 5
+	.asciz "CoreVideo_CVPixelBuffer"
+
+	.byte 12,16
+LDIFF_SYM337=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM337
+	.byte 2,35,0,0,7
+	.asciz "CoreVideo_CVPixelBuffer"
+
+LDIFF_SYM338=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM338
+LTDIE_53_POINTER:
+
+	.byte 13
+LDIFF_SYM339=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM339
+LTDIE_53_REFERENCE:
+
+	.byte 14
+LDIFF_SYM340=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM340
+LTDIE_58:
+
+	.byte 5
+	.asciz "ZXing_LuminanceSource"
+
+	.byte 16,16
+LDIFF_SYM341=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM341
+	.byte 2,35,0,6
+	.asciz "width"
+
+LDIFF_SYM342=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM342
+	.byte 2,35,8,6
+	.asciz "height"
+
+LDIFF_SYM343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM343
+	.byte 2,35,12,0,7
+	.asciz "ZXing_LuminanceSource"
+
+LDIFF_SYM344=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM344
+LTDIE_58_POINTER:
+
+	.byte 13
+LDIFF_SYM345=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM345
+LTDIE_58_REFERENCE:
+
+	.byte 14
+LDIFF_SYM346=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM346
+LTDIE_57:
+
+	.byte 5
+	.asciz "ZXing_BaseLuminanceSource"
+
+	.byte 20,16
+LDIFF_SYM347=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM347
+	.byte 2,35,0,6
+	.asciz "luminances"
+
+LDIFF_SYM348=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM348
+	.byte 2,35,16,0,7
+	.asciz "ZXing_BaseLuminanceSource"
+
+LDIFF_SYM349=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM349
+LTDIE_57_POINTER:
+
+	.byte 13
+LDIFF_SYM350=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM350
+LTDIE_57_REFERENCE:
+
+	.byte 14
+LDIFF_SYM351=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM351
+LTDIE_56:
+
+	.byte 5
+	.asciz "ZXing_Mobile_CVPixelBufferARGB32LuminanceSource"
+
+	.byte 20,16
+LDIFF_SYM352=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM352
+	.byte 2,35,0,0,7
+	.asciz "ZXing_Mobile_CVPixelBufferARGB32LuminanceSource"
+
+LDIFF_SYM353=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM353
+LTDIE_56_POINTER:
+
+	.byte 13
+LDIFF_SYM354=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM354
+LTDIE_56_REFERENCE:
+
+	.byte 14
+LDIFF_SYM355=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM355
+LTDIE_60:
+
+	.byte 17
+	.asciz "System_Collections_IDictionary"
+
+	.byte 8,7
+	.asciz "System_Collections_IDictionary"
+
+LDIFF_SYM356=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM356
+LTDIE_60_POINTER:
+
+	.byte 13
+LDIFF_SYM357=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM357
+LTDIE_60_REFERENCE:
+
+	.byte 14
+LDIFF_SYM358=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM358
+LTDIE_62:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM359=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM359
+LTDIE_62_POINTER:
+
+	.byte 13
+LDIFF_SYM360=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM360
+LTDIE_62_REFERENCE:
+
+	.byte 14
+LDIFF_SYM361=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM361
+LTDIE_65:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 8,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM362=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM362
+LTDIE_65_POINTER:
+
+	.byte 13
+LDIFF_SYM363=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM363
+LTDIE_65_REFERENCE:
+
+	.byte 14
+LDIFF_SYM364=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM364
+LTDIE_66:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 12,16
+LDIFF_SYM365=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM365
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM366=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM366
+	.byte 2,35,8,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM367=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM367
+LTDIE_66_POINTER:
+
+	.byte 13
+LDIFF_SYM368=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM368
+LTDIE_66_REFERENCE:
+
+	.byte 14
+LDIFF_SYM369=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM369
+LTDIE_67:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 12,16
+LDIFF_SYM370=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM370
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM371=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM371
+	.byte 2,35,8,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM372=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_67_POINTER:
+
+	.byte 13
+LDIFF_SYM373=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM373
+LTDIE_67_REFERENCE:
+
+	.byte 14
+LDIFF_SYM374=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM374
+LTDIE_64:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 48,16
+LDIFF_SYM375=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM375
+	.byte 2,35,0,6
+	.asciz "buckets"
+
+LDIFF_SYM376=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM376
+	.byte 2,35,8,6
+	.asciz "entries"
+
+LDIFF_SYM377=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM377
+	.byte 2,35,12,6
+	.asciz "count"
+
+LDIFF_SYM378=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM378
+	.byte 2,35,32,6
+	.asciz "version"
+
+LDIFF_SYM379=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM379
+	.byte 2,35,36,6
+	.asciz "freeList"
+
+LDIFF_SYM380=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM380
+	.byte 2,35,40,6
+	.asciz "freeCount"
+
+LDIFF_SYM381=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM381
+	.byte 2,35,44,6
+	.asciz "comparer"
+
+LDIFF_SYM382=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM382
+	.byte 2,35,16,6
+	.asciz "keys"
+
+LDIFF_SYM383=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM383
+	.byte 2,35,20,6
+	.asciz "values"
+
+LDIFF_SYM384=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM384
+	.byte 2,35,24,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM385=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM385
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM386=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM386
+LTDIE_64_POINTER:
+
+	.byte 13
+LDIFF_SYM387=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM387
+LTDIE_64_REFERENCE:
+
+	.byte 14
+LDIFF_SYM388=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM388
+LTDIE_68:
+
+	.byte 17
+	.asciz "System_Runtime_Serialization_IFormatterConverter"
+
+	.byte 8,7
+	.asciz "System_Runtime_Serialization_IFormatterConverter"
+
+LDIFF_SYM389=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM389
+LTDIE_68_POINTER:
+
+	.byte 13
+LDIFF_SYM390=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM390
+LTDIE_68_REFERENCE:
+
+	.byte 14
+LDIFF_SYM391=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM391
+LTDIE_63:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_SerializationInfo"
+
+	.byte 48,16
+LDIFF_SYM392=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM392
+	.byte 2,35,0,6
+	.asciz "m_members"
+
+LDIFF_SYM393=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM393
+	.byte 2,35,8,6
+	.asciz "m_data"
+
+LDIFF_SYM394=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM394
+	.byte 2,35,12,6
+	.asciz "m_types"
+
+LDIFF_SYM395=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM395
+	.byte 2,35,16,6
+	.asciz "m_nameToIndex"
+
+LDIFF_SYM396=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM396
+	.byte 2,35,20,6
+	.asciz "m_currMember"
+
+LDIFF_SYM397=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM397
+	.byte 2,35,40,6
+	.asciz "m_converter"
+
+LDIFF_SYM398=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM398
+	.byte 2,35,24,6
+	.asciz "m_fullTypeName"
+
+LDIFF_SYM399=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM399
+	.byte 2,35,28,6
+	.asciz "m_assemName"
+
+LDIFF_SYM400=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM400
+	.byte 2,35,32,6
+	.asciz "objectType"
+
+LDIFF_SYM401=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM401
+	.byte 2,35,36,6
+	.asciz "isFullTypeNameSetExplicit"
+
+LDIFF_SYM402=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM402
+	.byte 2,35,44,6
+	.asciz "isAssemblyNameSetExplicit"
+
+LDIFF_SYM403=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM403
+	.byte 2,35,45,6
+	.asciz "requireSameTokenInPartialTrust"
+
+LDIFF_SYM404=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM404
+	.byte 2,35,46,0,7
+	.asciz "System_Runtime_Serialization_SerializationInfo"
+
+LDIFF_SYM405=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM405
+LTDIE_63_POINTER:
+
+	.byte 13
+LDIFF_SYM406=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM406
+LTDIE_63_REFERENCE:
+
+	.byte 14
+LDIFF_SYM407=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM407
+LTDIE_70:
+
+	.byte 5
+	.asciz "System_Reflection_TypeInfo"
+
+	.byte 12,16
+LDIFF_SYM408=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM408
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_TypeInfo"
+
+LDIFF_SYM409=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM409
+LTDIE_70_POINTER:
+
+	.byte 13
+LDIFF_SYM410=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM410
+LTDIE_70_REFERENCE:
+
+	.byte 14
+LDIFF_SYM411=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM411
+LTDIE_74:
+
+	.byte 5
+	.asciz "System_Reflection_ConstructorInfo"
+
+	.byte 8,16
+LDIFF_SYM412=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM412
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_ConstructorInfo"
+
+LDIFF_SYM413=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM413
+LTDIE_74_POINTER:
+
+	.byte 13
+LDIFF_SYM414=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM414
+LTDIE_74_REFERENCE:
+
+	.byte 14
+LDIFF_SYM415=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM415
+LTDIE_73:
+
+	.byte 5
+	.asciz "System_Reflection_RuntimeConstructorInfo"
+
+	.byte 8,16
+LDIFF_SYM416=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM416
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_RuntimeConstructorInfo"
+
+LDIFF_SYM417=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM417
+LTDIE_73_POINTER:
+
+	.byte 13
+LDIFF_SYM418=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM418
+LTDIE_73_REFERENCE:
+
+	.byte 14
+LDIFF_SYM419=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM419
+LTDIE_72:
+
+	.byte 5
+	.asciz "System_Reflection_MonoCMethod"
+
+	.byte 20,16
+LDIFF_SYM420=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM420
+	.byte 2,35,0,6
+	.asciz "mhandle"
+
+LDIFF_SYM421=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM421
+	.byte 2,35,8,6
+	.asciz "name"
+
+LDIFF_SYM422=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM422
+	.byte 2,35,12,6
+	.asciz "reftype"
+
+LDIFF_SYM423=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM423
+	.byte 2,35,16,0,7
+	.asciz "System_Reflection_MonoCMethod"
+
+LDIFF_SYM424=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM424
+LTDIE_72_POINTER:
+
+	.byte 13
+LDIFF_SYM425=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM425
+LTDIE_72_REFERENCE:
+
+	.byte 14
+LDIFF_SYM426=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM426
+LTDIE_71:
+
+	.byte 5
+	.asciz "System_MonoTypeInfo"
+
+	.byte 16,16
+LDIFF_SYM427=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM427
+	.byte 2,35,0,6
+	.asciz "full_name"
+
+LDIFF_SYM428=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM428
+	.byte 2,35,8,6
+	.asciz "default_ctor"
+
+LDIFF_SYM429=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM429
+	.byte 2,35,12,0,7
+	.asciz "System_MonoTypeInfo"
+
+LDIFF_SYM430=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM430
+LTDIE_71_POINTER:
+
+	.byte 13
+LDIFF_SYM431=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM431
+LTDIE_71_REFERENCE:
+
+	.byte 14
+LDIFF_SYM432=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM432
+LTDIE_69:
+
+	.byte 5
+	.asciz "System_RuntimeType"
+
+	.byte 24,16
+LDIFF_SYM433=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM433
+	.byte 2,35,0,6
+	.asciz "type_info"
+
+LDIFF_SYM434=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM434
+	.byte 2,35,12,6
+	.asciz "GenericCache"
+
+LDIFF_SYM435=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM435
+	.byte 2,35,16,6
+	.asciz "m_serializationCtor"
+
+LDIFF_SYM436=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
+	.byte 2,35,20,0,7
+	.asciz "System_RuntimeType"
+
+LDIFF_SYM437=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM437
+LTDIE_69_POINTER:
+
+	.byte 13
+LDIFF_SYM438=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM438
+LTDIE_69_REFERENCE:
+
+	.byte 14
+LDIFF_SYM439=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM439
+LTDIE_75:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 56,16
+LDIFF_SYM440=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM440
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM441=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM441
+LTDIE_75_POINTER:
+
+	.byte 13
+LDIFF_SYM442=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM442
+LTDIE_75_REFERENCE:
+
+	.byte 14
+LDIFF_SYM443=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM443
+LTDIE_61:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_SafeSerializationManager"
+
+	.byte 28,16
+LDIFF_SYM444=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM444
+	.byte 2,35,0,6
+	.asciz "m_serializedStates"
+
+LDIFF_SYM445=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM445
+	.byte 2,35,8,6
+	.asciz "m_savedSerializationInfo"
+
+LDIFF_SYM446=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM446
+	.byte 2,35,12,6
+	.asciz "m_realObject"
+
+LDIFF_SYM447=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM447
+	.byte 2,35,16,6
+	.asciz "m_realType"
+
+LDIFF_SYM448=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM448
+	.byte 2,35,20,6
+	.asciz "SerializeObjectState"
+
+LDIFF_SYM449=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM449
+	.byte 2,35,24,0,7
+	.asciz "System_Runtime_Serialization_SafeSerializationManager"
+
+LDIFF_SYM450=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM450
+LTDIE_61_POINTER:
+
+	.byte 13
+LDIFF_SYM451=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM451
+LTDIE_61_REFERENCE:
+
+	.byte 14
+LDIFF_SYM452=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM452
+LTDIE_59:
+
+	.byte 5
+	.asciz "System_Exception"
+
+	.byte 68,16
+LDIFF_SYM453=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM453
+	.byte 2,35,0,6
+	.asciz "_className"
+
+LDIFF_SYM454=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM454
+	.byte 2,35,8,6
+	.asciz "_message"
+
+LDIFF_SYM455=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM455
+	.byte 2,35,12,6
+	.asciz "_data"
+
+LDIFF_SYM456=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM456
+	.byte 2,35,16,6
+	.asciz "_innerException"
+
+LDIFF_SYM457=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM457
+	.byte 2,35,20,6
+	.asciz "_helpURL"
+
+LDIFF_SYM458=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM458
+	.byte 2,35,24,6
+	.asciz "_stackTrace"
+
+LDIFF_SYM459=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM459
+	.byte 2,35,28,6
+	.asciz "_stackTraceString"
+
+LDIFF_SYM460=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM460
+	.byte 2,35,32,6
+	.asciz "_remoteStackTraceString"
+
+LDIFF_SYM461=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM461
+	.byte 2,35,36,6
+	.asciz "_remoteStackIndex"
+
+LDIFF_SYM462=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM462
+	.byte 2,35,40,6
+	.asciz "_dynamicMethods"
+
+LDIFF_SYM463=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM463
+	.byte 2,35,44,6
+	.asciz "_HResult"
+
+LDIFF_SYM464=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM464
+	.byte 2,35,48,6
+	.asciz "_source"
+
+LDIFF_SYM465=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM465
+	.byte 2,35,52,6
+	.asciz "_safeSerializationManager"
+
+LDIFF_SYM466=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM466
+	.byte 2,35,56,6
+	.asciz "captured_traces"
+
+LDIFF_SYM467=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM467
+	.byte 2,35,60,6
+	.asciz "native_trace_ips"
+
+LDIFF_SYM468=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM468
+	.byte 2,35,64,0,7
+	.asciz "System_Exception"
+
+LDIFF_SYM469=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM469
+LTDIE_59_POINTER:
+
+	.byte 13
+LDIFF_SYM470=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM470
+LTDIE_59_REFERENCE:
+
+	.byte 14
+LDIFF_SYM471=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM471
+	.byte 2
+	.asciz "ZXing.Mobile.ZXingScannerView/OutputRecorder:DidOutputSampleBuffer"
+	.asciz "ZXing_Mobile_ZXingScannerView_OutputRecorder_DidOutputSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection"
+
+	.byte 0,0
+	.long ZXing_Mobile_ZXingScannerView_OutputRecorder_DidOutputSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection
+	.long Lme_c0
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM472=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM472
+	.byte 3,123,244,0,3
+	.asciz "captureOutput"
+
+LDIFF_SYM473=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM473
+	.byte 0,3
+	.asciz "sampleBuffer"
+
+LDIFF_SYM474=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM474
+	.byte 1,90,3
+	.asciz "connection"
+
+LDIFF_SYM475=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM475
+	.byte 0,11
+	.asciz "V_0"
+
+LDIFF_SYM476=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM476
+	.byte 2,123,8,11
+	.asciz "V_1"
+
+LDIFF_SYM477=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM477
+	.byte 2,123,16,11
+	.asciz "V_2"
+
+LDIFF_SYM478=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM478
+	.byte 2,123,24,11
+	.asciz "V_3"
+
+LDIFF_SYM479=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM479
+	.byte 2,123,25,11
+	.asciz "V_4"
+
+LDIFF_SYM480=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM480
+	.byte 2,123,28,11
+	.asciz "V_5"
+
+LDIFF_SYM481=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM481
+	.byte 2,123,32,11
+	.asciz "V_6"
+
+LDIFF_SYM482=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM482
+	.byte 2,123,36,11
+	.asciz "V_7"
+
+LDIFF_SYM483=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM483
+	.byte 2,123,40,11
+	.asciz "V_8"
+
+LDIFF_SYM484=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM484
+	.byte 2,123,44,11
+	.asciz "V_9"
+
+LDIFF_SYM485=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM485
+	.byte 2,123,48,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM486=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM486
+Lfde0_start:
+
+	.long 0
+	.align 2
+	.long ZXing_Mobile_ZXingScannerView_OutputRecorder_DidOutputSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection
+
+LDIFF_SYM487=Lme_c0 - ZXing_Mobile_ZXingScannerView_OutputRecorder_DidOutputSampleBuffer_AVFoundation_AVCaptureOutput_CoreMedia_CMSampleBuffer_AVFoundation_AVCaptureConnection
+	.long LDIFF_SYM487
+	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,176,1,68,13,11,3,212,3,10,68,13,13,14,20
+	.byte 68,8,8,8,10,8,11,14,8,68,11
+	.align 2
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 0
+Ldebug_info_end:
+.text
+	.align 3
+mem_end:

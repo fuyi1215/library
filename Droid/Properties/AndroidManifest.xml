@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="4" android:versionName="1.4" package="com.eTangibles.BulterPL" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.eTangibles.ButlerPL" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="16" />
 	<application android:icon="@drawable/icon" android:theme="@style/MyTheme" android:label="ButlerPL">
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDWumOaEoEmwqSpmt96WS6ggphzjYGk49A" />

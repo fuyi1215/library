@@ -10,38 +10,39 @@ namespace Library
 		Database db = new Database();
 		ZXingScannerPage scanPage;
 		private LibCardViewModel viewModel;
-		string cardValue="Tap '+' and scan your card.";
+		//string cardValue="Tap '+' and scan your card.";
+		string cardValue = "Enter You Library Card Number";
 		public BarCodePageX()
 		{
 			
 			InitializeComponent();
 
-			ButtonAdd.Clicked += async delegate
-			{
-				scanPage = new ZXingScannerPage();
-				scanPage.OnScanResult += (result) =>
-				{
-					scanPage.IsScanning = false;
+			//ButtonAdd.Clicked += async delegate
+			//{
+			//	scanPage = new ZXingScannerPage();
+			//	scanPage.OnScanResult += (result) =>
+			//	{
+			//		scanPage.IsScanning = false;
 
-					Device.BeginInvokeOnMainThread(() =>
-					{
-						Navigation.PopAsync();
+			//		Device.BeginInvokeOnMainThread(() =>
+			//		{
+			//			Navigation.PopAsync();
 
-						DisplayAlert("Scanned Barcode", result.Text, "OK");
-						cardValue = result.Text;
-						db.AddlibCard(result.Text);
-					});
-				};
-				try
-				{
-					BindingContext = viewModel = new LibCardViewModel(cardValue, this);
-				}
-				catch (Exception ex)
-				{
+			//			DisplayAlert("Scanned Barcode", result.Text, "OK");
+			//			cardValue = result.Text;
+			//			db.AddlibCard(result.Text);
+			//		});
+			//	};
+			//	try
+			//	{
+			//		BindingContext = viewModel = new LibCardViewModel(cardValue, this);
+			//	}
+			//	catch (Exception ex)
+			//	{
 
-				}
-				await Navigation.PushAsync(scanPage);
-			};
+			//	}
+			//	await Navigation.PushAsync(scanPage);
+			//};
 			try
 			{
 				cardValue = db.GetlibraryCardItem();
@@ -53,27 +54,27 @@ namespace Library
 
 			BindingContext = viewModel = new LibCardViewModel(cardValue, this);
 
-				//button.Clicked +=  delegate
-				//{
-				//	if (Entry1.Text != "")
-				//	{
-				//		try
-				//		{
+				button.Clicked +=  delegate
+				{
+					if (Entry1.Text != "")
+					{
+						try
+						{
 
-				//			BindingContext = viewModel = new LibCardViewModel(Entry1.Text, this);
-				//			db.AddlibCard(Entry1.Text);
-				//		}
-				//		catch (Exception ex)
-				//		{
+							BindingContext = viewModel = new LibCardViewModel(Entry1.Text, this);
+							db.AddlibCard(Entry1.Text);
+						}
+						catch (Exception ex)
+						{
 
-				//		}
-				//	}
-				//	else
-				//	{
+						}
+					}
+					else
+					{
 						
-				//	}
+					}
 
-				//};
+				};
 
 
 

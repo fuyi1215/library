@@ -7,7 +7,7 @@ namespace Library.API
 
 		//http://www.epl.lib.in.us/api/get_posts/?count=15&include=id,title,content,url
 		public static readonly string calendar =
-			string.Format("https://www.googleapis.com/calendar/v3/calendars/publiclibrarybutler%40gmail.com/events?orderBy=startTime&singleEvents=true&timeMin={0}-{1}-{2}T00%3A00%3A00Z&fields=items&key=AIzaSyBusl7GI08LPb7aQu_710maSQq-LT06Ezk", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+			string.Format("https://www.googleapis.com/calendar/v3/calendars/publiclibrarybutler%40gmail.com/events?orderBy=startTime&singleEvents=true&timeMin={0}-{1}-{2}T00%3A00%3A00Z&fields=items&key=AIzaSyBusl7GI08LPb7aQu_710maSQq-LT06Ezk", DateTime.Now.Year, DateTime.Now.AddMonths(-1).Month, DateTime.Now.Day);
 		//string.Format("https://www.googleapis.com/calendar/v3/calendars/becky%40butlerpubliclibrary.net/events?key=AIzaSyDJ8A1_7hSs-dNLGRehiDt_cOF1D_8_0YE", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
 		
 		//public static readonly string title = Base + "t";

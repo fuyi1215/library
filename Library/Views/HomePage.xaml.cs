@@ -24,7 +24,7 @@ namespace Library
 
 
 			mainLabel1.Text ="";
-			MainLabel.Text = " Updating content,  please be patient...";
+			MainLabel.Text = "Updating content, please be patient...";
 			try
 			{
 				
